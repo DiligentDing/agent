@@ -1,0 +1,312 @@
+{
+  "Symptom_Disease_Drug_Target": [
+    {
+      "cuis": [
+        "C2219980",
+        "C3495559",
+        "C0020740",
+        "C1565830"
+      ],
+      "relas": [
+        "manifestation_of",
+        "may_be_treated_by",
+        "has_target"
+      ],
+      "path_strs": [
+        "Quotidian fever",
+        "manifestation_of",
+        "Juvenile idiopathic arthritis",
+        "may_be_treated_by",
+        "Ibuprofen",
+        "has_target",
+        "Prostaglandin G/H Synthase 1"
+      ]
+    },
+    {
+      "cuis": [
+        "C0042571",
+        "C0019562",
+        "C5418188",
+        "C1436532"
+      ],
+      "relas": [
+        "manifestation_of",
+        "may_be_treated_by",
+        "has_target"
+      ],
+      "path_strs": [
+        "Vertigo",
+        "manifestation_of",
+        "von Hippel-Lindau syndrome",
+        "may_be_treated_by",
+        "Belzutifan",
+        "has_target",
+        "Endothelial PAS Domain-Containing Protein 1"
+      ]
+    },
+    {
+      "cuis": [
+        "C2219980",
+        "C3495559",
+        "C1609165",
+        "C1699800"
+      ],
+      "relas": [
+        "manifestation_of",
+        "may_be_treated_by",
+        "has_target"
+      ],
+      "path_strs": [
+        "Quotidian fever",
+        "manifestation_of",
+        "Juvenile idiopathic arthritis",
+        "may_be_treated_by",
+        "Tocilizumab-containing product",
+        "has_target",
+        "Interleukin-6 Receptor Subunit Alpha"
+      ]
+    },
+    {
+      "cuis": [
+        "C2219980",
+        "C3495559",
+        "C0949359",
+        "C3853636"
+      ],
+      "relas": [
+        "manifestation_of",
+        "may_be_treated_by",
+        "has_target"
+      ],
+      "path_strs": [
+        "Quotidian fever",
+        "manifestation_of",
+        "Juvenile idiopathic arthritis",
+        "may_be_treated_by",
+        "Methotrexate sodium",
+        "has_target",
+        "Dihydrofolate Reductase"
+      ]
+    },
+    {
+      "cuis": [
+        "C2219980",
+        "C3495559",
+        "C2718773",
+        "C1702300"
+      ],
+      "relas": [
+        "manifestation_of",
+        "may_be_treated_by",
+        "has_target"
+      ],
+      "path_strs": [
+        "Quotidian fever",
+        "manifestation_of",
+        "Juvenile idiopathic arthritis",
+        "may_be_treated_by",
+        "Canakinumab-containing product",
+        "has_target",
+        "Interleukin-1 Beta"
+      ]
+    },
+    {
+      "cuis": [
+        "C2219980",
+        "C3495559",
+        "C1609165",
+        "C4724117"
+      ],
+      "relas": [
+        "manifestation_of",
+        "may_be_treated_by",
+        "has_target"
+      ],
+      "path_strs": [
+        "Quotidian fever",
+        "manifestation_of",
+        "Juvenile idiopathic arthritis",
+        "may_be_treated_by",
+        "Tocilizumab-containing product",
+        "has_target",
+        "Soluble Interleukin-6 Receptor Subunit Alpha"
+      ]
+    },
+    {
+      "cuis": [
+        "C2219980",
+        "C3495559",
+        "C0025677",
+        "C3853636"
+      ],
+      "relas": [
+        "manifestation_of",
+        "may_be_treated_by",
+        "has_target"
+      ],
+      "path_strs": [
+        "Quotidian fever",
+        "manifestation_of",
+        "Juvenile idiopathic arthritis",
+        "may_be_treated_by",
+        "Methotrexate",
+        "has_target",
+        "Dihydrofolate Reductase"
+      ]
+    },
+    {
+      "cuis": [
+        "C0003862",
+        "C0031069",
+        "C2718773",
+        "C1702300"
+      ],
+      "relas": [
+        "manifestation_of",
+        "may_be_treated_by",
+        "has_target"
+      ],
+      "path_strs": [
+        "Pain in joint, site unspecified",
+        "manifestation_of",
+        "Familial Mediterranean fever",
+        "may_be_treated_by",
+        "Canakinumab-containing product",
+        "has_target",
+        "Interleukin-1 Beta"
+      ]
+    },
+    {
+      "cuis": [
+        "C2219980",
+        "C3495559",
+        "C0717758",
+        "C1448177"
+      ],
+      "relas": [
+        "manifestation_of",
+        "may_be_treated_by",
+        "has_target"
+      ],
+      "path_strs": [
+        "Quotidian fever",
+        "manifestation_of",
+        "Juvenile idiopathic arthritis",
+        "may_be_treated_by",
+        "Etanercept",
+        "has_target",
+        "Tumor Necrosis Factor"
+      ]
+    },
+    {
+      "cuis": [
+        "C0000737",
+        "C0010346",
+        "C0949359",
+        "C3853636"
+      ],
+      "relas": [
+        "manifestation_of",
+        "may_be_treated_by",
+        "has_target"
+      ],
+      "path_strs": [
+        "Abdominal pain, unspecified site",
+        "manifestation_of",
+        "Crohn disease",
+        "may_be_treated_by",
+        "Methotrexate sodium",
+        "has_target",
+        "Dihydrofolate Reductase"
+      ]
+    },
+    {
+      "cuis": [
+        "C2219980",
+        "C3495559",
+        "C1619966",
+        "C2350360"
+      ],
+      "relas": [
+        "manifestation_of",
+        "may_be_treated_by",
+        "has_target"
+      ],
+      "path_strs": [
+        "Quotidian fever",
+        "manifestation_of",
+        "Juvenile idiopathic arthritis",
+        "may_be_treated_by",
+        "Abatacept-containing product",
+        "has_target",
+        "Cytotoxic T-Lymphocyte Protein 4"
+      ]
+    },
+    {
+      "cuis": [
+        "C0000737",
+        "C0031069",
+        "C2718773",
+        "C1702300"
+      ],
+      "relas": [
+        "manifestation_of",
+        "may_be_treated_by",
+        "has_target"
+      ],
+      "path_strs": [
+        "Abdominal pain, unspecified site",
+        "manifestation_of",
+        "Familial Mediterranean fever",
+        "may_be_treated_by",
+        "Canakinumab-containing product",
+        "has_target",
+        "Interleukin-1 Beta"
+      ]
+    },
+    {
+      "cuis": [
+        "C2219980",
+        "C3495559",
+        "C0020740",
+        "C1565860"
+      ],
+      "relas": [
+        "manifestation_of",
+        "may_be_treated_by",
+        "has_target"
+      ],
+      "path_strs": [
+        "Quotidian fever",
+        "manifestation_of",
+        "Juvenile idiopathic arthritis",
+        "may_be_treated_by",
+        "Ibuprofen",
+        "has_target",
+        "Prostaglandin G/H Synthase 2"
+      ]
+    },
+    {
+      "cuis": [
+        "C0000737",
+        "C0002895",
+        "C0718066",
+        "C0019643"
+      ],
+      "relas": [
+        "manifestation_of",
+        "may_be_treated_by",
+        "has_target"
+      ],
+      "path_strs": [
+        "Abdominal pain, unspecified site",
+        "manifestation_of",
+        "Sickling disorder due to hemoglobin S",
+        "may_be_treated_by",
+        "Sodium Phenylbutyrate",
+        "has_target",
+        "Histone Deacetylase"
+      ]
+    }
+  ]
+}
