@@ -1,0 +1,6382 @@
+[
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol PDE4A. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol PARP1. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol TEK. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol HTR3A. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol GABRA1. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol PCSK9. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Advanced Clinical",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol SLC5A2. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol IFNAR2. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Med-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol IL1B. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol ERBB2. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol ADRB2. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol FLT4. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Phase 1 Clinical",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol SCN1A. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol SCN9A. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol IL12B. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Med-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol ESR1. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Advanced Clinical",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol TNF. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol IKZF1. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol KDR. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Advanced Clinical",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol MPL. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol TYMS. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol GABRA5. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol PTGIR. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol FLT1. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Advanced Clinical",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Advanced Clinical",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol MARK2. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol AGTR1. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol DPEP1. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol F2. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Advanced Clinical",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol CTLA4. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol OPRK1. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol MS4A1. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol PDGFRA. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol TNFSF11. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol FSHR. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol GABRA2. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol CACNA1C. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol EGFR. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Advanced Clinical",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol PARP2. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Med-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol KRAS. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol BRAF. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol IL23A. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol AR. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Advanced Clinical",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol BTK. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Phase 1 Clinical",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol MAP2K2. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol BCL2. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Advanced Clinical",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol SSTR5. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol VEGFA. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Med-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol RAF1. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol PTGS2. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol TUBB. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol OPRD1. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol F10. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Med-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol IKZF3. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol IL2RA. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol P2RY12. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol OPRM1. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Advanced Clinical",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol HRH2. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol GLP1R. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Advanced Clinical",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol MAP2K1. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol IL13. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol PDCD1. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Advanced Clinical",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol PDE4D. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol SSTR2. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Advanced Clinical",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol JAK2. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol SCN3A. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol FCGRT. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol VEGFB. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Advanced Clinical",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol APP. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Advanced Clinical",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Advanced Clinical",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol TOP2A. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Advanced Clinical",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol GABRA3. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol CHRM3. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol EPOR. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol IGF1R. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol HRH1. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Med-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol IGHE. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol ERVW-1. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Advanced Clinical",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC med conf",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol CRBN. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol GNRHR. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol TOP1. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol ADRB1. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol PTGS1. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol MET. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Advanced Clinical",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol ANGPT2. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Advanced Clinical",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol ANGPT1. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "AB",
+        "label": "Phase 1 Clinical",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Advanced Clinical",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol MTOR. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol JAK1. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol ATP4A. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol PGR. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol INSR. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Advanced Clinical",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol DRD2. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol BMP7. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol FLT3. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Med-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Phase 1 Clinical",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Advanced Clinical",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol HMGCR. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol ACE. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol PIK3CA. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC med conf",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol IL6. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Med-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol PGF. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Advanced Clinical",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol SCN2A. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol CD38. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol MUC1. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Med-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Advanced Clinical",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Advanced Clinical",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol SERPINC1. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol IL6R. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol GHR. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol GRIN1. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Advanced Clinical",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol IL17A. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Advanced Clinical",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol C5. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Med-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol PDE4B. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol AKT1. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Advanced Clinical",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol NR3C1. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Advanced Clinical",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol DPP4. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Advanced Clinical",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol PDE4C. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Med-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol SLC6A2. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol F8. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Med-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Advanced Clinical",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol CSF3R. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol RET. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Advanced Clinical",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol CD274. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Med-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Advanced Clinical",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol CD19. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Approved Drug",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol IL4R. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "AB",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Advanced Clinical",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol TLR9. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Advanced Clinical",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol KIT. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Pocket",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Phase 1 Clinical",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc med conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "Human Protein Atlas loc",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Literature",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      }
+    ]
+  },
+  {
+    "question": "In the OpenTargets database, please retrieve the tractability information for the target with approved symbol SLC6A4. For each modality, provide the label where the value is `True`.",
+    "answer": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand",
+        "value": true
+      },
+      {
+        "modality": "SM",
+        "label": "Druggable Family",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt loc high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf",
+        "value": true
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM",
+        "value": true
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder",
+        "value": true
+      },
+      {
+        "modality": "OC",
+        "label": "Advanced Clinical",
+        "value": true
+      }
+    ]
+  }
+]
