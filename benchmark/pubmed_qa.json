@@ -1,0 +1,1604 @@
+{
+  "dataset": [
+    {
+      "id": "7c0ecf7ac6d5dd9a",
+      "question": "What is the PMID of the article titled “A rare case of rectal malignant melanoma with long-term survival: case report and literature review,” authored by Huang H and published in the World Journal of Surgical Oncology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"A rare case of rectal malignant melanoma with long-term survival\"[ti] AND Huang H[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40483466"
+      ]
+    },
+    {
+      "id": "4cbfe0f0e225e40a",
+      "question": "What is the unique PMID for the article titled “Dynamic changes in vasohibin and nitric oxide signaling following surgical resection of head and neck squamous cell carcinoma,” authored by Tai YH and published in the World Journal of Surgical Oncology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Dynamic changes in vasohibin and nitric oxide signaling following surgical resection of head and neck squamous cell carcinoma.\"[ti] AND Tai YH[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40483461"
+      ]
+    },
+    {
+      "id": "152a634c41f4b0a1",
+      "question": "What is the PMID of the article titled “Comparison among Early-Onset, Late-Onset, and Conventional-Onset Adenocarcinoma of Stomach and Esophagogastric Junction: a Retrospective Study,” authored by Liang Y and published in the World Journal of Surgical Oncology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Comparison among Early-Onset, Late-Onset, and Conventional-Onset Adenocarcinoma of Stomach and Esophagogastric Junction\"[ti] AND Liang Y[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40483456"
+      ]
+    },
+    {
+      "id": "5dec12e7cd042779",
+      "question": "What is the PMID of the 2025 BMC Pulmonary Medicine article titled “Impact of irae characteristics on efficacy of consolidative immunotherapy following chemoradiotherapy in locally advanced NSCLC,” with Wang X as the first author?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Impact of irae characteristics on efficacy of consolidative immunotherapy following chemoradiotherapy in locally advanced NSCLC.\"[ti] AND Wang X[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40483449"
+      ]
+    },
+    {
+      "id": "d7e724b7d47cfd1a",
+      "question": "What is the PMID of the article titled “Causal association between gut microbiota and endometrial cancer in European and East Asian populations: a two-sample Mendelian randomization study,” authored by Chen J and published in BMC Women's Health in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Causal association between gut microbiota and endometrial cancer in European and East Asian populations\"[ti] AND Chen J[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40483441"
+      ]
+    },
+    {
+      "id": "a1b7c67c2b85d31a",
+      "question": "What is the PMID for the article titled \"Large atypical perilobular hemangioma in the breast: a potential misdiagnosis as angiosarcoma,\" authored by Wei Y and published in Diagnostic Pathology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Large atypical perilobular hemangioma in the breast\"[ti] AND Wei Y[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40483434"
+      ]
+    },
+    {
+      "id": "71b9f41655dbef04",
+      "question": "What is the PubMed ID (PMID) for the article titled \"Surgical management of multiple schwannomas scattered on a single peripheral nerve,\" authored by Kojima T and published in BMC Surgery in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Surgical management of multiple schwannomas scattered on a single peripheral nerve.\"[ti] AND Kojima T[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40483424"
+      ]
+    },
+    {
+      "id": "ec6d06e8219d95a3",
+      "question": "What is the PMID of the 2025 BMC Palliative Care article titled \"Integrated palliative care improves the quality of life of advanced cancer patients,\" authored by Wang M?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Integrated palliative care improves the quality of life of advanced cancer patients.\"[ti] AND Wang M[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40483417"
+      ]
+    },
+    {
+      "id": "05c61a8c74388609",
+      "question": "What is the unique PMID for the article titled “Comparison of spatial prediction models from Machine Learning of cholangiocarcinoma incidence in Thailand,” authored by Sahat O and published in BMC Public Health in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Comparison of spatial prediction models from Machine Learning of cholangiocarcinoma incidence in Thailand.\"[ti] AND Sahat O[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40483400"
+      ]
+    },
+    {
+      "id": "c28d073a57e54f3c",
+      "question": "What is the PMID of the article titled “CEBPB regulates ERK1/2 activity through SOS1 and contributes to ovarian cancer progression,” authored by Tan J and published in Medical Oncology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"CEBPB regulates ERK1/2 activity through SOS1 and contributes to ovarian cancer progression.\"[ti] AND Tan J[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40483367"
+      ]
+    },
+    {
+      "id": "e6038832b8e401d3",
+      "question": "What is the PMID of the 2025 article titled “Refeeding syndrome in head and neck cancers: a risk in the prehabilitation of patients?” by Alhallak R, published in Supportive Care in Cancer?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Refeeding syndrome in head and neck cancers\"[ti] AND Alhallak R[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40483353"
+      ]
+    },
+    {
+      "id": "f1cc1027f1a93f8d",
+      "question": "What is the PMID of the article titled “Assessment of plasma derived microbiome profiles in lung cancer using targeted and whole exome sequencing,” authored by Behel V and published in NPJ Systems Biology and Applications in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Assessment of plasma derived microbiome profiles in lung cancer using targeted and whole exome sequencing.\"[ti] AND Behel V[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40483308"
+      ]
+    },
+    {
+      "id": "a2f7601309602967",
+      "question": "What is the PMID of the article titled “Annexin A1-FPR1 Interaction in dendritic cells promotes immune microenvironment modulation in Thyroid Cancer,” authored by Jiang H and published in Cell Biology and Toxicology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Annexin A1-FPR1 Interaction in dendritic cells promotes immune microenvironment modulation in Thyroid Cancer.\"[ti] AND Jiang H[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40483281"
+      ]
+    },
+    {
+      "id": "8aa43c104620083b",
+      "question": "What is the unique PMID for the 2025 Journal of Bodywork and Movement Therapies article titled \"Home-based remote dance program with biopsychosocial model improves quality of life in breast cancer patients: A randomized controlled trial,\" authored by Yang YH?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Home-based remote dance program with biopsychosocial model improves quality of life in breast cancer patients\"[ti] AND Yang YH[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40483151"
+      ]
+    },
+    {
+      "id": "19d5eca4b6513522",
+      "question": "What is the PMID of the article titled “[Exploring screening practices for sexual disorders in breast cancer patients],” authored by Jacquet C and published in Soins; la revue de reference infirmiere in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"[Exploring screening practices for sexual disorders in breast cancer patients].\"[ti] AND Jacquet C[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40483090"
+      ]
+    },
+    {
+      "id": "a9f7fd3973045536",
+      "question": "What is the PMID of the 2025 article by Liu M titled “Efficiency and safety of granulocyte colony-stimulating factor combined with plerixafor for autologous peripheral blood hematopoietic stem cell mobilization in light chain amyloidosis,” published in Transfusion and Apheresis Science?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Efficiency and safety of granulocyte colony-stimulating factor combined with plerixafor for autologous peripheral blood hematopoietic stem cell mobilization in light chain amyloidosis.\"[ti] AND Liu M[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40483044"
+      ]
+    },
+    {
+      "id": "8c1aeec898740d88",
+      "question": "What is the PMID of the article titled “Medigap Protection and Plan Switching Among Medicare Advantage Enrollees With Cancer,” authored by Kwon Y and published in JAMA Health Forum in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Medigap Protection and Plan Switching Among Medicare Advantage Enrollees With Cancer.\"[ti] AND Kwon Y[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40482214"
+      ]
+    },
+    {
+      "id": "7dbef05c90874a59",
+      "question": "What is the PMID of the article titled “Impact of the COVID-19 pandemic on the diagnosis, tumor characteristics, and survival outcomes of colorectal cancer: a retrospective cohort study,” authored by Yarikkaya E and published in Annals of Saudi Medicine in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Impact of the COVID-19 pandemic on the diagnosis, tumor characteristics, and survival outcomes of colorectal cancer\"[ti] AND Yarikkaya E[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40482190"
+      ]
+    },
+    {
+      "id": "9034f09cabf14e71",
+      "question": "What is the PMID of the article titled “Axillary staging with 18F-FDG PET/CT in early breast cancer: impact of tumor subtypes,” authored by Gunes A and published in Annals of Saudi Medicine in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Axillary staging with 18F-FDG PET/CT in early breast cancer\"[ti] AND Gunes A[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40482189"
+      ]
+    },
+    {
+      "id": "6b509d2c733fe1ed",
+      "question": "What is the PMID of the article titled “Neolitsea sericea attenuates oxidative stress-induced cell death in human neuroblastoma SH-SY5Y cells via MAPK and NF-κB pathway inhibition,” authored by Shin MS and published in Molecular Biology Reports in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Neolitsea sericea attenuates oxidative stress-induced cell death in human neuroblastoma SH-SY5Y cells via MAPK and NF-κB pathway Inhibition.\"[ti] AND Shin MS[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40481995"
+      ]
+    },
+    {
+      "id": "de7dcd3b72ab3c06",
+      "question": "What is the PMID of the article titled “Vogt Koyanagi Harada disease with bilateral disc edema diagnosed as Arnold Chiari malformation with papilledema: The blurred margin between ophthalmology and neurology,” authored by Agrawal A and published in the Indian Journal of Ophthalmology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Vogt Koyanagi Harada disease with bilateral disc edema diagnosed as Arnold Chiari malformation with papilledema\"[ti] AND Agrawal A[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40434450"
+      ]
+    },
+    {
+      "id": "97636ccc961f2ad9",
+      "question": "What is the PMID of the article titled \"Comparison of SES method and SARIMA model in predicting the number of admissions in the department of neurology,\" authored by Yang W and published in Scientific Reports in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Comparison of SES method and SARIMA model in predicting the number of admissions in the department of neurology.\"[ti] AND Yang W[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40415093"
+      ]
+    },
+    {
+      "id": "d62b01e9d4e93dc1",
+      "question": "What is the unique PubMed ID (PMID) for the 2025 article titled \"Pediatric Neuropathology-Keeping Pace with Progress,\" authored by Alexandrescu S and published in Surgical Pathology Clinics?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Pediatric Neuropathology-Keeping Pace with Progress.\"[ti] AND Alexandrescu S[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40412824"
+      ]
+    },
+    {
+      "id": "b5788b0319e934db",
+      "question": "What is the PMID of the article titled “Patient-reported outcomes for remote and in-person visits for genetic counseling in adult neurology,” authored by Paul RA and published in the Journal of Genetic Counseling in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Patient-reported outcomes for remote and in-person visits for genetic counseling in adult neurology.\"[ti] AND Paul RA[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40411183"
+      ]
+    },
+    {
+      "id": "bccbe8ce5bd96a85",
+      "question": "What is the PMID of the 2025 Scientific Reports article titled \"Influence of race and gender on variability in clinical decision-making in neurology,\" authored by Paynter RA?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Influence of race and gender on variability in clinical decision-making in neurology.\"[ti] AND Paynter RA[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40404699"
+      ]
+    },
+    {
+      "id": "084bc6cd40e2b9bf",
+      "question": "What is the PMID for the article titled “Trends in self-citation rates in high-impact neurology, neuroscience, and psychiatry journals,” authored by Rosenblatt M and published in eLife in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Trends in self-citation rates in high-impact neurology, neuroscience, and psychiatry journals.\"[ti] AND Rosenblatt M[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40366360"
+      ]
+    },
+    {
+      "id": "f72fd3e36c8c5db2",
+      "question": "What is the PMID of the article titled \"Neuroimaging in Neuro-Ophthalmology: Past, Present, and Future,\" authored by Rasool N and published in the Journal of Neuro-Ophthalmology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Neuroimaging in Neuro-Ophthalmology\"[ti] AND Rasool N[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40361289"
+      ]
+    },
+    {
+      "id": "49e5e1f880c2f073",
+      "question": "What is the unique PMID for the 2025 Arquivos de Neuro-Psiquiatria article titled “A decade of whole-exome sequencing in Brazilian Neurology: from past insights to future perspectives,” authored by Quaio CRDC?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"A decade of whole-exome sequencing in Brazilian Neurology\"[ti] AND Quaio CRDC[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40360003"
+      ]
+    },
+    {
+      "id": "a7790766a272cce7",
+      "question": "What is the PMID of the article titled “Monoclonal antibody administration in an academic institution and private neurological practice: a tale of two clinics,” authored by Rosenbloom M and published in the Journal of Neurology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Monoclonal antibody administration in an academic institution and private neurological practice\"[ti] AND Rosenbloom M[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40355750"
+      ]
+    },
+    {
+      "id": "85245b92e8b188de",
+      "question": "What is the PMID of the 2025 Arquivos de Neuro-Psiquiatria article titled \"How great was the influence of his origins and descendants on Charcot's behaviors?\" by first author Teive HAG?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"How great was the influence of his origins and descendants on Charcot's behaviors?\"[ti] AND Teive HAG[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40345673"
+      ]
+    },
+    {
+      "id": "71fab8603caeaaab",
+      "question": "What is the PMID of the article titled \"Artificial Intelligence in Vascular Neurology: Applications, Challenges, and a Review of AI Tools for Stroke Imaging, Clinical Decision Making, and Outcome Prediction Models,\" authored by Alqadi MM and published in Current Neurology and Neuroscience Reports in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Artificial Intelligence in Vascular Neurology\"[ti] AND Alqadi MM[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40343612"
+      ]
+    },
+    {
+      "id": "7ab21e0fbda56b17",
+      "question": "What is the unique PMID of the article titled “Complexity of neuro-oncological in-hospital consultations: a multicentre study” by first author Jauregui Larrañaga C, published in Neurologia in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Complexity of neuro-oncological in-hospital consultations\"[ti] AND Jauregui Larrañaga C[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40306462"
+      ]
+    },
+    {
+      "id": "60292ebc7596b192",
+      "question": "What is the unique PMID for the 2025 BMJ Open Quality article titled “Reduction of inappropriate perioperative neurology outpatient referrals for perioperative risk assessment and antithrombotic risk management in a major academic hospital,” authored by Ng Si Min B?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Reduction of inappropriate perioperative neurology outpatient referrals for perioperative risk assessment and antithrombotic risk management in a major academic hospital.\"[ti] AND Ng Si Min B[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40301000"
+      ]
+    },
+    {
+      "id": "e049ddb1d31d7596",
+      "question": "What is the PMID of the 2025 article titled “Transforming care: Patient insights on neurology-led peripheral plasma exchange service,” authored by Layegh M and published in Transfusion and Apheresis Science?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Transforming care\"[ti] AND Layegh M[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40273485"
+      ]
+    },
+    {
+      "id": "d365f28b22b25b84",
+      "question": "What is the unique PMID for the article titled “A mixed methods survey of research education requirements for residents in internal medicine, neurology and transitional programs,” authored by O'Shea M and published in Medical Education Online in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"A mixed methods survey of research education requirements for residents in internal medicine, neurology and transitional programs.\"[ti] AND O'Shea M[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40271579"
+      ]
+    },
+    {
+      "id": "483c870e6ec1024b",
+      "question": "What is the PMID of the article titled \"Revolutionizing pediatric neurology care: telemedicine advancements and regulatory impact in the Northeast of Brazil,\" authored by Rodrigues DLG and published in Arquivos de Neuro-Psiquiatria in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Revolutionizing pediatric neurology care\"[ti] AND Rodrigues DLG[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40262814"
+      ]
+    },
+    {
+      "id": "78aa0538740c8656",
+      "question": "What is the PMID of the article titled “Difficult Conversations in Fetal-Neonatal Neurology: National Survey of Educational Experiences and Needs of Child Neurology Residents,” authored by Bach AM and published in Pediatric Neurology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Difficult Conversations in Fetal-Neonatal Neurology\"[ti] AND Bach AM[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40262354"
+      ]
+    },
+    {
+      "id": "e1bcb38b86fbcfb7",
+      "question": "What is the PMID of the article titled \"Pragmatic Clinical Trials in Neurology,\" authored by Qureshi AI and published in Annals of Neurology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Pragmatic Clinical Trials in Neurology.\"[ti] AND Qureshi AI[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40260697"
+      ]
+    },
+    {
+      "id": "63981d3254523ad6",
+      "question": "What is the PMID of the article titled “Breakdown and significance of neuropathology consultations in medico-legal autopsies in Southern Finland between 2016 and 2022,” authored by Oura P and published in Forensic Science International in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Breakdown and significance of neuropathology consultations in medico-legal autopsies in Southern Finland between 2016 and 2022.\"[ti] AND Oura P[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40209631"
+      ]
+    },
+    {
+      "id": "42d3cc964d7f7d3a",
+      "question": "What is the PMID of the article titled “European Academy of Neurology (EAN)/European Federation of Autonomic Societies (EFAS)/International Neuro-Urology Society (INUS) Guidelines for Practising Neurologists on the Assessment and Treatment of Neurogenic Urinary and Sexual Symptoms (NEUROGED Guidelines),” authored by Panicker JN and published in the European Journal of Neurology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"European Academy of Neurology (EAN)/European Federation of Autonomic Societies (EFAS)/International Neuro-Urology Society (INUS) Guidelines for Practising Neurologists on the Assessment and Treatment of Neurogenic Urinary and Sexual Symptoms (NEUROGED Guidelines).\"[ti] AND Panicker JN[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40208234"
+      ]
+    },
+    {
+      "id": "9ada5671b04edbd9",
+      "question": "What is the unique PMID for the 2025 European Journal of Pediatrics article titled \"Updates in interventional cardiology in children with cardiac disease,\" authored by Shibbani K?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Updates in interventional cardiology in children with cardiac disease.\"[ti] AND Shibbani K[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40481951"
+      ]
+    },
+    {
+      "id": "4b580c41fc899f09",
+      "question": "What is the PMID of the article titled \"Applying the unattainable triangle in cardio-oncology care: Balancing cost, quality, and time,\" authored by Hoverson J and published in Oncotarget in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Applying the unattainable triangle in cardio-oncology care\"[ti] AND Hoverson J[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40464642"
+      ]
+    },
+    {
+      "id": "7e7e139699be6661",
+      "question": "What is the PMID of the article titled “Cardiovascular Disease Care Beyond the Cardiologist: An Overview of the Rollout of Transthoracic Echocardiography Training and Services in Kenya,” authored by Muriuki D and published in Global Heart in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Cardiovascular Disease Care Beyond the Cardiologist\"[ti] AND Muriuki D[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40454108"
+      ]
+    },
+    {
+      "id": "57ded2fbe31a5779",
+      "question": "What is the PMID for the 2025 article titled \"The challenges of indexing and impact factor in Latin American cardiology journals,\" authored by Piskorz DL and published in Archivos de cardiologia de Mexico?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"The challenges of indexing and impact factor in Latin American cardiology journals.\"[ti] AND Piskorz DL[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40445929"
+      ]
+    },
+    {
+      "id": "5d4c515bf25b6424",
+      "question": "What is the unique PMID for the article titled “The Benefits and Challenges of Digitally-Enabled Cardiology,” authored by Castiello T and published in the British Journal of Hospital Medicine in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"The Benefits and Challenges of Digitally-Enabled Cardiology.\"[ti] AND Castiello T[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40405844"
+      ]
+    },
+    {
+      "id": "c411a103f80ad709",
+      "question": "What is the PMID of the article titled “[Modern geriatric cardiology: addressing the challenges of aging],” authored by Arcens M and published in Revue medicale suisse in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"[Modern geriatric cardiology\"[ti] AND Arcens M[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40400247"
+      ]
+    },
+    {
+      "id": "fd91823098aa3af8",
+      "question": "What is the PMID of the article titled “Geographic and Sociodemographic Factors and Receipt of Metabolic Disease Specialty Care,” authored by Zupa MF and published in JAMA Network Open in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Geographic and Sociodemographic Factors and Receipt of Metabolic Disease Specialty Care.\"[ti] AND Zupa MF[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40392552"
+      ]
+    },
+    {
+      "id": "8c8fdbd6815c68f6",
+      "question": "What is the PMID of the article titled “Telecardiology unleashed: probing the depths of effectiveness in remote monitoring and telemedicine applications for acute cardiac conditions,” authored by De Wever M and published in European Heart Journal. Acute Cardiovascular Care in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Telecardiology unleashed\"[ti] AND De Wever M[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40377047"
+      ]
+    },
+    {
+      "id": "1f2738138fd000bc",
+      "question": "What is the PMID of the article titled “Trends of women in cardiovascular disease fellowships 2013-2022,” authored by Dandamudi K and published in the American Heart Journal in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Trends of women in cardiovascular disease fellowships 2013-2022.\"[ti] AND Dandamudi K[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40340073"
+      ]
+    },
+    {
+      "id": "b83fd83523d563f0",
+      "question": "What is the PMID of the article titled “Canadian Cardiovascular Society Clinical Practice Update on Contemporary Approaches to Smoking Cessation,” authored by Mir H and published in The Canadian Journal of Cardiology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Canadian Cardiovascular Society Clinical Practice Update on Contemporary Approaches to Smoking Cessation.\"[ti] AND Mir H[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40340054"
+      ]
+    },
+    {
+      "id": "b4e32f95ec7f714b",
+      "question": "What is the PMID for the article titled “Expert consensus document on artificial intelligence of the Italian Society of Cardiology,” authored by Indolfi C and published in the Journal of Cardiovascular Medicine (Hagerstown, Md.) in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Expert consensus document on artificial intelligence of the Italian Society of Cardiology.\"[ti] AND Indolfi C[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40331418"
+      ]
+    },
+    {
+      "id": "7dd106546cfaad52",
+      "question": "What is the PMID of the 2025 PloS One article titled \"Perceptions of complementary, alternative, and integrative medicine: A global cross-sectional survey of cardiology researchers and clinicians,\" with Ng JY as the first author?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Perceptions of complementary, alternative, and integrative medicine\"[ti] AND Ng JY[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40327629"
+      ]
+    },
+    {
+      "id": "8fa2732f87c36e2d",
+      "question": "What is the PMID of the article titled “Diagnosis and treatment of iron deficiency in chronic heart failure: Position statement of the heart failure working group of the Austrian Society of Cardiology,” authored by Messner M and published in Wiener klinische Wochenschrift in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Diagnosis and treatment of iron deficiency in chronic heart failure \"[ti] AND Messner M[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40327072"
+      ]
+    },
+    {
+      "id": "8d1f377e81d1dc8c",
+      "question": "What is the PMID of the 2025 article titled \"HeartConnect: Integrating primary care and specialist cardiology for rapid access and better patient and healthcare practitioner experiences,\" with first author Zurynski Y, published in the Australian Journal of General Practice?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"HeartConnect\"[ti] AND Zurynski Y[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40320805"
+      ]
+    },
+    {
+      "id": "895fbeb7c153c477",
+      "question": "What is the PMID of the article titled \"Diversity is essential in cardiovascular medicine and subspecialties: A comprehensive report of gender, racial, and ethnic representation among cardiovascular fellows from 2005 to 2022,\" authored by Obeidat O and published in Current Problems in Cardiology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Diversity is essential in cardiovascular medicine and subspecialties\"[ti] AND Obeidat O[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40311855"
+      ]
+    },
+    {
+      "id": "a649500212f85420",
+      "question": "What is the PMID for the 2025 article titled \"Automated strength-interval curve generation using actors,\" authored by Spiteri RJ and published in Computer Methods and Programs in Biomedicine?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Automated strength-interval curve generation using actors.\"[ti] AND Spiteri RJ[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40311440"
+      ]
+    },
+    {
+      "id": "d1e5e18d3e79c1de",
+      "question": "What is the PMID of the article titled “[Artificial intelligence in cardiology: definition, types, glossary, algorithms used - opportunities, limitations, development barriers, and challenges]” by Zuin M, published in Giornale italiano di cardiologia (2006) in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"[Artificial intelligence in cardiology\"[ti] AND Zuin M[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40292503"
+      ]
+    },
+    {
+      "id": "9064ef96059b7eaa",
+      "question": "What is the PMID of the 2025 PLoS Medicine article titled “The cardiology community begins to embrace obesity as an important target for cardiovascular health,” authored by Sattar N?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"The cardiology community begins to embrace obesity as an important target for cardiovascular health.\"[ti] AND Sattar N[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40273224"
+      ]
+    },
+    {
+      "id": "e67955b923550d1b",
+      "question": "What is the PMID of the article titled “[Telemonitoring in cardiology: the Pitié-Salpêtrière hospital experience],” authored by Lafitte S and published in Revue de l'infirmiere in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"[Telemonitoring in cardiology\"[ti] AND Lafitte S[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40246423"
+      ]
+    },
+    {
+      "id": "127fd4b3993c4376",
+      "question": "What is the PMID of the 2025 Archives of Cardiovascular Diseases article titled “Management of diabetes in patients hospitalized for acute cardiac events: Joint position paper from the French Society of Cardiology and the French-speaking Diabetes Society,” authored by Henry P?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Management of diabetes in patients hospitalized for acute cardiac events\"[ti] AND Henry P[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40240181"
+      ]
+    },
+    {
+      "id": "63e1cda7f37f530e",
+      "question": "What is the unique PMID for the 2025 article titled \"Choreographies of co-modification: instrumentizing cod for immunology and the economy,\" authored by Druglitrø T and published in History and Philosophy of the Life Sciences?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Choreographies of co-modification\"[ti] AND Druglitrø T[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40467951"
+      ]
+    },
+    {
+      "id": "11922961d16d6398",
+      "question": "What is the PMID of the article titled \"Value-based care in allergy-immunology: Beyond the quality-adjusted life year,\" authored by Sanders J and published in Allergy and Asthma Proceedings in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Value-based care in allergy-immunology\"[ti] AND Sanders J[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40380361"
+      ]
+    },
+    {
+      "id": "aa7bea7f92b69326",
+      "question": "What is the unique PMID for the 2025 Journal of Experimental Medicine article titled \"Laura Mackay: Don't be afraid to engage.\" with first author Van Emmenis L?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Laura Mackay\"[ti] AND Van Emmenis L[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40358617"
+      ]
+    },
+    {
+      "id": "a0b20d48391d4cac",
+      "question": "What is the unique PMID for the article titled “A cross-sectional study on the endorsement of reporting guidelines and clinical trial registration among immunology and allergy journals,” authored by Khan A and published in PloS One in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"A cross-sectional study on the endorsement of reporting guidelines and clinical trial registration among immunology and allergy journals.\"[ti] AND Khan A[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40333833"
+      ]
+    },
+    {
+      "id": "0f86a1bb5cf5b140",
+      "question": "What is the unique PMID for the article titled \"The State of Immunology in Allergy and Immunology Fellowship,\" authored by Tran HN and published in Immunology and Allergy Clinics of North America in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"The State of Immunology in Allergy and Immunology Fellowship.\"[ti] AND Tran HN[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40287165"
+      ]
+    },
+    {
+      "id": "135559f53b094028",
+      "question": "What is the PMID of the article titled \"From Cytokines to Tuberculosis and Back: My Journey to Understanding the Immune Response to Infection,\" authored by O'Garra A and published in the Annual Review of Immunology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"From Cytokines to Tuberculosis and Back\"[ti] AND O'Garra A[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40279305"
+      ]
+    },
+    {
+      "id": "de0f47cb26aa6ce1",
+      "question": "What is the PMID of the article titled \"Role of artificial intelligence in advancing immunology,\" authored by Alanazi HH and published in Immunologic Research in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Role of artificial intelligence in advancing immunology.\"[ti] AND Alanazi HH[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40272607"
+      ]
+    },
+    {
+      "id": "20bbd15d8014f1d4",
+      "question": "What is the PMID of the 2025 Trends in Immunology article titled \"An era of immunological discoveries heralded by molecular biology,\" authored by Kenter A?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"An era of immunological discoveries heralded by molecular biology.\"[ti] AND Kenter A[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40240192"
+      ]
+    },
+    {
+      "id": "d8b10ff9282b54a6",
+      "question": "What is the unique PMID of the article titled “[Diagnosis and treatment of ANCA-associated vasculitis: SHORT VERSION of the S3 guideline of the German Society for Rheumatology and Clinical Immunology e. V. (DGRh) and German Society for Internal Medicine e. V. (DGIM), German Society for Nephrology e. V. (DGfN), German Society for Otorhinolaryngology and Head and Neck Surgery e. V. (DGHNO-KHC), German Ophthalmological Society e. V. (DOG), German Society for Neurology e.",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"[Diagnosis and treatment of ANCA-associated vasculitis \"[ti] AND Holle JU[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40172651"
+      ]
+    },
+    {
+      "id": "0e11b249b2567301",
+      "question": "What is the unique PMID for the article titled “[Comments of the German Society for Orthopaedic Rheumatology on the article \"Rheumatological care in Germany\" : Memorandum of the German Society for Rheumatology and Clinical Immunology 2024],” authored by Carl HD and published in Zeitschrift fur Rheumatologie in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"[Comments of the German Society for Orthopaedic Rheumatology on the article \"Rheumatological care in Germany\" \"[ti] AND Carl HD[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40167622"
+      ]
+    },
+    {
+      "id": "5add66f7452bd2f2",
+      "question": "What is the PMID of the 2025 article titled “ChatGPT Performance on 120 Interdisciplinary Allergology Questions—Systematic Evaluation With Clinical Error Impact Assessment for Critical Erroneous AI-Guided Chatbot Advice,” authored by Mathes S and published in The Journal of Allergy and Clinical Immunology: In Practice?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"ChatGPT Performance on 120 Interdisciplinary Allergology Questions-Systematic Evaluation With Clinical Error Impact Assessment for Critical Erroneous AI-Guided Chatbot Advice.\"[ti] AND Mathes S[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40157421"
+      ]
+    },
+    {
+      "id": "0da6f64f8f4eb8ef",
+      "question": "What is the unique PMID for the article titled “On tending sprouts: empowering emerging immunologists in Latin America,” authored by Brunck MEG and published in Trends in Immunology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"On tending sprouts\"[ti] AND Brunck MEG[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40050163"
+      ]
+    },
+    {
+      "id": "fef36281cc41e35f",
+      "question": "What is the PMID of the article titled “EAACI Guidelines on Environmental Science for Allergy and Asthma—Recommendations on the Impact of Indoor Air Pollutants on the Risk of New-Onset Asthma and on Asthma-Related Outcomes,” authored by Agache I and published in Allergy in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"EAACI Guidelines on Environmental Science for Allergy and Asthma-Recommendations on the Impact of Indoor Air Pollutants on the Risk of New-Onset Asthma and on Asthma-Related Outcomes.\"[ti] AND Agache I[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40018799"
+      ]
+    },
+    {
+      "id": "7119dfa8fd4c5cca",
+      "question": "What is the unique PMID for the article titled “A trainee-led approach to tackling gender inequity in immunology,” authored by Driks H and published in Immunology and Cell Biology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"A trainee-led approach to tackling gender inequity in immunology.\"[ti] AND Driks H[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40013717"
+      ]
+    },
+    {
+      "id": "f42fc922c1526104",
+      "question": "What is the PMID of the article titled \"Blended problem based learning in postgraduate education: The Eastern Allergy Conference and the PBL Institute experience,\" authored by Conway AE and published in Allergy and Asthma Proceedings in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Blended problem based learning in postgraduate education\"[ti] AND Conway AE[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40000016"
+      ]
+    },
+    {
+      "id": "4164af90d9112bc3",
+      "question": "What is the unique PMID of the article titled “Next-generation sequencing and immuno-informatics for designing a multi-epitope vaccine against HSV-1-induced uveitis,” authored by Cao H and published in Frontiers in Immunology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Next-generation sequencing and immuno-informatics for designing a multi-epitope vaccine against HSV-1-induced uveitis.\"[ti] AND Cao H[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "39958333"
+      ]
+    },
+    {
+      "id": "2287dcc29cc9bcc1",
+      "question": "What is the PMID of the article titled “Definition of clinical immunology around the globe.”, authored by Crispín JC and published in Frontiers in Immunology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Definition of clinical immunology around the globe.\"[ti] AND Crispín JC[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "39935477"
+      ]
+    },
+    {
+      "id": "3d59d522084c5756",
+      "question": "What is the PMID of the article titled “[Allergology: what's new in 2024],” authored by Pérez-Codesido S and published in Revue medicale suisse in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"[Allergology \"[ti] AND Pérez-Codesido S[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "39812277"
+      ]
+    },
+    {
+      "id": "ca0881f5f7434c35",
+      "question": "What is the PMID of the 2024 article titled \"Multidisciplinary integration and fusion based on critical care medicine and immunology: History, current status, and prospects,\" authored by Shi J and published in the Journal of Central South University. Medical sciences?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Multidisciplinary integration and fusion based on critical care medicine and immunology\"[ti] AND Shi J[au] AND 2024[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "39788521"
+      ]
+    },
+    {
+      "id": "b8a4446323470024",
+      "question": "What is the PMID of the 2025 Immunology and Cell Biology article titled \"Learnings from ten years away from 'home' as a South American immunologist in Ireland,\" authored by Muñoz-Wolf N?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Learnings from ten years away from \"home\" as a South American immunologist in Ireland.\"[ti] AND Muñoz-Wolf N[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "39777811"
+      ]
+    },
+    {
+      "id": "0e79ec4dd3927125",
+      "question": "What is the PMID of the article titled \"Paper Alert,\" authored by , published in the European Journal of Gastroenterology & Hepatology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Paper Alert.\"[ti] AND [au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40470733"
+      ]
+    },
+    {
+      "id": "009fa1f7a656d27a",
+      "question": "What is the unique PMID for the 2025 BMC Gastroenterology article titled “Challenges and needs in the management of non-alcoholic fatty liver disease from the perspective of gastroenterology and hepatology specialists: a qualitative study,” authored by Salmanizadeh F?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Challenges and needs in the management of non-alcoholic fatty liver disease from the perspective of gastroenterology and hepatology specialists\"[ti] AND Salmanizadeh F[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40405078"
+      ]
+    },
+    {
+      "id": "bfac145484595a8f",
+      "question": "What is the PMID of the 2025 BMC Medical Education article by Zhang S titled “How to achieve the long-term goals of EUS training--survey on the performance of diagnostic EUS by newly trained endosonographers and analysis of the influencing factors”?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"How to achieve the long-term goals of EUS training--survey on the performance of diagnostic EUS by newly trained endosonographers and analysis of the influencing factors.\"[ti] AND Zhang S[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40382563"
+      ]
+    },
+    {
+      "id": "6f3a4fb1b01a38fa",
+      "question": "What is the PMID for the article titled “Measurement and Normal Values, Pathologies, Interpretation of findings, and Interventional Ultrasound as part of student ultrasound education,” authored by Gschmack AM and published in Zeitschrift fur Gastroenterologie in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Measurement and Normal Values, Pathologies, Interpretation of findings, and Interventional Ultrasound as part of student ultrasound education.\"[ti] AND Gschmack AM[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40360143"
+      ]
+    },
+    {
+      "id": "28f048213eb1f8d0",
+      "question": "What is the PMID of the article titled “[Practical guideline for short bowel syndrome]” by first author Dabsch S, published in Zeitschrift fur Gastroenterologie in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"[Practical guideline for short bowel syndrome].\"[ti] AND Dabsch S[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40360142"
+      ]
+    },
+    {
+      "id": "48d7e7815dd288c7",
+      "question": "What is the PMID of the article titled “Enhancing standardization in anorectal manometry testing: the impact of a national position paper,” authored by Mazor Y and published in the European Journal of Gastroenterology & Hepatology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Enhancing standardization in anorectal manometry testing\"[ti] AND Mazor Y[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40359272"
+      ]
+    },
+    {
+      "id": "2c133de360a394f2",
+      "question": "What is the PMID of the article titled “[Transition in gastroenterology and hepatology],” authored by Siegmund B and published in Innere Medizin (Heidelberg, Germany) in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"[Transition in gastroenterology and hepatology].\"[ti] AND Siegmund B[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40358755"
+      ]
+    },
+    {
+      "id": "c3f12cca16d0490b",
+      "question": "What is the PMID of the article titled “TELEREGULATION IN GASTROENTEROLOGY AND THE BOTTLENECK OF SPECIALIZED HEALTH CARE,” authored by Rosevics L and published in Arquivos de Gastroenterologia in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"TELEREGULATION IN GASTROENTEROLOGY AND THE BOTTLENECK OF SPECIALIZED HEALTH CARE.\"[ti] AND Rosevics L[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40332309"
+      ]
+    },
+    {
+      "id": "f2179a15e2d812b6",
+      "question": "What is the PMID of the article titled “[Evidence-based guidelines in gastroenterological medical care: a survey among members of the German Society for Gastroenterology, Digestive and Metabolic Diseases (DGVS) on acceptance, application and optimization],” authored by Bachmann J and published in Zeitschrift fur Gastroenterologie in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"[Evidence-based guidelines in gastroenterological medical care\"[ti] AND Bachmann J[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40306647"
+      ]
+    },
+    {
+      "id": "79da4d03e142afcc",
+      "question": "What is the unique PubMed ID (PMID) for the article titled “[Evolution of enterology as a science]” by Sabelnikova EA, published in Terapevticheskii arkhiv in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"[Evolution of enterology as a science].\"[ti] AND Sabelnikova EA[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40237759"
+      ]
+    },
+    {
+      "id": "ee9daf795097996f",
+      "question": "What is the PMID of the article titled “Mapping training programs for endoscopy nurses in gastroenterology: a scoping review,” authored by Parrella A and published in the European Journal of Gastroenterology & Hepatology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Mapping training programs for endoscopy nurses in gastroenterology\"[ti] AND Parrella A[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40207485"
+      ]
+    },
+    {
+      "id": "c343e10fb4bde51e",
+      "question": "What is the unique PubMed ID (PMID) for the article titled “[Guideline on functional dyspepsia, a disorder of gut-brain-interaction (DGBI): S1 Guideline of the German Society for Neurogastroenterology and Motility (DGNM)]” by first author Storr M, published in Zeitschrift fur Gastroenterologie in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"[Guideline on functional dyspepsia, a disorder of gut-brain-interaction (DGBI)\"[ti] AND Storr M[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40199346"
+      ]
+    },
+    {
+      "id": "2474f85b5a0ecc65",
+      "question": "What is the unique PMID for the article titled “Gastroenterology/Hepatology: What You May Have Missed in 2024,” authored by Cintosun A and published in the Annals of Internal Medicine in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Gastroenterology/Hepatology\"[ti] AND Cintosun A[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40163879"
+      ]
+    },
+    {
+      "id": "0bde029e956225bb",
+      "question": "What is the PMID of the article titled “Hepatology in the Digital Era: A Review of Telehealth Care for Liver Disease,” authored by Bloomberg L and published in Current Gastroenterology Reports in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Hepatology in the Digital Era\"[ti] AND Bloomberg L[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40153166"
+      ]
+    },
+    {
+      "id": "e00f8c09edc56746",
+      "question": "What is the unique PMID for the 2025 Neurogastroenterology and Motility article titled \"Trainees' Exposure to the Field of Neurogastroenterology and Motility in Internal Medicine and General Surgery Residency Programs,\" authored by Cohen DL?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Trainees' Exposure to the Field of Neurogastroenterology and Motility in Internal Medicine and General Surgery Residency Programs.\"[ti] AND Cohen DL[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40145420"
+      ]
+    },
+    {
+      "id": "21224160fa4b62fa",
+      "question": "What is the unique PubMed ID (PMID) for the article titled \"Assessing the prevalence, quality and compliance of data-sharing statements in gastroenterology publications: a cross-sectional analysis,\" authored by Moore J and published in BMJ Open in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Assessing the prevalence, quality and compliance of data-sharing statements in gastroenterology publications\"[ti] AND Moore J[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40132820"
+      ]
+    },
+    {
+      "id": "83ebde471e893bca",
+      "question": "What is the PMID of the article titled “European Consensus on Malabsorption-UEG & SIGE, LGA, SPG, SRGH, CGS, ESPCG, EAGEN, ESPEN, and ESPGHAN. Part 1: Definitions, Clinical Phenotypes, and Diagnostic Testing for Malabsorption,” authored by Lenti MV and published in the United European Gastroenterology Journal in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"European Consensus on Malabsorption-UEG & SIGE, LGA, SPG, SRGH, CGS, ESPCG, EAGEN, ESPEN, and ESPGHAN. Part 1\"[ti] AND Lenti MV[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40129317"
+      ]
+    },
+    {
+      "id": "12c734575a36aabf",
+      "question": "What is the unique PMID for the 2025 BMJ Open Quality article titled “Clinical impact of Choosing Wisely Canada hepatology recommendations: an interrupted time-series analysis using data from GEMINI,” authored by Shin S?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Clinical impact of Choosing Wisely Canada hepatology recommendations\"[ti] AND Shin S[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40122575"
+      ]
+    },
+    {
+      "id": "d7c1fb8d107b5d2b",
+      "question": "What is the unique PMID for the article titled “AGA Living Clinical Practice Guideline on Computer-Aided Detection-Assisted Colonoscopy,” authored by Sultan S and published in Gastroenterology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"AGA Living Clinical Practice Guideline on Computer-Aided Detection-Assisted Colonoscopy.\"[ti] AND Sultan S[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40121061"
+      ]
+    },
+    {
+      "id": "6c2dd544a4958273",
+      "question": "What is the PMID of the 2025 BMC Medical Education article by Yan Y titled “Validating the effectiveness of a classroom-setting form of early clinical exposure with direct physician involvement in gastrointestinal physiology education”?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Validating the effectiveness of a classroom-setting form of early clinical exposure with direct physician involvement in gastrointestinal physiology education.\"[ti] AND Yan Y[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40119330"
+      ]
+    }
+  ]
+}

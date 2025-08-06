@@ -1,0 +1,928 @@
+{
+  "dataset": [
+    {
+      "id": "d1e6c6f1b1a8e0e0d1a5c2e1f3b4a7b2",
+      "question": "In the OpenTargets database, what information is available about emesis for the target symbol HTR3A?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "HTR3A",
+            "event": "emesis"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "endocrine",
+            "tissueId": "UBERON_0000949"
+          },
+          {
+            "tissueLabel": "gastrointestinal",
+            "tissueId": "UBERON_0005409"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": "general",
+            "direction": "Activation/Increase/Upregulation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7a2f3b8e1c4e9a2e5d1b4c7a8f2c6d3",
+      "question": "In the OpenTargets database, what is known about the event increased cardiac output for the target symbol GABRA1?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "GABRA1",
+            "event": "increased cardiac output"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "central nervous system",
+            "tissueId": "UBERON_0001017"
+          },
+          {
+            "tissueLabel": "cardiovascular",
+            "tissueId": "UBERON_0004535"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": "acute",
+            "direction": "Activation/Increase/Upregulation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e9c2a8d7e5b1c2e1b7a1c6e2e7b9e0a7",
+      "question": "In the OpenTargets database, what information is available regarding ERBB2 and heart disease?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "ERBB2",
+            "event": "heart disease"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "cardiovascular system",
+            "tissueId": "UBERON_0004535"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c8e0c4b2e3d2e5d1f9a6c8f7e4a2b3c1",
+      "question": "In the OpenTargets database, what information is available regarding the cardiac contractility event for the ADRB2 target?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "ADRB2",
+            "event": "cardiac contractility"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "cardiovascular system",
+            "tissueId": "UBERON_0004535"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": "general",
+            "direction": "Activation/Increase/Upregulation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d1f6e4e7e5a7b1c7a6b2e7e3b5c7e8f9",
+      "question": "In the OpenTargets database, what information is available about the target KDR in relation to the event Hypertension?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "KDR",
+            "event": "Hypertension"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "CV",
+            "tissueId": "UBERON_0004535"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": null,
+            "direction": "Inhibition/Decrease/Downregulation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f1c5b3a6c1e3b2e5b2a4e7e1e8c2d6b4",
+      "question": "In the OpenTargets database, what information is available about the event 'increased cardiac output' for the target symbol GABRA5?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "GABRA5",
+            "event": "increased cardiac output"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "central nervous system",
+            "tissueId": "UBERON_0001017"
+          },
+          {
+            "tissueLabel": "cardiovascular",
+            "tissueId": "UBERON_0004535"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": "acute",
+            "direction": "Activation/Increase/Upregulation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e3a0a1f0e6e5c2b9e5c9e1e7b1c5c6a7",
+      "question": "In the OpenTargets database, what information is available for the target FLT1 in relation to the event brain natriuretic peptide increase?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "FLT1",
+            "event": "brain natriuretic peptide increase"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "metabolic/endocrine",
+            "tissueId": "UBERON_0000949"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": null,
+            "direction": "Inhibition/Decrease/Downregulation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f4b9e3e0f1e2c1a6b2e5f7a9c8d3e2a1",
+      "question": "In the OpenTargets database, what are the safety liabilities associated with the target AGTR1 and the event death?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "AGTR1",
+            "event": "death"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "renal",
+            "tissueId": "UBERON_0001008"
+          },
+          {
+            "tissueLabel": "cardiovascular",
+            "tissueId": "UBERON_0004535"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": "developmental toxicity",
+            "direction": "Inhibition/Decrease/Downregulation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f7e4c2c9b2e4a1b1f2b8a7e3d6c5a4f1",
+      "question": "In the OpenTargets database, what information is available about the target OPRK1 in relation to the event decreased gastrointestinal motility?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "OPRK1",
+            "event": "decreased gastrointestinal motility"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "cardiovascular system",
+            "tissueId": "UBERON_0004535"
+          },
+          {
+            "tissueLabel": "central nervous system",
+            "tissueId": "UBERON_0001017"
+          },
+          {
+            "tissueLabel": "gastrointestinal",
+            "tissueId": "UBERON_0005409"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": "general",
+            "direction": "Activation/Increase/Upregulation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c8b6b4f7f2e3a7c2e5b1d2a3b4c5d6e7",
+      "question": "In the OpenTargets database, what information is available about the event 'increased cardiac output' for the target symbol GABRA2?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "GABRA2",
+            "event": "increased cardiac output"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "central nervous system",
+            "tissueId": "UBERON_0001017"
+          },
+          {
+            "tissueLabel": "cardiovascular",
+            "tissueId": "UBERON_0004535"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": "acute",
+            "direction": "Activation/Increase/Upregulation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f2b9b2e0b7b4c2e2e8a6a1c1d5e3c4a1",
+      "question": "In the OpenTargets database, what information is available regarding the target CACNA1C and the event decreased blood pressure?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "CACNA1C",
+            "event": "decreased blood pressure"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "cardiovascular system",
+            "tissueId": "UBERON_0004535"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": "general",
+            "direction": "Inhibition/Decrease/Downregulation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e2d2b2e7c2e9c6e9e6b2b0e7b2e6c2e9",
+      "question": "In the OpenTargets database, what information is available regarding the event diarrhoea for the target EGFR?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "EGFR",
+            "event": "diarrhoea"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "GI",
+            "tissueId": "UBERON_0005409"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": null,
+            "direction": "Inhibition/Decrease/Downregulation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d2e7e2a0c1f6b7c6c2a0b7e1d2e7e2a0",
+      "question": "In the OpenTargets database, what information is available regarding heart disease for the target BRAF?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "BRAF",
+            "event": "heart disease"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "cardiovascular system",
+            "tissueId": "UBERON_0004535"
+          }
+        ],
+        "effects": "absence"
+      }
+    },
+    {
+      "id": "e7d5a2c6e8b1f4e2a3c1c7b6a1e2d3f4",
+      "question": "In the OpenTargets database, what are the safety liabilities associated with the target AR and the event death?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "AR",
+            "event": "death"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "central nervous system",
+            "tissueId": "UBERON_0001017"
+          },
+          {
+            "tissueLabel": "endocrine",
+            "tissueId": "UBERON_0000949"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": "acute",
+            "direction": "Inhibition/Decrease/Downregulation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8a7e8e8d1a2f6a0e2d6e2e6c9b1a0b2",
+      "question": "In the OpenTargets database, what information is available regarding increased blood pressure for the target symbol OPRD1?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "OPRD1",
+            "event": "increased blood pressure"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "cardiovascular system",
+            "tissueId": "UBERON_0004535"
+          },
+          {
+            "tissueLabel": "central nervous system",
+            "tissueId": "UBERON_0001017"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": "general",
+            "direction": "Inhibition/Decrease/Downregulation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3e2a1c3e0d7e2f8a5f4b6c2a1d3e4f5",
+      "question": "In the OpenTargets database, what information is available about the target HRH2 and the event increased gastric emptying?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "HRH2",
+            "event": "increased gastric emptying"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "immune",
+            "tissueId": "UBERON_0002405"
+          },
+          {
+            "tissueLabel": "cardiovascular",
+            "tissueId": "UBERON_0004535"
+          },
+          {
+            "tissueLabel": "gastrointestinal",
+            "tissueId": "UBERON_0005409"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": "acute",
+            "direction": "Activation/Increase/Upregulation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d1e3f1f7e4b1c8a2e4a1d2c3b4f5a6b7",
+      "question": "In the OpenTargets database, what information is available about the event emesis for the target symbol PDE4D?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "PDE4D",
+            "event": "emesis"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "immune",
+            "tissueId": "UBERON_0002405"
+          },
+          {
+            "tissueLabel": "central nervous system",
+            "tissueId": "UBERON_0001017"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": "general",
+            "direction": "Inhibition/Decrease/Downregulation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8e7b7e6e7c0a5f8b0e2b3f6c5d1a9e7",
+      "question": "In the OpenTargets database, what information is available regarding heart disease for the target JAK2?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "JAK2",
+            "event": "heart disease"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "cardiovascular system",
+            "tissueId": "UBERON_0004535"
+          }
+        ],
+        "effects": "absence"
+      }
+    },
+    {
+      "id": "f0a7c7e0a7b2b2e1e2c1d3b6e5a4c9f2",
+      "question": "In the OpenTargets database, what information is available about the event 'increased cardiac output' for the target symbol GABRA3?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "GABRA3",
+            "event": "increased cardiac output"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "central nervous system",
+            "tissueId": "UBERON_0001017"
+          },
+          {
+            "tissueLabel": "cardiovascular",
+            "tissueId": "UBERON_0004535"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": "acute",
+            "direction": "Activation/Increase/Upregulation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e0e3c5b7c1f1e7e2f0c3e2a1b2c3d4e5",
+      "question": "In the OpenTargets database, what information is available about the target CHRM3 in relation to the event increased salivation?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "CHRM3",
+            "event": "increased salivation"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "nervous system",
+            "tissueId": "UBERON_0001016"
+          },
+          {
+            "tissueLabel": "respiratory",
+            "tissueId": "UBERON_0001004"
+          },
+          {
+            "tissueLabel": "liver",
+            "tissueId": "UBERON_0002107"
+          },
+          {
+            "tissueLabel": "cardiovascular",
+            "tissueId": "UBERON_0004535"
+          },
+          {
+            "tissueLabel": "gastrointestinal",
+            "tissueId": "UBERON_0005409"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": "acute",
+            "direction": "Activation/Increase/Upregulation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f1b6c7e4b9d2a5c3f8e1a4b2c3d4e5f6",
+      "question": "In the OpenTargets database, what are the associations between the target symbol HRH1 and the event allergic responses of flare, flush and wheal?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "HRH1",
+            "event": "allergic responses of flare, flush and wheal"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "cardiovascular system",
+            "tissueId": "UBERON_0004535"
+          },
+          {
+            "tissueLabel": "immune",
+            "tissueId": "UBERON_0002405"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": "general",
+            "direction": "Activation/Increase/Upregulation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d1e3a1c8e5a4e3e2d4b6c9f1b0a2c3d4",
+      "question": "In the OpenTargets database, what is known about the event increased force of contraction for the target symbol ADRB1?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "ADRB1",
+            "event": "increased force of contraction"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "cardiovascular system",
+            "tissueId": "UBERON_0004535"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": "general",
+            "direction": "Activation/Increase/Upregulation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c1c8f7e3c2a6a1b2a4e7c8b9d3e5f6a7",
+      "question": "In the OpenTargets database, what information is available about renal dysfunction in relation to the target PTGS1?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "PTGS1",
+            "event": "renal dysfunction"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "renal",
+            "tissueId": "UBERON_0001008"
+          },
+          {
+            "tissueLabel": "pulmonary",
+            "tissueId": "UBERON_0002048"
+          },
+          {
+            "tissueLabel": "gastrointestinal",
+            "tissueId": "UBERON_0005409"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": "general",
+            "direction": "Inhibition/Decrease/Downregulation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3a2d3d8d2e4e5e2d4b7a6a7a1e5b6b5",
+      "question": "In the OpenTargets database, what information is available regarding the target MTOR and the event heart disease?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "MTOR",
+            "event": "heart disease"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "cardiovascular system",
+            "tissueId": "UBERON_0004535"
+          }
+        ],
+        "effects": "absence"
+      }
+    },
+    {
+      "id": "b0d9e9e2a9e2e7e8e0e0e9e9e9e9e9e9",
+      "question": "In the OpenTargets database, what information is available about the target DRD2 in relation to the event decreased convulsions?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "DRD2",
+            "event": "decreased convulsions"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "renal",
+            "tissueId": "UBERON_0001008"
+          },
+          {
+            "tissueLabel": "central nervous system",
+            "tissueId": "UBERON_0001017"
+          },
+          {
+            "tissueLabel": "cardiovascular",
+            "tissueId": "UBERON_0004535"
+          },
+          {
+            "tissueLabel": "gastrointestinal",
+            "tissueId": "UBERON_0005409"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": "acute",
+            "direction": "Activation/Increase/Upregulation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e2c2a8f1b6c7d4e3e5f6a7b8c9d0e1f2",
+      "question": "In the OpenTargets database, what information is available about the event 'increased other serotonin-mediated effects' for the target SLC6A4?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "SLC6A4",
+            "event": "increased other serotonin-mediated effects"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "cardiovascular system",
+            "tissueId": "UBERON_0004535"
+          },
+          {
+            "tissueLabel": "central nervous system",
+            "tissueId": "UBERON_0001017"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": "general",
+            "direction": "Inhibition/Decrease/Downregulation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2f5e4a2b1c8d3e5f4b7a6c1d2e3f4b5",
+      "question": "In the OpenTargets database, what information is available about neurotoxicity for the target GRIN1?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "GRIN1",
+            "event": "neurotoxicity"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "central nervous system",
+            "tissueId": "UBERON_0001017"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": "general",
+            "direction": "Activation/Increase/Upregulation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a4d7e8e7c7d6c5b4a3f2e1d0c9b8a7f6",
+      "question": "In the OpenTargets database, what information is available for the target AKT1 in relation to the event apoptototic cell death in cancer cells?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "AKT1",
+            "event": "apoptototic cell death in cancer cells"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "cardiovascular system",
+            "tissueId": "UBERON_0004535"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": "general",
+            "direction": "Inhibition/Decrease/Downregulation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e5b2b7f7c3e8e7c1e9a1d4d1e1a0b2c3",
+      "question": "In the OpenTargets database, what information is available about the abuse potential event for the target symbol SLC6A2?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "SLC6A2",
+            "event": "abuse potential"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "cardiovascular system",
+            "tissueId": "UBERON_0004535"
+          },
+          {
+            "tissueLabel": "central nervous system",
+            "tissueId": "UBERON_0001017"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": "general",
+            "direction": "Inhibition/Decrease/Downregulation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c1e2b1c2c1c7b1e2e3f4a5b6c7d8e9f0",
+      "question": "In the OpenTargets database, what information is available about haematotoxicity for the target KIT?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "KIT",
+            "event": "haematotoxicity"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "blood",
+            "tissueId": "UBERON_0000178"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": null,
+            "direction": "Inhibition/Decrease/Downregulation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1f2e1d6c5b2e3a9f8d7c4b6a2e5f9c3d",
+      "question": "In the OpenTargets database, what information is available about the event atherothrombosis for the target symbol PTGS2?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "PTGS2",
+            "event": "atherothrombosis"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "renal",
+            "tissueId": "UBERON_0001008"
+          },
+          {
+            "tissueLabel": "immune",
+            "tissueId": "UBERON_0002405"
+          },
+          {
+            "tissueLabel": "cardiovascular",
+            "tissueId": "UBERON_0004535"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": "acute",
+            "direction": "Inhibition/Decrease/Downregulation"
+          }
+        ]
+      }
+    }
+  ]
+}

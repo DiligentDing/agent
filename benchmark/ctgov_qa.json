@@ -1,0 +1,1604 @@
+{
+  "dataset": [
+    {
+      "id": "4fe2c9061b7b1fce",
+      "question": "In ClinicalTrials.gov, which completed interventional studies for Multiple Myeloma involving CC-5013 and Dexamethasone started in January 2003 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Multiple Myeloma;interventions.name=CC-5013;interventions.name=Dexamethasone;startDateFrom=2003-01-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00056160"
+      ]
+    },
+    {
+      "id": "9d5c6a28c512e844",
+      "question": "In ClinicalTrials.gov, which interventional studies for Type 2 Diabetes Mellitus that started in January 2008 in the United States included exenatide once weekly as a main intervention?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Type 2 Diabetes Mellitus;startDateFrom=2008-01-01;locations.country=United States;interventions.name=exenatide once weekly",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00637273"
+      ]
+    },
+    {
+      "id": "574045d82f123890",
+      "question": "In ClinicalTrials.gov, which interventional studies for Hereditary Angioedema (HAE) involving ecallantide that started in December 2005 were conducted in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Hereditary Angioedema (HAE);interventions.name=ecallantide;startDateFrom=2005-12-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00262080"
+      ]
+    },
+    {
+      "id": "619ae1de712fecd8",
+      "question": "In ClinicalTrials.gov, which interventional studies for Cystic Fibrosis with Mannitol as a main intervention started in March 2007 in Australia?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Cystic Fibrosis;interventions.name=Mannitol;startDateFrom=2007-03-01;locations.country=Australia",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00446680"
+      ]
+    },
+    {
+      "id": "d2a4ba224810da52",
+      "question": "In ClinicalTrials.gov, which interventional studies for Coronary Arteriosclerosis or Acute Coronary Syndromes started in November 2004 and included Prasugrel as a main intervention in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Coronary Arteriosclerosis,Acute Coronary Syndromes;startDateFrom=2004-11-01;interventions.name=Prasugrel;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00097591"
+      ]
+    },
+    {
+      "id": "e0e4d199257aec8a",
+      "question": "In ClinicalTrials.gov, which completed interventional studies that started in April 1998 investigated Atorvastatin for Cardiovascular Disease, Cerebrovascular Accident, or Coronary Heart Disease in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;startDateFrom=1998-04-01;conditions=Cardiovascular Disease,Cerebrovascular Accident,Coronary Heart Disease;interventions.name=Atorvastatin;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00327691"
+      ]
+    },
+    {
+      "id": "2e5823243f71019e",
+      "question": "In ClinicalTrials.gov, which interventional studies for Chronic Hepatitis B started in February 2005 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Chronic Hepatitis B;startDateFrom=2005-02-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00117676"
+      ]
+    },
+    {
+      "id": "432dd5e2152f7af7",
+      "question": "In ClinicalTrials.gov, which interventional studies for Non-Hodgkin Lymphoma with the main intervention pixantrone started in July 2004 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Lymphoma, Non-Hodgkin;interventions.name=pixantrone;startDateFrom=2004-07-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00088530"
+      ]
+    },
+    {
+      "id": "ade0ffa72f051e9d",
+      "question": "In ClinicalTrials.gov, which interventional studies for Hepatitis C involving Pegylated Interferon Alfa 2a were started in March 2008 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Hepatitis C;interventions.name=Pegylated Interferon Alfa 2a;startDateFrom=2008-03-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00627926"
+      ]
+    },
+    {
+      "id": "bcf2c4ffc7214a0f",
+      "question": "In ClinicalTrials.gov, which completed interventional studies for idiopathic pulmonary fibrosis with Pirfenidone as an intervention started in April 2006 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Idiopathic Pulmonary Fibrosis;interventions.name=Pirfenidone;startDateFrom=2006-04-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00287729"
+      ]
+    },
+    {
+      "id": "626494873aaabca6",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 3 studies that started in December 2006 investigated atrial fibrillation, stroke, or embolism with Rivaroxaban as an intervention in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;startDateFrom=2006-12-01;conditions=Atrial Fibrillation,Stroke,Embolism;interventions.name=Rivaroxaban;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00403767"
+      ]
+    },
+    {
+      "id": "6b4ffc35b7bbb586",
+      "question": "In ClinicalTrials.gov, which interventional studies for Melanoma with ipilimumab as the main intervention started in April 2006 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Melanoma;interventions.name=ipilimumab;startDateFrom=2006-04-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00289640"
+      ]
+    },
+    {
+      "id": "4d351f74ea57f68c",
+      "question": "In ClinicalTrials.gov, what interventional studies for hormone-refractory prostate cancer that started in May 2000 used sipuleucel-T as a main intervention?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Hormone-Refractory Prostate Cancer;interventions.name=sipuleucel-T;startDateFrom=2000-05-01",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT01133704"
+      ]
+    },
+    {
+      "id": "ed40a04d3775eb08",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 3 studies for leukemia started in July 2001 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;conditions=Leukemia;startDateFrom=2001-07-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00024440"
+      ]
+    },
+    {
+      "id": "71d38d0b6724cc5c",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 3 studies for relapsing-remitting multiple sclerosis involving Alemtuzumab were conducted in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;conditions=Relapsing-Remitting Multiple Sclerosis;interventions.name=Alemtuzumab;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00530348"
+      ]
+    },
+    {
+      "id": "5fc4733fc624cea4",
+      "question": "In ClinicalTrials.gov, what interventional studies for relapsing-remitting multiple sclerosis involving Cladribine 5.25 mg/kg were started in April 2005?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Relapsing-Remitting;interventions.name=Cladribine 5.25 mg/kg;startDateFrom=2005-04-01",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00213135"
+      ]
+    },
+    {
+      "id": "9f1914ac8bd0f1b8",
+      "question": "In ClinicalTrials.gov, which interventional studies for sarcoma, soft tissue that started in November 2005 used pazopanib as the main intervention in France?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Sarcoma, Soft Tissue;startDateFrom=2005-11-01;interventions.name=pazopanib;locations.country=France",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00297258"
+      ]
+    },
+    {
+      "id": "f77d510913ad2605",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 3 studies on obesity with Lorcaserin 10 mg BID as a main intervention started in November 2006 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;conditions=Obesity;interventions.name=Lorcaserin 10 mg BID;startDateFrom=2006-11-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00395135"
+      ]
+    },
+    {
+      "id": "5d97e4876c078b98",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 3 studies for rheumatoid arthritis involving Certolizumab pegol (CDP870) started in February 2005 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;conditions=Rheumatoid Arthritis;interventions.name=Certolizumab pegol (CDP870);startDateFrom=2005-02-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00152386"
+      ]
+    },
+    {
+      "id": "9745c91c3528df35",
+      "question": "In ClinicalTrials.gov, which interventional studies for hepatic encephalopathy with rifaximin or placebo started in December 2005 and are in phase 3?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "phases=PHASE3;conditions=Hepatic Encephalopathy;interventions.name=Rifaximin,Placebo;startDateFrom=2005-12-01",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00298038"
+      ]
+    },
+    {
+      "id": "fb0584255eb1f4f6",
+      "question": "In ClinicalTrials.gov, which interventional studies for Non-Small Cell Lung Cancer that started in January 2006 in the United States used bevacizumab as a main intervention?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Non-Small Cell Lung Cancer;startDateFrom=2006-01-01;locations.country=United States;interventions.name=bevacizumab",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00257608"
+      ]
+    },
+    {
+      "id": "86cbbfa7a3c1c616",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 3 studies for acute coronary syndrome with ticagrelor or clopidogrel as interventions started in October 2006 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;conditions=Acute Coronary Syndrome;interventions.name=Ticagrelor,Clopidogrel;startDateFrom=2006-10-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00391872"
+      ]
+    },
+    {
+      "id": "5a5eed6562f86bc4",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 2 studies for Peripheral T-cell Lymphoma involving Pralatrexate Injection started in August 2006 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE2;conditions=Peripheral T-cell Lymphoma;interventions.name=Pralatrexate Injection;startDateFrom=2006-08-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00364923"
+      ]
+    },
+    {
+      "id": "07dd0d6315c20426",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 2 studies for Gaucher Disease, Type 1 or related conditions involving Eliglustat tartrate started in June 2006 in the United States or Argentina?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE2;conditions=Gaucher Disease, Type 1, Cerebroside Lipidosis Syndrome, Glucocerebrosidase Deficiency Disease, Glucosylceramide Beta-Glucosidase Deficiency Disease, Gaucher Disease, Non-Neuronopathic Form;interventions.name=Eliglustat tartrate;startDateFrom=2006-06-01;locations.country=United States,Argentina",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00358150"
+      ]
+    },
+    {
+      "id": "a0d79508d7bc7a43",
+      "question": "In ClinicalTrials.gov, which recruiting interventional studies that started in June 2022 are investigating Bexmarilimab in Finland?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=RECRUITING;startDateFrom=2022-06-01;interventions.name=Bexmarilimab",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT05428969"
+      ]
+    },
+    {
+      "id": "05d77ca0a3bb7f78",
+      "question": "In ClinicalTrials.gov, which completed interventional studies for Arthritis, Rheumatoid, Arthritis, Psoriatic, or Ankylosing Spondylitis started in August 2005 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Arthritis, Rheumatoid, Arthritis, Psoriatic, Ankylosing Spondylitis;startDateFrom=2005-08-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00126724"
+      ]
+    },
+    {
+      "id": "ac9f939e8e04b76f",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 2 studies for multiple myeloma involving carfilzomib started in September 2007 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE2;conditions=Multiple Myeloma;interventions.name=carfilzomib;startDateFrom=2007-09-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00530816"
+      ]
+    },
+    {
+      "id": "0c64ce433e245135",
+      "question": "In ClinicalTrials.gov, which completed interventional studies for Multiple Sclerosis involving Fingolimod 1.25 mg as an intervention started in May 2006 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Multiple Sclerosis;interventions.name=Fingolimod 1.25 mg;startDateFrom=2006-05-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00340834"
+      ]
+    },
+    {
+      "id": "32aedeec0bfd92bf",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 2 studies for neoplasm metastasis or colorectal cancer involving cetuximab or oxaliplatin started in July 2005 in Austria?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE2;conditions=Neoplasm Metastasis,Colorectal Cancer;interventions.name=Cetuximab,Oxaliplatin;startDateFrom=2005-07-01",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00125034"
+      ]
+    },
+    {
+      "id": "841a881737f0fd98",
+      "question": "In ClinicalTrials.gov, which completed interventional studies for Multiple Sclerosis involving Fingolimod started in June 2006 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Multiple Sclerosis;interventions.name=Fingolimod;startDateFrom=2006-06-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00355134"
+      ]
+    },
+    {
+      "id": "a5543607cc12b489",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 3 studies for idiopathic pulmonary fibrosis involving Pirfenidone were started in July 2006 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;conditions=Idiopathic Pulmonary Fibrosis;interventions.name=Pirfenidone;startDateFrom=2006-07-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00287716"
+      ]
+    },
+    {
+      "id": "57c13b09e6667d6a",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 3 studies that started in August 2003 investigated Angiomax (bivalirudin) anticoagulant for unstable angina, myocardial infarction, or acute disease in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;startDateFrom=2003-08-01;conditions=Unstable Angina,Myocardial Infarction,Acute Disease;interventions.name=Angiomax (bivalirudin) anticoagulant;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00093158"
+      ]
+    },
+    {
+      "id": "247f62486f1e64e2",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 3 studies for obesity started in November 2007 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;conditions=Obesity;startDateFrom=2007-11-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00554216"
+      ]
+    },
+    {
+      "id": "85ca3892da168589",
+      "question": "In ClinicalTrials.gov, which completed interventional studies for Non-Hodgkins Lymphoma involving Lenalidomide started in August 2005 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Non-Hodgkins Lymphoma;interventions.name=Lenalidomide;startDateFrom=2005-08-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00179660"
+      ]
+    },
+    {
+      "id": "9376e39e8cd57ca6",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 3 studies on cardiovascular diseases that started in June 1994 used adrenergic beta antagonists as the main intervention?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;startDateFrom=1994-06-01;conditions=Cardiovascular Diseases",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00000560"
+      ]
+    },
+    {
+      "id": "8e74c7b883127bd1",
+      "question": "In ClinicalTrials.gov, which interventional studies for Multiple Myeloma using bortezomib started in December 2004 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Multiple Myeloma;interventions.name=bortezomib;startDateFrom=2004-12-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00111319"
+      ]
+    },
+    {
+      "id": "c912efcc4e819be1",
+      "question": "In ClinicalTrials.gov, which interventional studies for Multiple Sclerosis involving Teriflunomide started in September 2004 in Austria?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Multiple Sclerosis;interventions.name=Teriflunomide;startDateFrom=2004-09-01",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00134563"
+      ]
+    },
+    {
+      "id": "ec16627fa0e0b038",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 3 studies for Migraine Disorders started in July 2008 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;conditions=Migraine Disorders;startDateFrom=2008-07-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00623636"
+      ]
+    },
+    {
+      "id": "aac795ecd2c33286",
+      "question": "In ClinicalTrials.gov, what completed interventional studies for metastatic colorectal cancer that started in August 2006 investigated panitumumab and the FOLFOX regimen?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Metastatic Colorectal Cancer;interventions.name=Panitumumab;interventions.name=FOLFOX regimen;startDateFrom=2006-08-01",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00364013"
+      ]
+    },
+    {
+      "id": "74a84aaef9fe72c5",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 3 studies for prostate cancer with Sipuleucel-T as a main intervention started in July 2003 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;conditions=Prostate Cancer;interventions.name=Sipuleucel-T;startDateFrom=2003-07-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00065442"
+      ]
+    },
+    {
+      "id": "6671ea6acc9e5c90",
+      "question": "In ClinicalTrials.gov, which interventional phase 3 studies for Hodgkin Lymphoma involving brentuximab vedotin are active but not recruiting in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=ACTIVE_NOT_RECRUITING;phases=PHASE3;conditions=Hodgkin Lymphoma;interventions.name=brentuximab vedotin;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT01712490"
+      ]
+    },
+    {
+      "id": "c0c4ba4b62e59d58",
+      "question": "In ClinicalTrials.gov, what interventional studies for osteoarthritis that started in December 2005 included Naproxcinod 375 mg as an intervention?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Osteoarthritis;startDateFrom=2005-12-01;interventions.name=Naproxcinod 375 mg",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00542555"
+      ]
+    },
+    {
+      "id": "d774df873f366df5",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 3 studies for obesity or overweight started in December 2007 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;conditions=Obesity,Overweight;startDateFrom=2007-12-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00567255"
+      ]
+    },
+    {
+      "id": "3c53d85d5c5c9c88",
+      "question": "In ClinicalTrials.gov, which completed interventional studies for metastatic breast cancer with Eribulin Mesylate as a main intervention have been conducted in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Metastatic Breast Cancer;interventions.name=Eribulin Mesylate;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00337103"
+      ]
+    },
+    {
+      "id": "05c5168fb1b750a4",
+      "question": "In ClinicalTrials.gov, which completed interventional studies for gout with the main interventions pegloticase or placebo started in May 2006 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Gout;interventions.name=pegloticase,placebo;startDateFrom=2006-05-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00325195"
+      ]
+    },
+    {
+      "id": "4b1e7083a1f0c6fe",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 2 studies for multiple myeloma involving carfilzomib started in August 2007 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE2;conditions=Multiple Myeloma;interventions.name=carfilzomib;startDateFrom=2007-08-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00511238"
+      ]
+    },
+    {
+      "id": "ea651cbcc6f43a70",
+      "question": "In ClinicalTrials.gov, which interventional studies for malignant melanoma started in December 2005 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Malignant Melanoma;startDateFrom=2005-12-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00135408"
+      ]
+    },
+    {
+      "id": "13dbba4133e814d2",
+      "question": "In ClinicalTrials.gov, which interventional studies for Diabetes Mellitus, Type 2 started in February 2006 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Diabetes Mellitus, Type 2;startDateFrom=2006-02-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00294723"
+      ]
+    },
+    {
+      "id": "7dd7b41ab4b2e3bd",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 3 studies for Myelodysplastic Syndromes involving Azacitidine started in November 2003 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;conditions=Myelodysplastic Syndromes;interventions.name=Azacitidine;startDateFrom=2003-11-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00071799"
+      ]
+    },
+    {
+      "id": "20dab4525b82c416",
+      "question": "In ClinicalTrials.gov, which interventional studies for Non-Hodgkin's Lymphoma using lenalidomide started in June 2006 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Lymphoma, Non-Hodgkin's;interventions.name=lenalidomide;startDateFrom=2006-06-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00413036"
+      ]
+    },
+    {
+      "id": "46da9c8f9e750ce4",
+      "question": "In ClinicalTrials.gov, which interventional studies for Rheumatoid Arthritis involving Filgotinib started in July 2016 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Rheumatoid Arthritis;interventions.name=Filgotinib;startDateFrom=2016-07-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT02873936"
+      ]
+    },
+    {
+      "id": "4db06d420744926f",
+      "question": "In ClinicalTrials.gov, which completed interventional studies for squamous cell carcinoma of the oral cavity or soft palate started in December 2010 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Squamous Cell Carcinoma of the Oral Cavity,Squamous Cell Carcinoma of the Soft Palate;startDateFrom=2010-12-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT01265849"
+      ]
+    },
+    {
+      "id": "74ceed322b0b0204",
+      "question": "In ClinicalTrials.gov, which completed interventional studies for Hepatorenal Syndrome that started in June 2004 included terlipressin as an intervention and were conducted in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Hepatorenal Syndrome;interventions.name=terlipressin;startDateFrom=2004-06-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00089570"
+      ]
+    },
+    {
+      "id": "f1647435d8b4b23a",
+      "question": "In ClinicalTrials.gov, which interventional studies for Prostate Cancer that started in October 2003 in the United States used Toremifene Citrate as the main intervention?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Prostate Cancer;startDateFrom=2003-10-01;locations.country=United States;interventions.name=Toremifene Citrate",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00129142"
+      ]
+    },
+    {
+      "id": "973a7e02fa6512b6",
+      "question": "In ClinicalTrials.gov, which interventional studies for breast cancer with Docetaxel, Bevacizumab, or placebo to bevacizumab as interventions started in March 2006 in Australia?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Breast Cancer;interventions.name=Docetaxel,Bevacizumab,Placebo to bevacizumab;startDateFrom=2006-03-01;locations.country=Australia",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00333775"
+      ]
+    },
+    {
+      "id": "84ae044199855675",
+      "question": "In ClinicalTrials.gov, which interventional studies for atrial fibrillation or atrial flutter involving warfarin or apixaban started in December 2006 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Atrial Fibrillation,Atrial Flutter;interventions.name=warfarin,apixaban;startDateFrom=2006-12-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00412984"
+      ]
+    },
+    {
+      "id": "71bc6a869f09a922",
+      "question": "In ClinicalTrials.gov, what interventional studies on obesity that started in January 2008 in the United States investigated Lorcaserin 10 mg once daily (QD), Lorcaserin 10 mg twice a day (BID), or Matching Placebo?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Obesity;startDateFrom=2008-01-01;interventions.name=Lorcaserin 10 mg once daily (QD),Lorcaserin 10 mg twice a day (BID),Matching Placebo;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00603902"
+      ]
+    },
+    {
+      "id": "bb69a6df4d5d1e64",
+      "question": "In ClinicalTrials.gov, which interventional studies for Epidermal Growth Factor Receptor (EGFR) Expressing Metastatic Colorectal Cancer that started in May 2004 and used Cetuximab as a main intervention were conducted in Australia?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Epidermal Growth Factor Receptor (EGFR) Expressing Metastatic Colorectal Cancer;startDateFrom=2004-05-01;interventions.name=Cetuximab;locations.country=Australia",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00154102"
+      ]
+    },
+    {
+      "id": "ecbd5ad9d00ca7b5",
+      "question": "In ClinicalTrials.gov, what interventional studies for bone metastases that started in April 2006 used Denosumab or Zoledronic Acid as interventions?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Bone Metastases;interventions.name=Denosumab,Zoledronic Acid;startDateFrom=2006-04-01",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00321464"
+      ]
+    },
+    {
+      "id": "8aee32bc89ffc847",
+      "question": "In ClinicalTrials.gov, which completed interventional studies for obesity or overweight started in October 2007 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Obesity,Overweight;startDateFrom=2007-10-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00532779"
+      ]
+    },
+    {
+      "id": "7532d4aee98411a6",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 3 studies for cystic fibrosis with denufosol tetrasodium (INS37217) Inhalation Solution as an intervention started in July 2006?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;conditions=Cystic Fibrosis;interventions.name=denufosol tetrasodium (INS37217) Inhalation Solution;startDateFrom=2006-07-01",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00357279"
+      ]
+    },
+    {
+      "id": "937f2824562d1c9a",
+      "question": "In ClinicalTrials.gov, which completed phase 3 interventional studies for Pseudobulbar Affect (PBA) involving dextromethorphan hydrobromide and quinidine sulfate started in December 2007 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;conditions=Pseudobulbar Affect (PBA);interventions.name=dextromethorphan hydrobromide 20 mg and quinidine sulfate 10 mg,dextromethorphan hydrobromide 30 mg and quinidine sulfa;startDateFrom=2007-12-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00573443"
+      ]
+    },
+    {
+      "id": "8d80a2d21d2bdc82",
+      "question": "In ClinicalTrials.gov, which interventional studies for Mucopolysaccharidosis Type II (MPS II) with the intervention RGX-121 started in September 2018 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Mucopolysaccharidosis Type II (MPS II);interventions.name=RGX-121;startDateFrom=2018-09-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT03566043"
+      ]
+    },
+    {
+      "id": "51016ad4530c955f",
+      "question": "In ClinicalTrials.gov, which interventional studies for Non-Hodgkin's Lymphoma or Hodgkin's Disease involving SB-743921 started in April 2006 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Non-Hodgkin's Lymphoma,Hodgkin's Disease;interventions.name=SB-743921;startDateFrom=2006-04-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00343564"
+      ]
+    },
+    {
+      "id": "ae87a761625decfc",
+      "question": "In ClinicalTrials.gov, what completed interventional studies for relapsing-remitting multiple sclerosis involving natalizumab were started in November 2001 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Relapsing-Remitting Multiple Sclerosis;interventions.name=Natalizumab;startDateFrom=2001-11-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00027300"
+      ]
+    },
+    {
+      "id": "2bdbb5a5cdabea67",
+      "question": "In ClinicalTrials.gov, which completed interventional studies for atrial fibrillation or stroke involving warfarin or dabigatran that started in December 2005 were conducted in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Atrial Fibrillation,Stroke;interventions.name=warfarin,Dabigatran dose 1,Dabigatran dose 2;startDateFrom=2005-12-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00262600"
+      ]
+    },
+    {
+      "id": "119a90756f42a7c0",
+      "question": "In ClinicalTrials.gov, which interventional studies for Chronic Fatigue Syndrome or Myalgic Encephalomyelitis that started in December 1998 used Ampligen as the main intervention?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Chronic Fatigue Syndrome,Myalgic Encephalomyelitis;startDateFrom=1998-12-01;interventions.name=Ampligen",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00215800"
+      ]
+    },
+    {
+      "id": "9df7e94e7f968627",
+      "question": "In ClinicalTrials.gov, which interventional studies for lung neoplasms or non-small-cell lung carcinoma started in August 2000 in Germany?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Lung Neoplasms,Carcinoma,Non-Small-Cell Lung;startDateFrom=2000-08-01;locations.country=Germany",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00157209"
+      ]
+    },
+    {
+      "id": "2d3d524597e89442",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 3 studies for Type 2 Diabetes Mellitus involving Exenatide Once Weekly were conducted in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;conditions=Type 2 Diabetes Mellitus;interventions.name=Exenatide Once Weekly;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00641056"
+      ]
+    },
+    {
+      "id": "41a11b46a3f85c5d",
+      "question": "In ClinicalTrials.gov, which completed phase 3 interventional studies for psoriasis involving Ustekinumab (CNTO 1275) 45 or 90 mg that started in May 2005 were conducted in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;conditions=Psoriasis;interventions.name=Ustekinumab (CNTO 1275) 45 or 90 mg;startDateFrom=2005-05-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00307437"
+      ]
+    },
+    {
+      "id": "209f9a227d924855",
+      "question": "In ClinicalTrials.gov, which completed interventional studies for Beta-Thalassemia using LentiGlobin BB305 Drug Product started in June 2017 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Beta-Thalassemia;interventions.name=LentiGlobin BB305 Drug Product;startDateFrom=2017-06-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT03207009"
+      ]
+    },
+    {
+      "id": "b73c77d9390e9ce7",
+      "question": "In ClinicalTrials.gov, which interventional studies for Non-Hodgkin Lymphomas that started in January 2004 in Germany investigated Bendamustine?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Non-Hodgkin Lymphomas;startDateFrom=2004-01-01;locations.country=Germany;interventions.name=Bendamustine",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00991211"
+      ]
+    },
+    {
+      "id": "b6ccbc53474aa411",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 2 studies for relapsing-remitting multiple sclerosis involving Interferon beta-1a or Alemtuzumab were started in December 2002 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE2;startDateFrom=2002-12-01;conditions=Multiple Sclerosis,Relapsing-Remitting;interventions.name=Interferon beta-1a,Alemtuzumab 12 mg,Alemtuzumab 24 mg;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00050778"
+      ]
+    },
+    {
+      "id": "4f27b9c17ea4d9a0",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 3 studies for relapsing-remitting multiple sclerosis involving Fingolimod 1.25 mg, Fingolimod 0.5 mg, or Placebo started in January 2006 in Australia?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;conditions=Relapsing-remitting Multiple Sclerosis;interventions.name=Fingolimod 1.25 mg,Fingolimod 0.5 mg,Placebo;startDateFrom=2006-01-01;locations.country=Australia",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00289978"
+      ]
+    },
+    {
+      "id": "a0e5ba3bebde580d",
+      "question": "In ClinicalTrials.gov, which interventional studies for myocardial ischemia that started in October 2004 in the United States included ranolazine as a main intervention?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Myocardial Ischemia;interventions.name=Ranolazine;startDateFrom=2004-10-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00099788"
+      ]
+    },
+    {
+      "id": "1ba73f3b89a52c53",
+      "question": "In ClinicalTrials.gov, which interventional studies for ovarian cancer with the main intervention Trabectedin started in April 2005 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Ovarian Cancer;interventions.name=Trabectedin;startDateFrom=2005-04-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00113607"
+      ]
+    },
+    {
+      "id": "dc2a9f650376505e",
+      "question": "In ClinicalTrials.gov, what interventional studies for Chronic Hepatitis B that started in June 2005 in the United States investigated TDF as a main intervention?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Chronic Hepatitis B;startDateFrom=2005-06-01;locations.country=United States;interventions.name=TDF",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00116805"
+      ]
+    },
+    {
+      "id": "f5273ef4b1dc9f96",
+      "question": "In ClinicalTrials.gov, which completed interventional studies for Multiple Sclerosis involving Laquinimod started in November 2007 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Multiple Sclerosis;interventions.name=Laquinimod;startDateFrom=2007-11-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00509145"
+      ]
+    },
+    {
+      "id": "1b9617e2d13a1a41",
+      "question": "In ClinicalTrials.gov, which completed interventional studies for cachexia started in May 2007 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Cachexia;startDateFrom=2007-05-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00467844"
+      ]
+    },
+    {
+      "id": "d5847bc039b57e38",
+      "question": "In ClinicalTrials.gov, which completed interventional studies for Diabetes Mellitus, Type 2 started in August 2007 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Diabetes Mellitus, Type 2;startDateFrom=2007-08-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00518882"
+      ]
+    },
+    {
+      "id": "e1ac5239dcc69ac6",
+      "question": "In ClinicalTrials.gov, which interventional studies for Relapsing-Remitting Multiple Sclerosis with BG00012 as a main intervention started in January 2007 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Relapsing-Remitting Multiple Sclerosis;interventions.name=BG00012;startDateFrom=2007-01-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00420212"
+      ]
+    },
+    {
+      "id": "a5aa3103b602ade6",
+      "question": "In ClinicalTrials.gov, which interventional studies for Breast Cancer that started in June 1997 included Docetaxel as an intervention and were conducted in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Breast Cancer;startDateFrom=1997-06-01;interventions.name=Docetaxel;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00688740"
+      ]
+    },
+    {
+      "id": "ab48f76359f8a13d",
+      "question": "In ClinicalTrials.gov, which interventional studies for Heart Failure, Congestive or Dilated Cardiomyopathy started in March 2007 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Heart Failure, Congestive,Dilated Cardiomyopathy;startDateFrom=2007-03-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00454818"
+      ]
+    },
+    {
+      "id": "2f2c32e2af7f354d",
+      "question": "In ClinicalTrials.gov, what interventional studies for Type 2 Diabetes Mellitus involving exenatide or long acting release exenatide started in April 2006 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Type 2 Diabetes Mellitus;interventions.name=exenatide,long acting release,exenatide;startDateFrom=2006-04-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00308139"
+      ]
+    },
+    {
+      "id": "8939e7a4692685cf",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 3 studies for Relapsing-Remitting Multiple Sclerosis started in June 2007 and included BG00012 as an intervention in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=Completed;phases=Phase 3;startDateFrom=2007-06-01;conditions=Relapsing-Remitting Multiple Sclerosis;interventions.name=BG00012;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00451451"
+      ]
+    },
+    {
+      "id": "57f6e8a3c16eac8c",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 3 studies for Clostridium Infections or Diarrhea started in May 2006 and included Fidaxomicin as an intervention?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;conditions=Clostridium Infections,Diarrhea;interventions.name=Fidaxomicin;startDateFrom=2006-05-01",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00314951"
+      ]
+    },
+    {
+      "id": "b17bb960648a1823",
+      "question": "In ClinicalTrials.gov, which interventional studies for Cutaneous T-Cell Lymphoma, Peripheral T-Cell Lymphoma, or Non-Hodgkin's Lymphoma using belinostat started in January 2006 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Cutaneous T-Cell Lymphoma,Peripheral T-Cell Lymphoma,Non-Hodgkin's Lymphoma;interventions.name=belinostat;startDateFrom=2006-01-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00274651"
+      ]
+    },
+    {
+      "id": "dba714a6a9479c04",
+      "question": "In ClinicalTrials.gov, which interventional studies for Breast Cancer started in January 2007 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Breast Cancer;startDateFrom=2007-01-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00524277"
+      ]
+    },
+    {
+      "id": "30a912e27c0b34ab",
+      "question": "In ClinicalTrials.gov, which interventional studies for Multiple Myeloma that started in January 2003 in Australia used CC-5013 plus dexamethasone as a main intervention?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Multiple Myeloma;startDateFrom=2003-01-01;interventions.name=CC-5013 plus dexamethasone;locations.country=Australia",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00424047"
+      ]
+    },
+    {
+      "id": "bc402248bf609748",
+      "question": "In ClinicalTrials.gov, which interventional studies for Clostridium Infections or Diarrhea involving PAR-101/OPT-80 or Vancomycin started in October 2006 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Clostridium Infections,Diarrhea;interventions.name=PAR-101/OPT-80,Vancomycin;startDateFrom=2006-10-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00468728"
+      ]
+    },
+    {
+      "id": "13d6eb3cfe24e915",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 3 studies for diabetes or type 2 diabetes mellitus started in May 2006 in Argentina?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;conditions=Diabetes,Diabetes Mellitus,Type 2;startDateFrom=2006-05-01",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00318461"
+      ]
+    },
+    {
+      "id": "48720ae9ee3cdb52",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 3 studies for breast cancer started in March 1998 in Denmark?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;conditions=Breast Cancer;startDateFrom=1998-03-01",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00004205"
+      ]
+    },
+    {
+      "id": "bcfb77a6f5da1745",
+      "question": "In ClinicalTrials.gov, what interventional studies for metastatic colorectal cancer with panitumumab and FOLFIRI started in June 2006?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Metastatic Colorectal Cancer;interventions.name=Panitumumab;interventions.name=FOLFIRI;startDateFrom=2006-06-01",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00339183"
+      ]
+    },
+    {
+      "id": "ea8d327c0e542814",
+      "question": "In ClinicalTrials.gov, which completed interventional studies for chronic myelogenous leukemia started in July 2007 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Myelogenous Leukemia, Chronic;startDateFrom=2007-07-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00471497"
+      ]
+    },
+    {
+      "id": "56f3eb0b83c1c662",
+      "question": "In ClinicalTrials.gov, which interventional studies for Systemic Lupus Erythematosus started in October 2003 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Lupus Erythematosus, Systemic;startDateFrom=2003-10-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00071487"
+      ]
+    },
+    {
+      "id": "a6ee597988e479d5",
+      "question": "In ClinicalTrials.gov, what interventional studies on melanoma that started in September 2007 and used PV-10 (10% rose bengal disodium) as the main intervention have been conducted in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Melanoma;startDateFrom=2007-09-01;interventions.name=PV-10 (10% rose bengal disodium);locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00521053"
+      ]
+    },
+    {
+      "id": "3867f8ece689fa8e",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 3 studies for HIV Infections or Lipodystrophy involving TH9507 started in June 2005 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;conditions=HIV Infections,Lipodystrophy;interventions.name=TH9507;startDateFrom=2005-06-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00123253"
+      ]
+    },
+    {
+      "id": "10fd3c458b70564f",
+      "question": "In ClinicalTrials.gov, which completed interventional studies for prostate cancer with sipuleucel-T as a main intervention started in November 1999 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Prostate Cancer;interventions.name=sipuleucel-T;startDateFrom=1999-11-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00005947"
+      ]
+    },
+    {
+      "id": "eba60ebc3fc43ec2",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 2 studies for Acute Myeloid Leukemia started in December 2007 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE2;conditions=Acute Myeloid Leukemia;startDateFrom=2007-12-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00590187"
+      ]
+    },
+    {
+      "id": "04c5d1e67a8ed79f",
+      "question": "In ClinicalTrials.gov, which interventional studies for Obesity or Type 2 Diabetes involving VI-0521 started in November 2007 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Obesity,Type 2 Diabetes;interventions.name=VI-0521;startDateFrom=2007-11-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00553787"
+      ]
+    }
+  ]
+}

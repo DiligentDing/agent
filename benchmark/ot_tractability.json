@@ -1,0 +1,6439 @@
+{
+  "dataset": [
+    {
+      "id": "40919c2531900b1e",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000065989 and approved symbol PDE4A, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000065989",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "cd4b9ec40db02a21",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000120156 and approved symbol TEK, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000120156",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "c5d2bcc7f1738595",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000143799 and approved symbol PARP1, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000143799",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "4cb924b1f31c16e2",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000166736 and approved symbol HTR3A where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000166736",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "9c060d5abf56a420",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000022355 and approved symbol GABRA1 where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000022355",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "c2bba151a0daf11b",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000169174 and approved symbol PCSK9, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000169174",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Advanced Clinical"
+        }
+      ]
+    },
+    {
+      "id": "1be743c63ac5689e",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000140675 and approved symbol SLC5A2 where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000140675",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "79ae045ada05e696",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000159110 and approved symbol IFNAR2, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000159110",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Med-Quality Pocket"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "2527fa0b35770584",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000125538 and approved symbol IL1B, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000125538",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "ff0a100f2790fcae",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000141736 and approved symbol ERBB2, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000141736",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "80bd66b5aaf8e421",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000169252 and approved symbol ADRB2, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000169252",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "0fd006af04aaf190",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000037280 and approved symbol FLT4, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000037280",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "Phase 1 Clinical"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "385253945cbe0a2b",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000113302 and approved symbol IL12B, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000113302",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Med-Quality Pocket"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        }
+      ]
+    },
+    {
+      "id": "2eb055c1407d7ce6",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000144285 and approved symbol SCN1A, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000144285",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "b9ef50631f50a0a8",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000169432 and approved symbol SCN9A, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000169432",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "6b29b413532ad7f7",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000091831 and approved symbol ESR1, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000091831",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "PR",
+          "label": "Advanced Clinical"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "f2e2d99de6a042f7",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000232810 and approved symbol TNF, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000232810",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "7b199202f52117ab",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000185811 and approved symbol IKZF1, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000185811",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "972a93ece45a565b",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000128052 and approved symbol KDR, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000128052",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Advanced Clinical"
+        }
+      ]
+    },
+    {
+      "id": "2a2fb932bd99134b",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000117400 and approved symbol MPL, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000117400",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "7de90fe834ef113a",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000176890 and approved symbol TYMS, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000176890",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "2c31a240bb2e6bde",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000186297 and approved symbol GABRA5, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000186297",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "5f417c308174e957",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000160013 and approved symbol PTGIR, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000160013",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "80ef4f99a77da7b1",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000102755 and approved symbol FLT1, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000102755",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "Advanced Clinical"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Advanced Clinical"
+        }
+      ]
+    },
+    {
+      "id": "8c6e4970e4f231d2",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000072518 and approved symbol MARK2, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000072518",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "2d4f82fb9dfb7fb4",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000144891 and approved symbol AGTR1, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000144891",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "033ed0024d62da9c",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000015413 and approved symbol DPEP1, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000015413",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "c037ed07d29415c2",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000180210 and approved symbol F2, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000180210",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "Advanced Clinical"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "9697336106a3ad65",
+      "question": "In the OpenTargets platform, can you provide the tractability information for the target with Ensembl ID ENSG00000163599 and approved symbol CTLA4, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000163599",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        }
+      ]
+    },
+    {
+      "id": "1eb50d80b16ef430",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000082556 and approved symbol OPRK1, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000082556",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "3313d5eb3b75c039",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000156738 and approved symbol MS4A1, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000156738",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "f7c3971d9d20953c",
+      "question": "In the OpenTargets platform, can you provide the tractability information for the target with Ensembl ID ENSG00000134853 and approved symbol PDGFRA, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000134853",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "1cf1e6e8d8990e39",
+      "question": "In the OpenTargets platform, can you provide the tractability information for the target with Ensembl ID ENSG00000120659 and approved symbol TNFSF11, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000120659",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "07e8399a0bd880c6",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000170820 and approved symbol FSHR, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000170820",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "cb92e2704da3c21b",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000151834 and approved symbol GABRA2 where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000151834",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "553bf7a6784da869",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000151067 and approved symbol CACNA1C, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000151067",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "015c422875206c5a",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000146648 and approved symbol EGFR, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000146648",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Advanced Clinical"
+        }
+      ]
+    },
+    {
+      "id": "f14781c93f361242",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000129484 and approved symbol PARP2, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000129484",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Med-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "f0fb3ca980573322",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000133703 and approved symbol KRAS, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000133703",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "ad76e76f565166c4",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000157764 and approved symbol BRAF, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000157764",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "527b29c17fd8397c",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000110944 and approved symbol IL23A, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000110944",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        }
+      ]
+    },
+    {
+      "id": "54db360a6d5f7751",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000169083 and approved symbol AR, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000169083",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "PR",
+          "label": "Advanced Clinical"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "68bd8a80e31042b5",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000010671 and approved symbol BTK, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000010671",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "Phase 1 Clinical"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "2aeba6f57d8a64c2",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000126934 and approved symbol MAP2K2, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000126934",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "690bd57e4912f113",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000171791 and approved symbol BCL2, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000171791",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Advanced Clinical"
+        }
+      ]
+    },
+    {
+      "id": "bdfadf869c2c7add",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000162009 and approved symbol SSTR5, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000162009",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "3d8c1308a604f865",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000112715 and approved symbol VEGFA, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000112715",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Med-Quality Pocket"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "9ad24403f135063d",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000132155 and approved symbol RAF1, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000132155",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "3834a882082a7916",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000196230 and approved symbol TUBB, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000196230",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "b2ae0343f8be21e0",
+      "question": "In the OpenTargets platform, is the tractability information for the target with Ensembl ID ENSG00000116329 and approved symbol OPRD1 marked as true?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000116329",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "5e98cee44aaf3445",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000126218 and approved symbol F10 where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000126218",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Med-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "271ee98b3114b989",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000161405 and approved symbol IKZF3 where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000161405",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "46248cb8d78f7913",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000134460 and approved symbol IL2RA, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000134460",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "8bfabb3407f4aa78",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000169313 and approved symbol P2RY12, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000169313",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "11d472350bf1e370",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000112038 and approved symbol OPRM1, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000112038",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Advanced Clinical"
+        }
+      ]
+    },
+    {
+      "id": "ee9b3b3658dbcbcd",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000113749 and approved symbol HRH2, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000113749",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "622824a465225e6a",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000112164 and approved symbol GLP1R where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000112164",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Advanced Clinical"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "c4107d5806d8c439",
+      "question": "In the OpenTargets platform, can you provide the tractability information for the target with Ensembl ID ENSG00000169032 and approved symbol MAP2K1, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000169032",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "8d166d5e31db0fce",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000169194 and approved symbol IL13, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000169194",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        }
+      ]
+    },
+    {
+      "id": "2559cf799bdb3a87",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000188389 and approved symbol PDCD1, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000188389",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Advanced Clinical"
+        }
+      ]
+    },
+    {
+      "id": "e086f6906804d960",
+      "question": "In the OpenTargets platform, can you provide the tractability information for the target with Ensembl ID ENSG00000113448 and approved symbol PDE4D, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000113448",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "8db807f1f6d7ab21",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000180616 and approved symbol SSTR2, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000180616",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Advanced Clinical"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "2f257504166c6f87",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000096968 and approved symbol JAK2, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000096968",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "df1733bb33ccad98",
+      "question": "In the OpenTargets platform, can you provide the tractability information for the target with Ensembl ID ENSG00000153253 and approved symbol SCN3A, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000153253",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "1e4dd7f25721d1ef",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000104870 and approved symbol FCGRT, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000104870",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "5b636b4b50fd7d18",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000173511 and approved symbol VEGFB, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000173511",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "OC",
+          "label": "Advanced Clinical"
+        }
+      ]
+    },
+    {
+      "id": "777653c49273fee7",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000142192 and approved symbol APP, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000142192",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Advanced Clinical"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Advanced Clinical"
+        }
+      ]
+    },
+    {
+      "id": "6be37c1209294ce6",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000131747 and approved symbol TOP2A, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000131747",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "Advanced Clinical"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "132c7e3083f257c9",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000011677 and approved symbol GABRA3, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000011677",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "46a80020db8a90dd",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000133019 and approved symbol CHRM3, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000133019",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "03328583e273afeb",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000187266 and approved symbol EPOR, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000187266",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "a857c5beeb3de3f1",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000140443 and approved symbol IGF1R, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000140443",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "19f3428401304c0d",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000196639 and approved symbol HRH1, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000196639",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Med-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "4a77f2eebf128b6b",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000211891 and approved symbol IGHE, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000211891",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        }
+      ]
+    },
+    {
+      "id": "3d10764ba678c673",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000242950 and approved symbol ERVW-1, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000242950",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "AB",
+          "label": "Advanced Clinical"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC med conf"
+        }
+      ]
+    },
+    {
+      "id": "40cb070e4afcd51e",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000113851 and approved symbol CRBN, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000113851",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "9883db798db285eb",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000109163 and approved symbol GNRHR, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000109163",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "60ef0612a67a8d21",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000198900 and approved symbol TOP1, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000198900",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "91690cb87f5b1860",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000043591 and approved symbol ADRB1, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000043591",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "b667d3fd8105b568",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000095303 and approved symbol PTGS1, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000095303",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "60ac9ab9cbda7a74",
+      "question": "In the OpenTargets platform, can you provide the tractability information for the target with Ensembl ID ENSG00000105976 and approved symbol MET, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000105976",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Advanced Clinical"
+        }
+      ]
+    },
+    {
+      "id": "65e32c91cb91f754",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000091879 and approved symbol ANGPT2 where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000091879",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "OC",
+          "label": "Advanced Clinical"
+        }
+      ]
+    },
+    {
+      "id": "d08377f6a98f58be",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000154188 and approved symbol ANGPT1, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000154188",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "AB",
+          "label": "Phase 1 Clinical"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "OC",
+          "label": "Advanced Clinical"
+        }
+      ]
+    },
+    {
+      "id": "036995b51574ac34",
+      "question": "In the OpenTargets platform, does the target with Ensembl ID ENSG00000198793 and approved symbol MTOR have tractability information available with value set to True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000198793",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "889a593296913909",
+      "question": "In the OpenTargets platform, can you provide the tractability information for the target with Ensembl ID ENSG00000162434 and approved symbol JAK1, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000162434",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "81420fde0193f854",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000105675 and approved symbol ATP4A where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000105675",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "f2369c71af2d7786",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000082175 and approved symbol PGR, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000082175",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "25ac6945705826ce",
+      "question": "In the OpenTargets platform, can you provide the tractability information for the target with Ensembl ID ENSG00000171105 and approved symbol INSR, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000171105",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Advanced Clinical"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "207df940dd611124",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000149295 and approved symbol DRD2, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000149295",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "ef19926fd2a20362",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000101144 and approved symbol BMP7, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000101144",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        }
+      ]
+    },
+    {
+      "id": "5589cf7b9ab05a58",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000122025 and approved symbol FLT3, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000122025",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Med-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "Phase 1 Clinical"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Advanced Clinical"
+        }
+      ]
+    },
+    {
+      "id": "97a0b1c2eea78933",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000113161 and approved symbol HMGCR, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000113161",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "91ed66a54efdcdb0",
+      "question": "In the OpenTargets platform, does the tractability information for the target with Ensembl ID ENSG00000159640 and approved symbol ACE indicate that the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000159640",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "f05887179f1b9c7f",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000121879 and approved symbol PIK3CA, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000121879",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC med conf"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "588f7bdf23b1cf08",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000136244 and approved symbol IL6, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000136244",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Med-Quality Pocket"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "c08806346ca6c503",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000119630 and approved symbol PGF, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000119630",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "AB",
+          "label": "Advanced Clinical"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "26a554f5f58c634a",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000136531 and approved symbol SCN2A, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000136531",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "177442ed9cb6b6a5",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000004468 and approved symbol CD38, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000004468",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "c173365c23804912",
+      "question": "In the OpenTargets platform, does the tractability information indicate that the target with Ensembl ID ENSG00000185499 and approved symbol MUC1 has value set to True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000185499",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Med-Quality Pocket"
+        },
+        {
+          "modality": "AB",
+          "label": "Advanced Clinical"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "OC",
+          "label": "Advanced Clinical"
+        }
+      ]
+    },
+    {
+      "id": "cc9486833b6e0f31",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000117601 and approved symbol SERPINC1, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000117601",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "eaab4702a70ecb78",
+      "question": "In the OpenTargets platform, can you provide the tractability information for the target with Ensembl ID ENSG00000160712 and approved symbol IL6R, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000160712",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        }
+      ]
+    },
+    {
+      "id": "4c17a497ed134fb8",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000108576 and approved symbol SLC6A4, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000108576",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Advanced Clinical"
+        }
+      ]
+    },
+    {
+      "id": "9f28308a3130286d",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000112964 and approved symbol GHR where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000112964",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "322826b1957f035e",
+      "question": "In the OpenTargets platform, can you provide the tractability information for the target with Ensembl ID ENSG00000176884 and approved symbol GRIN1, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000176884",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Advanced Clinical"
+        }
+      ]
+    },
+    {
+      "id": "d58d0360ca64ac9a",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000112115 and approved symbol IL17A, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000112115",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Advanced Clinical"
+        }
+      ]
+    },
+    {
+      "id": "8e35fa2457abf867",
+      "question": "In the OpenTargets platform, is the tractability information for the target with Ensembl ID ENSG00000106804 and approved symbol C5 marked as true?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000106804",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Med-Quality Pocket"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "942e0484f9a11c21",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000184588 and approved symbol PDE4B, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000184588",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "ed551559aba93167",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000142208 and approved symbol AKT1, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000142208",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Advanced Clinical"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "0f7bc49c435ac553",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000113580 and approved symbol NR3C1 where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000113580",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Advanced Clinical"
+        }
+      ]
+    },
+    {
+      "id": "7193ae39fc226ef5",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000197635 and approved symbol DPP4, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000197635",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "Advanced Clinical"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "6b28985dd6f564d4",
+      "question": "In the OpenTargets platform, can you provide the tractability information for the target with Ensembl ID ENSG00000105650 and approved symbol PDE4C, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000105650",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Med-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "5b745c18acf6ec83",
+      "question": "In the OpenTargets platform, what is the tractability information for the target with Ensembl ID ENSG00000103546 and approved symbol SLC6A2, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000103546",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "ef6bcf8ff4aca0e3",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000185010 and approved symbol F8, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000185010",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Med-Quality Pocket"
+        },
+        {
+          "modality": "AB",
+          "label": "Advanced Clinical"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "3a17ab7a18f31996",
+      "question": "In the OpenTargets platform, can you provide the tractability information for the target with Ensembl ID ENSG00000119535 and approved symbol CSF3R, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000119535",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "52d808620e31372f",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000165731 and approved symbol RET, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000165731",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Advanced Clinical"
+        }
+      ]
+    },
+    {
+      "id": "9a592e3941c1dff9",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000120217 and approved symbol CD274, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000120217",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Med-Quality Pocket"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Advanced Clinical"
+        }
+      ]
+    },
+    {
+      "id": "b637217831d33d9c",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000177455 and approved symbol CD19 where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000177455",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    },
+    {
+      "id": "7ac174ce1bcc87e0",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000077238 and approved symbol IL4R, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000077238",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "OC",
+          "label": "Advanced Clinical"
+        }
+      ]
+    },
+    {
+      "id": "e397ac379dfcfb31",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000239732 and approved symbol TLR9, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000239732",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Advanced Clinical"
+        }
+      ]
+    },
+    {
+      "id": "b03f212ece081a3a",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000157404 and approved symbol KIT, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000157404",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "Phase 1 Clinical"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ]
+    },
+    {
+      "id": "561b288d4af61c62",
+      "question": "In the OpenTargets platform, can you provide the tractability information for the target with Ensembl ID ENSG00000073756 and approved symbol PTGS2, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000073756",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ]
+    }
+  ]
+}
