@@ -1,0 +1,402 @@
+{
+  "0": {
+    "score": 2.0,
+    "explanation": "2: The model answer includes the correct study (NCT00213135) but incorrectly adds NCT00641537, which was not started in April 2005, constituting a moderate factual error."
+  },
+  "1": {
+    "score": 2.0,
+    "explanation": "2: The model lists the correct study (NCT00325195) but also includes three additional studies that do not meet all the specified criteria, representing moderate factual errors/omissions."
+  },
+  "2": {
+    "score": 2.0,
+    "explanation": "2: The model answer fails to provide the correct PMID, which is the key fact, but does offer a plausible explanation for its absence; however, it omits the required information and does not cover enough key facts."
+  },
+  "3": {
+    "score": 5.0,
+    "explanation": "5: All key clinical facts are present; the PMID is correct and matches the reference answer with no inaccuracies or omissions."
+  },
+  "4": {
+    "score": 5.0,
+    "explanation": "5: The model answer covers all key clinical facts from the reference, accurately lists all modalities and labels, and provides only relevant, correct additional explanation without any inaccuracies or omissions."
+  },
+  "5": {
+    "score": 5.0,
+    "explanation": "5: The model answer correctly provides the unique PMID (39958333) with no inaccuracies or omissions."
+  },
+  "6": {
+    "score": 5.0,
+    "explanation": "5: The model answer lists all diseases from the reference answer, accurately reflects their association with ERBB2, and provides only relevant, factually correct additional context without omissions or inaccuracies."
+  },
+  "7": {
+    "score": 5.0,
+    "explanation": "5: The model answer correctly provides the exact PMID as in the reference and restates all key details without any inaccuracies or omissions."
+  },
+  "8": {
+    "score": 5.0,
+    "explanation": "5: All key clinical facts from the reference are covered with accurate modality and label pairings; extra explanations are correct and clinically relevant, with no omissions or inaccuracies."
+  },
+  "9": {
+    "score": 5.0,
+    "explanation": "5: The model answer lists all 24 diseases/traits from the reference answer, with only minor wording changes (e.g., noting \"as a trait\" for measurements), and contains no inaccuracies or omissions."
+  },
+  "10": {
+    "score": 2.0,
+    "explanation": "2: The model answer does not provide the key fact (the PMID: 40145420) and instead speculates about its availability, which is a moderate omission, though the rest of the content is relevant and not unsafe."
+  },
+  "11": {
+    "score": 5.0,
+    "explanation": "5: The model answer provides the correct and complete PMID as in the reference, with no inaccuracies or omissions."
+  },
+  "12": {
+    "score": 3.0,
+    "explanation": "3: The model answer correctly states that it could not find a PubMed record, which is accurate if the PMID is not readily available, but it omits the key fact (the actual PMID: 40434450) present in the reference answer."
+  },
+  "13": {
+    "score": 5.0,
+    "explanation": "5: The model answer provides the correct PMID as in the reference and contains no inaccuracies or omissions."
+  },
+  "14": {
+    "score": 0.0,
+    "explanation": "0: The model answer is factually incorrect, missing the key fact that NCT05428969 is a relevant recruiting interventional study; it also directly contradicts the reference answer."
+  },
+  "15": {
+    "score": 5.0,
+    "explanation": "5: The model answer correctly provides the unique PMID (40122575) with no errors or omissions and matches the reference answer exactly."
+  },
+  "16": {
+    "score": 2.0,
+    "explanation": "2: The model lists the correct study (NCT00289978) but also includes three additional studies that do not meet all the specified criteria, introducing moderate factual errors."
+  },
+  "17": {
+    "score": 2.0,
+    "explanation": "2: The model includes the correct study (NCT00337103) but lists many additional studies that do not all meet the specified criteria, leading to moderate factual inaccuracies and overinclusion."
+  },
+  "18": {
+    "score": 5.0,
+    "explanation": "5: Fully correct; the model answer provides the exact PMID as in the reference and includes all key details without error or omission."
+  },
+  "19": {
+    "score": 2.0,
+    "explanation": "2: The model includes the correct study (NCT00179660) but lists many additional studies not specified in the reference, introducing irrelevant content and reducing specificity; only a minority of the key facts are directly addressed."
+  },
+  "20": {
+    "score": 5.0,
+    "explanation": "5: The model answer provides the correct unique PMID and accurately restates all key details from the reference answer without any errors or omissions."
+  },
+  "21": {
+    "score": 2.0,
+    "explanation": "2: The model answer does not identify the correct study (NCT00518882) and instead lists unrelated NCT numbers, missing the key fact. It also introduces irrelevant information about studies outside the specified start date, resulting in a moderate omission."
+  },
+  "22": {
+    "score": 5.0,
+    "explanation": "5: The model answer accurately covers all key facts from the reference, correctly identifying the cardiovascular system as the relevant biosample and noting the absence of specific effects; additional explanation is factually correct and clinically relevant."
+  },
+  "23": {
+    "score": 5.0,
+    "explanation": "5: The model answer lists all 25 diseases from the reference answer, covering all key clinical facts with no omissions or inaccuracies; extra explanatory content is correct and relevant."
+  },
+  "24": {
+    "score": 2.0,
+    "explanation": "2: The model includes the correct study (NCT00308139) but also lists four additional studies that do not meet the specified start date or criteria, introducing moderate factual errors and reducing specificity."
+  },
+  "25": {
+    "score": 5.0,
+    "explanation": "5: All key diseases and their relevance scores are included, with only minor rounding differences; extra explanatory sentence is correct and clinically relevant."
+  },
+  "26": {
+    "score": 2.0,
+    "explanation": "2: The model answer does not identify the single correct study (NCT00024440) and instead lists multiple irrelevant studies, covering less than 70% of the key facts and including moderate factual omissions."
+  },
+  "27": {
+    "score": 2.0,
+    "explanation": "2: The model answer fails to provide the correct PMID (40153166), which is the key fact, but it does explain possible reasons for not finding it; however, it covers less than 70% of the required content."
+  },
+  "28": {
+    "score": 5.0,
+    "explanation": "5: All key clinical facts are present; the PMID is correct and matches the reference answer with no inaccuracies or omissions."
+  },
+  "29": {
+    "score": 5.0,
+    "explanation": "5: All key clinical facts and diseases are correctly listed with accurate scores; no omissions or inaccuracies present."
+  },
+  "30": {
+    "score": 0.0,
+    "explanation": "0: The answer is blank and contains only an error message, providing no relevant clinical information."
+  },
+  "31": {
+    "score": 5.0,
+    "explanation": "5: All key clinical facts from the reference are included with correct disease names and approximate scores; no inaccuracies or omissions."
+  },
+  "32": {
+    "score": 0.0,
+    "explanation": "0: The model answer is blank and contains only an error message, providing no relevant clinical information or study identification."
+  },
+  "33": {
+    "score": 5.0,
+    "explanation": "5: All key clinical facts are present with correct disease names and scores above 0.5; minor rounding does not affect clinical meaning and no inaccuracies are present."
+  },
+  "34": {
+    "score": 5.0,
+    "explanation": "5: The model answer provides the correct PMID exactly as in the reference and contains no inaccuracies or omissions."
+  },
+  "35": {
+    "score": 1.0,
+    "explanation": "1: The model answer lists studies that do not match the reference (NCT00623636) and omits the correct study, indicating major inaccuracies and less than 40% of key facts covered."
+  },
+  "36": {
+    "score": 0.0,
+    "explanation": "0: The model answer is a system error message and does not address the clinical or factual content of the question."
+  },
+  "37": {
+    "score": 5.0,
+    "explanation": "5: All key clinical facts and disease associations from the reference are present, with scores rounded but still accurate; no omissions or inaccuracies."
+  },
+  "38": {
+    "score": 5.0,
+    "explanation": "5: The model answer correctly provides the unique PMID (40167622) as in the reference, with no omissions or inaccuracies."
+  },
+  "39": {
+    "score": 0.0,
+    "explanation": "0: The model answer is a system error message and does not provide any relevant clinical information or attempt to answer the question."
+  },
+  "40": {
+    "score": 5.0,
+    "explanation": "5: All key clinical facts from the reference are covered with accurate and clinically relevant explanations; no omissions or inaccuracies are present."
+  },
+  "41": {
+    "score": 2.0,
+    "explanation": "2: The model includes the correct study (NCT00641056) but lists many additional studies not present in the reference, introducing significant irrelevant content and suggesting moderate factual inaccuracies regarding which studies meet the criteria."
+  },
+  "42": {
+    "score": 5.0,
+    "explanation": "5: Fully correct; the model answer provides the exact PMID as in the reference and restates the relevant bibliographic details without error."
+  },
+  "43": {
+    "score": 2.0,
+    "explanation": "2: The model includes the correct study (NCT00511238) but also lists many irrelevant studies, most of which do not meet the specific criteria, leading to significant overinclusion and moderate factual inaccuracy."
+  },
+  "44": {
+    "score": 5.0,
+    "explanation": "5: All key diseases and their scores are included, with only minor rounding of scores; no omissions or inaccuracies."
+  },
+  "45": {
+    "score": 5.0,
+    "explanation": "5: The model answer covers all key clinical facts from the reference, accurately listing each tractability label and modality, with additional correct and relevant explanation; there are no inaccuracies or omissions."
+  },
+  "46": {
+    "score": 0.0,
+    "explanation": "0: The model answer is a system error message and does not provide any relevant clinical information or attempt to answer the question."
+  },
+  "47": {
+    "score": 5.0,
+    "explanation": "5: The model answer covers all key clinical facts from the reference, accurately lists each modality and label, and provides only relevant, correct additional explanation without any inaccuracies or omissions."
+  },
+  "48": {
+    "score": 5.0,
+    "explanation": "5: The model answer includes all key facts from the reference, accurately lists all modalities and labels, and provides only relevant, correct additional explanation."
+  },
+  "49": {
+    "score": 0.0,
+    "explanation": "0: The model answer is factually incorrect, as it fails to identify NCT00454818, the relevant study, and instead incorrectly states that there are no such studies."
+  },
+  "50": {
+    "score": 5.0,
+    "explanation": "5: The model answer correctly provides the unique PMID (40405078) with no inaccuracies or omissions, fully matching the reference answer."
+  },
+  "51": {
+    "score": 2.0,
+    "explanation": "2: The model lists the correct study (NCT00340834) but also includes two incorrect studies, which is a moderate factual error; only about one-third of the key facts are correct."
+  },
+  "52": {
+    "score": 5.0,
+    "explanation": "5: The model answer provides the correct PMID exactly as in the reference and contains no inaccuracies or omissions."
+  },
+  "53": {
+    "score": 5.0,
+    "explanation": "5: The model answer lists all 23 diseases from the reference answer, with no omissions or inaccuracies, and the extra sentence is relevant and factually correct."
+  },
+  "54": {
+    "score": 5.0,
+    "explanation": "5: The model answer accurately covers all key facts from the reference, correctly listing the relevant modalities and labels, and provides a clinically relevant summary without inaccuracies or omissions."
+  },
+  "55": {
+    "score": 0.0,
+    "explanation": "0: The answer is blank and contains only an error message, providing no relevant clinical information."
+  },
+  "56": {
+    "score": 0.0,
+    "explanation": "0: The answer contains only an error message and does not address the clinical question or provide any relevant information."
+  },
+  "57": {
+    "score": 5.0,
+    "explanation": "5: The model answer correctly provides the unique PubMed ID (40237759) with no inaccuracies or omissions."
+  },
+  "58": {
+    "score": 5.0,
+    "explanation": "5: The model answer covers all key clinical facts from the reference, accurately lists each modality and label, and provides only relevant, correct additional context without any inaccuracies or omissions."
+  },
+  "59": {
+    "score": 0.0,
+    "explanation": "0: The answer is blank and contains only an error message, providing no relevant clinical information."
+  },
+  "60": {
+    "score": 5.0,
+    "explanation": "5: The model answer covers all key clinical facts from the reference, accurately lists all modalities and labels, and provides only relevant, correct additional explanation."
+  },
+  "61": {
+    "score": 2.0,
+    "explanation": "2: Only 1 of the 4 studies listed (NCT00509145) matches the reference; the others are incorrect, representing a moderate factual error and significant irrelevant content."
+  },
+  "62": {
+    "score": 5.0,
+    "explanation": "5: The model answer covers all key clinical facts from the reference, accurately lists all modalities and labels, and provides only relevant, correct additional context without any inaccuracies or omissions."
+  },
+  "63": {
+    "score": 5.0,
+    "explanation": "5: The model answer correctly provides the exact PMID as in the reference and includes all key details without any inaccuracies or omissions."
+  },
+  "64": {
+    "score": 3.0,
+    "explanation": "3: The model answer correctly states that it could not find a PMID and provides plausible reasons, but it omits the key fact that the correct PMID is 40287165, which is the main requirement of the question."
+  },
+  "65": {
+    "score": 2.0,
+    "explanation": "2: The model answer fails to provide the correct PMID, which is the sole key fact, but does offer plausible reasons for its absence; this represents a moderate omission."
+  },
+  "66": {
+    "score": 2.0,
+    "explanation": "2: The model answer fails to provide the correct PMID, which is the key fact, but it does explain possible reasons for not finding it; this constitutes a moderate omission."
+  },
+  "67": {
+    "score": 5.0,
+    "explanation": "5: The model answer correctly provides the PMID 40483308, matching the reference answer exactly, with no errors or omissions."
+  },
+  "68": {
+    "score": 5.0,
+    "explanation": "5: The model answer covers all key clinical facts from the reference, accurately lists all modalities and labels, and provides correct, relevant explanations without any inaccuracies or omissions."
+  },
+  "69": {
+    "score": 5.0,
+    "explanation": "5: The model answer correctly identifies the single relevant study (NCT00553787) and provides accurate, clinically relevant information with no omissions or inaccuracies."
+  },
+  "70": {
+    "score": 0.0,
+    "explanation": "0: The model answer is a system error message and does not address any of the clinical facts from the reference answer."
+  },
+  "71": {
+    "score": 5.0,
+    "explanation": "5: The model answer provides the correct PMID exactly as in the reference and contains no inaccuracies or omissions."
+  },
+  "72": {
+    "score": 2.0,
+    "explanation": "2: The model answer includes the correct study (NCT00321464) but also lists many additional NCT IDs that do not meet the specified criteria, indicating moderate factual errors and reducing specificity."
+  },
+  "73": {
+    "score": 5.0,
+    "explanation": "5: The model answer covers all key clinical facts from the reference, accurately lists all modalities and labels, and provides only relevant, correct additional explanation."
+  },
+  "74": {
+    "score": 5.0,
+    "explanation": "5: The model answer lists all 25 diseases from the reference answer, with correct names and no omissions or inaccuracies; extra explanations are accurate and clinically relevant."
+  },
+  "75": {
+    "score": 2.0,
+    "explanation": "2: The answer explains the search process and limitations but does not provide the required study identifier (NCT00135408), omitting the key fact requested."
+  },
+  "76": {
+    "score": 5.0,
+    "explanation": "5: All key clinical facts from the reference are included with correct disease names and no inaccuracies or omissions; extra offer for further information is appropriate and not penalized."
+  },
+  "77": {
+    "score": 5.0,
+    "explanation": "5: The model answer includes all key clinical facts from the reference, accurately listing each modality and label where the value is True, with additional correct and relevant explanation; there are no inaccuracies or omissions."
+  },
+  "78": {
+    "score": 5.0,
+    "explanation": "5: The model answer lists all diseases from the reference answer, with accurate names and no omissions or inaccuracies; extra clarifying statements are correct and clinically relevant."
+  },
+  "79": {
+    "score": 5.0,
+    "explanation": "5: All key clinical facts from the reference are covered; all disease names are present, and there are no inaccuracies or omissions."
+  },
+  "80": {
+    "score": 2.0,
+    "explanation": "2: The model answer fails to provide the correct PMID, which is the key fact, but reasonably explains possible reasons for its absence; however, it covers less than 70% of the required content."
+  },
+  "81": {
+    "score": 5.0,
+    "explanation": "5: The model answer correctly provides the unique PMID (40360003) with no errors or omissions and matches the reference answer exactly."
+  },
+  "82": {
+    "score": 0.0,
+    "explanation": "0: The answer is blank and contains only an error message, providing no relevant clinical information."
+  },
+  "83": {
+    "score": 5.0,
+    "explanation": "5: The model answer provides the correct PMID and fully matches the reference answer with no errors or omissions."
+  },
+  "84": {
+    "score": 0.0,
+    "explanation": "0: The model answer is an error message and does not provide any relevant clinical information or attempt to answer the question."
+  },
+  "85": {
+    "score": 5.0,
+    "explanation": "5: The model answer accurately covers all key clinical facts from the reference, including both biosamples/tissues and effect details, with no inaccuracies or omissions."
+  },
+  "86": {
+    "score": 3.0,
+    "explanation": "3: Correctly identifies the key study (NCT00403767) but includes an extra study (NCT01747746) that does not meet the specified start date criterion, representing a minor error."
+  },
+  "87": {
+    "score": 2.0,
+    "explanation": "2: The model includes the correct study (NCT00339183) but lists many additional studies that are not relevant, leading to significant irrelevant content and moderate factual omissions regarding specificity."
+  },
+  "88": {
+    "score": 2.0,
+    "explanation": "2: The model answer does not mention the key OpenTargets data regarding JAK2's effect in the cardiovascular system (biosample: cardiovascular system, effect: absence), instead focusing on disease associations and omitting the specific information requested."
+  },
+  "89": {
+    "score": 5.0,
+    "explanation": "5: All key clinical facts from the reference are covered with accurate and clinically relevant extra explanation; no omissions or inaccuracies."
+  },
+  "90": {
+    "score": 5.0,
+    "explanation": "5: The model answer covers all key clinical facts from the reference, accurately lists each modality and label, and provides correct, clinically relevant explanations without any inaccuracies or omissions."
+  },
+  "91": {
+    "score": 5.0,
+    "explanation": "5: All key diseases and their approximate scores are correctly listed; minor rounding does not affect clinical meaning and there are no inaccuracies or omissions."
+  },
+  "92": {
+    "score": 2.0,
+    "explanation": "2: The model fails to provide the correct PMID, which is the sole key fact, but gives a plausible explanation for its absence; this is a moderate omission."
+  },
+  "93": {
+    "score": 5.0,
+    "explanation": "5: The model answer provides the correct and complete PMID as in the reference, with no inaccuracies or omissions."
+  },
+  "94": {
+    "score": 2.0,
+    "explanation": "2: The model includes the correct trial (NCT00298038) but lists many additional studies that do not meet the specific criteria, introducing irrelevant content and moderate factual inaccuracies regarding the start date and inclusion criteria."
+  },
+  "95": {
+    "score": 5.0,
+    "explanation": "5: The model answer correctly identifies NCT03207009 as the only relevant study and provides all key clinical facts from the reference answer without any inaccuracies or omissions."
+  },
+  "96": {
+    "score": 2.0,
+    "explanation": "2: Only one of the listed trials (NCT01133704) matches the reference; the rest are incorrect, representing a moderate factual error and significant irrelevant content."
+  },
+  "97": {
+    "score": 5.0,
+    "explanation": "5: The model answer provides the correct PMID and accurately restates all key details from the reference answer without any errors or omissions."
+  },
+  "98": {
+    "score": 5.0,
+    "explanation": "5: The model answer provides the correct PMID exactly as in the reference and contains no inaccuracies or omissions."
+  },
+  "99": {
+    "score": 5.0,
+    "explanation": "5: The model answer correctly provides the PMID 40482190, matching the reference answer with no omissions or inaccuracies."
+  }
+}

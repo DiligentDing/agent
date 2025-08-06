@@ -1,0 +1,402 @@
+{
+  "0": {
+    "score": 2.0,
+    "explanation": "2: The model answer only lists 3 diseases (schizophrenia, bipolar disorder, psychotic disorder), omitting the majority of the 23 key diseases in the reference answer, which is a moderate omission; while the information provided is accurate, it covers less than 40–69% of the required key facts."
+  },
+  "1": {
+    "score": 2.0,
+    "explanation": "2: The model answer provides general background about phenotype associations and evidence sources but omits key specific details from the reference, such as the relevant biosamples (central nervous system and cardiovascular) and the effect details (acute dosing, direction of activation/increase/upregulation)."
+  },
+  "2": {
+    "score": 2.0,
+    "explanation": "2: The model answer identifies a different NCT number (NCT00442848) than the reference (NCT00454818), which is a moderate factual error, despite otherwise correct and relevant details."
+  },
+  "3": {
+    "score": 2.0,
+    "explanation": "2: The model answer correctly states it cannot provide the PMID and suggests how to find it, but it omits the key fact—the actual PMID number—covering less than 70% of the required content."
+  },
+  "4": {
+    "score": 2.0,
+    "explanation": "2: The model answer does not provide the correct PMID (40320805), which is the key fact, and instead gives a plausible but ultimately incorrect explanation; this is a moderate omission."
+  },
+  "5": {
+    "score": 3.0,
+    "explanation": "3: The model answer correctly states that as of June 2024, no PMID is available, which is accurate for the knowledge cutoff, but it does not provide the reference PMID (40358755) as required; it covers the context but omits the key fact."
+  },
+  "6": {
+    "score": 1.0,
+    "explanation": "1: The model answer does not mention either of the two reference diseases and instead lists unrelated conditions, resulting in a major omission of key facts and mostly irrelevant content."
+  },
+  "7": {
+    "score": 5.0,
+    "explanation": "5: The model answer correctly identifies NCT00289978, provides all key clinical facts from the reference, and adds only accurate, relevant details without any inaccuracies or omissions."
+  },
+  "8": {
+    "score": 5.0,
+    "explanation": "5: The model answer correctly identifies NCT00325195 and provides additional accurate, relevant details without any errors or omissions."
+  },
+  "9": {
+    "score": 2.0,
+    "explanation": "2: The model answer fails to provide the correct PMID (40167622), which is the key fact, and instead gives a moderate factual omission by claiming no PMID is available; however, it does not provide unsafe or irrelevant information."
+  },
+  "10": {
+    "score": 2.0,
+    "explanation": "2: The model answer only correctly identifies endometriosis from the reference list and instead lists several cancers not present in the reference answer, omitting most key diseases; this represents a moderate factual error and covers less than 40–69% of the required facts."
+  },
+  "11": {
+    "score": 2.0,
+    "explanation": "2: The model answer does not provide the PMID as requested, omitting the key fact, but it correctly explains the limitation and offers a reasonable approach to find the information."
+  },
+  "12": {
+    "score": 2.0,
+    "explanation": "2: The model answer provides a study (NCT00628561) that matches the criteria but does not list the correct reference study (NCT00627926); this is a moderate factual omission, as the required study is missing."
+  },
+  "13": {
+    "score": 2.0,
+    "explanation": "2: The answer correctly identifies tractability with small molecules, antibodies, and PROTACs, but omits most specific key facts and labels from the reference (such as \"Approved Drug,\" \"Structure with Ligand,\" etc.), and provides some general but not directly relevant extra content."
+  },
+  "14": {
+    "score": 3.0,
+    "explanation": "3: The model answer correctly states that it cannot find the PMID due to the knowledge cutoff, which is accurate for its context, but it does not provide the required PMID as in the reference answer, thus omitting the key fact. However, it does not contain any clinically dangerous advice or major inaccuracies."
+  },
+  "15": {
+    "score": 2.0,
+    "explanation": "2: The model answer correctly states that it cannot provide the PMID due to a knowledge cutoff, but it omits the key fact (the actual PMID) present in the reference and does not directly answer the question."
+  },
+  "16": {
+    "score": 2.0,
+    "explanation": "2: The model answer lists the correct study (NCT00337103) but also includes other trials (e.g., NCT00388726, NCT01401936) that do not strictly meet the reference criteria, leading to moderate factual inaccuracies and overinclusion."
+  },
+  "17": {
+    "score": 2.0,
+    "explanation": "2: The model answer provides general information about JAK2's associations with heart disease in OpenTargets, but it omits the specific key facts from the reference—namely, the explicit mention of the \"cardiovascular system\" biosample and the \"absence\" effect. The answer is detailed but does not directly address the required database fields, constituting a moderate omission."
+  },
+  "18": {
+    "score": 2.0,
+    "explanation": "2: The model correctly states it cannot provide the PMID due to its knowledge cutoff, but it omits the key fact (the actual PMID) and does not attempt to answer directly, covering less than 40–69% of the required content."
+  },
+  "19": {
+    "score": 2.0,
+    "explanation": "2: The model answer only correctly identifies Noonan syndrome and hepatocellular carcinoma from the reference list, omits most key diseases (e.g., Noonan syndrome with multiple lentigines, cardiomyopathies, rasopathy, cancer, Costello syndrome), and includes diseases (melanoma, lung carcinoma) not present in the reference, resulting in coverage well below 70%."
+  },
+  "20": {
+    "score": 2.0,
+    "explanation": "2: The model answer lists only one of the six reference diseases (focal cortical dysplasia) and omits the others, while including several diseases not present in the reference; this represents a moderate omission and some irrelevant content."
+  },
+  "21": {
+    "score": 5.0,
+    "explanation": "5: The model answer correctly identifies NCT00509145 and provides all key clinical facts from the reference, with additional accurate and relevant details; there are no inaccuracies or omissions."
+  },
+  "22": {
+    "score": 5.0,
+    "explanation": "5: The model answer correctly states that the PMID cannot be found as of the knowledge cutoff, which is accurate given the reference answer; it provides relevant context without any inaccuracies or omissions."
+  },
+  "23": {
+    "score": 1.0,
+    "explanation": "1: The model answer provides an incorrect PMID, which is a major factual inaccuracy, despite the rest of the content being relevant."
+  },
+  "24": {
+    "score": 2.0,
+    "explanation": "2: The model answer provides detailed information about a phase 3 leukemia study started in July 2001 in the US, but it identifies NCT00006343 instead of the correct NCT00024440, constituting a moderate factual error."
+  },
+  "25": {
+    "score": 3.0,
+    "explanation": "3: The model answer correctly explains why it cannot provide the PMID and advises searching PubMed, but it does not supply the actual PMID as in the reference answer, thus omitting the key fact required."
+  },
+  "26": {
+    "score": 2.0,
+    "explanation": "2: The model answer lists studies (NCT00420830, NCT00422786) that do not match the reference (NCT00524277), omitting the correct study and providing moderately incorrect information, though the content is otherwise relevant and not unsafe."
+  },
+  "27": {
+    "score": 2.0,
+    "explanation": "2: The model answer correctly states it cannot provide the PMID due to its knowledge cutoff, but it omits the key fact (the actual PMID) and does not attempt to answer directly, covering less than 70% of the required content."
+  },
+  "28": {
+    "score": 2.0,
+    "explanation": "2: The model answer correctly lists asthma, atopic dermatitis (likely referring to atopic eczema), and allergic rhinitis, but omits eczematoid dermatitis and psoriasis, and incorrectly includes eosinophilic esophagitis, which is not in the reference list; this constitutes a moderate factual error and covers only 60% of the key facts."
+  },
+  "29": {
+    "score": 2.0,
+    "explanation": "2: The model answer lists only a few of the many key diseases from the reference (covering <40–69% of key facts), omits several high-scoring associations (e.g., glucocorticoid resistance, COPD, multiple sclerosis), and includes some diseases not present in the reference (e.g., inflammatory bowel disease, systemic lupus erythematosus, adrenal insufficiency), but contains no unsafe statements."
+  },
+  "30": {
+    "score": 2.0,
+    "explanation": "2: The model answer lists multiple studies, but only NCT00641056 matches the reference; the others are not correct for the specific criteria, representing moderate factual errors and overinclusion, covering only 20% of the key facts."
+  },
+  "31": {
+    "score": 2.0,
+    "explanation": "2: The answer correctly identifies antibody tractability as True and provides relevant context, but omits most of the specific tractability labels and modalities listed in the reference, covering less than 70% of key facts."
+  },
+  "32": {
+    "score": 2.0,
+    "explanation": "2: The answer correctly identifies small molecule tractability as True and mentions other modalities, but omits most of the specific key tractability labels (e.g., Approved Drug, Structure with Ligand, High-Quality Ligand, etc.) present in the reference, covering less than 70% of key facts."
+  },
+  "33": {
+    "score": 3.0,
+    "explanation": "3: The model answer correctly identifies that MUC1 is tractable for antibodies but not for small molecules, covering the main modalities; however, it omits several specific tractability labels (e.g., \"Structure with Ligand,\" \"Med-Quality Pocket,\" and various antibody-related evidence) present in the reference, and does not enumerate the full set of tractability evidence."
+  },
+  "34": {
+    "score": 2.0,
+    "explanation": "2: The model answer only lists 2 out of 17 key diseases from the reference, omitting many relevant associations above the 0.5 threshold; while the information provided is accurate, the omissions are moderate and significantly reduce completeness."
+  },
+  "35": {
+    "score": 2.0,
+    "explanation": "2: The model answer only lists 3 diseases, omitting the majority of key associations present in the reference, and includes \"obesity,\" which is not in the reference list; this represents a moderate omission and some irrelevant content."
+  },
+  "36": {
+    "score": 3.0,
+    "explanation": "3: The model answer correctly states that the PMID is not available as of June 2024 and provides reasonable context, but it omits the actual PMID (40434450) given in the reference, which is a key fact."
+  },
+  "37": {
+    "score": 2.0,
+    "explanation": "2: The answer only mentions antibody tractability and omits most key facts, including small molecule, protein, and other tractability labels present in the reference; it covers less than 40-69% of the required information."
+  },
+  "38": {
+    "score": 5.0,
+    "explanation": "5: The model answer correctly identifies NCT00511238 and provides all key clinical facts from the reference, with additional accurate and relevant details; there are no inaccuracies or omissions."
+  },
+  "39": {
+    "score": 5.0,
+    "explanation": "5: The model answer correctly identifies NCT00403767 as the sole relevant study, includes all key clinical facts from the reference, and provides accurate, relevant additional details without any inaccuracies or omissions."
+  },
+  "40": {
+    "score": 3.0,
+    "explanation": "3: The model correctly states that a PMID is not available as of June 2024 due to the future publication date, but it does not provide the actual PMID listed in the reference answer, thus missing a key fact."
+  },
+  "41": {
+    "score": 1.0,
+    "explanation": "1: The model answer provides an incorrect PMID, which is a major factual error, despite the rest of the information being accurate."
+  },
+  "42": {
+    "score": 2.0,
+    "explanation": "2: The model answer identifies a different study (NCT00726665) than the reference (NCT00623636), omitting the required key fact and providing moderately incorrect information despite otherwise relevant and accurate details."
+  },
+  "43": {
+    "score": 2.0,
+    "explanation": "2: The model answer provides general information about the types of evidence available in OpenTargets for MTOR and heart disease, but it omits the specific key facts from the reference—namely, the explicit mention of the cardiovascular system as the relevant biosample/tissue and the 'absence' effect. The answer is mostly generic and does not directly address the precise data points given in the reference."
+  },
+  "44": {
+    "score": 2.0,
+    "explanation": "2: The model answer fails to provide the correct PMID and does not recognize the reference, but it reasonably explains the lack of information as of its knowledge cutoff; however, it omits the key fact (the PMID) and thus covers less than 70% of the required content."
+  },
+  "45": {
+    "score": 2.0,
+    "explanation": "2: The model answer only correctly identifies acromegaly from the reference list and partially matches \"neuroendocrine neoplasm\" with \"neuroendocrine tumors,\" but omits IGF-1 measurement, neoplasm, and carcinoid tumor, and includes \"pituitary gland neoplasms\" and \"insulinoma,\" which are not in the reference; thus, it covers less than 70% of key facts and contains moderate omissions."
+  },
+  "46": {
+    "score": 5.0,
+    "explanation": "5: The model answer correctly identifies NCT05428969 as the only relevant study, provides accurate and clinically relevant additional details, and contains no inaccuracies or omissions."
+  },
+  "47": {
+    "score": 5.0,
+    "explanation": "5: The model answer correctly identifies NCT00308139 as the only relevant study, provides accurate and clinically relevant additional details, and contains no inaccuracies or omissions."
+  },
+  "48": {
+    "score": 5.0,
+    "explanation": "5: The model answer correctly identifies NCT00420212 as the relevant study, includes all key clinical facts from the reference, and provides additional accurate and relevant details without any inaccuracies or omissions."
+  },
+  "49": {
+    "score": 5.0,
+    "explanation": "5: The model answer correctly states that, as of June 2024, a 2025 article would not yet have a PubMed PMID, fully matching the reference context and providing accurate reasoning."
+  },
+  "50": {
+    "score": 2.0,
+    "explanation": "2: The model answer identifies NCT00314951, which is not the correct study per the reference (NCT00468728), constituting a moderate factual error. While the answer is detailed and relevant, it fails to provide the correct key fact required."
+  },
+  "51": {
+    "score": 2.0,
+    "explanation": "2: The model answer identifies antibody tractability as True for CTLA4, which is correct, but it omits the specific tractability labels from the reference (e.g., \"Approved Drug,\" \"UniProt loc high conf\") and does not mention small molecule structure with ligand as True. It covers less than 70% of the key facts."
+  },
+  "52": {
+    "score": 2.0,
+    "explanation": "2: The model answer fails to provide the correct PMID (40306647), which is the key fact, and instead incorrectly states that no such article is indexed; however, it does not provide unsafe or irrelevant information."
+  },
+  "53": {
+    "score": 2.0,
+    "explanation": "2: The answer only mentions small molecule tractability and omits several key facts from the reference, such as the specific tractability labels for antibodies, PROTACs, and other modalities, resulting in a moderate omission."
+  },
+  "54": {
+    "score": 2.0,
+    "explanation": "2: The model answer identifies a different study (NCT00094653) than the reference (NCT00135408), which is a moderate factual error; while the format and detail are correct, the key fact—correct NCT number—is missing."
+  },
+  "55": {
+    "score": 2.0,
+    "explanation": "2: The model answer covers some key disease associations (e.g., diabetic retinopathy, macular degeneration, certain cancers) but omits many specific diseases and measurements listed in the reference (e.g., hematocrit, erythrocyte count, ovarian cancer, etc.), and includes some not present in the reference (e.g., retinal vein occlusion, central serous chorioretinopathy). Coverage is incomplete (well below 70%), with moderate omissions."
+  },
+  "56": {
+    "score": 2.0,
+    "explanation": "2: The model answer lists only 5 out of 25 key diseases from the reference, omitting many relevant associations; while the content is accurate and relevant, the coverage is incomplete (well below 70%)."
+  },
+  "57": {
+    "score": 2.0,
+    "explanation": "2: The model answer fails to provide the correct PMID (40345673), which is the key fact, and instead incorrectly states that no PMID is assigned; however, the rest of the content is relevant and not unsafe."
+  },
+  "58": {
+    "score": 2.0,
+    "explanation": "2: The answer correctly identifies small molecule tractability as True and provides relevant examples, but omits most of the specific tractability labels (e.g., \"Approved Drug,\" \"Structure with Ligand,\" \"High-Quality Ligand,\" etc.) and other modalities present in the reference, covering less than 70% of key facts."
+  },
+  "59": {
+    "score": 2.0,
+    "explanation": "2: The model answer incorrectly identifies NCT00108741 as the main relevant study, whereas the reference answer lists only NCT00111319; it also provides extraneous detail and some confusion about the primary intervention, resulting in a moderate factual error and partial coverage of key facts."
+  },
+  "60": {
+    "score": 2.0,
+    "explanation": "2: The answer only mentions small molecule tractability and omits most of the specific key facts and modalities listed in the reference, covering less than 40-69% of the required information."
+  },
+  "61": {
+    "score": 2.0,
+    "explanation": "2: The answer does not provide the PMID, which is the sole key fact, but it correctly explains the limitation and suggests appropriate next steps; no unsafe or irrelevant content is present."
+  },
+  "62": {
+    "score": 2.0,
+    "explanation": "2: The model answer fails to provide the correct PMID (40122575), which is the sole key fact, and instead gives a speculative and outdated response; however, it does not contain unsafe or irrelevant content."
+  },
+  "63": {
+    "score": 2.0,
+    "explanation": "2: The model answer identifies NCT00289978, which is not the correct study (the correct one is NCT00340834), constituting a moderate factual error; while it provides relevant details, it fails to list the required study and thus covers less than 70% of key facts."
+  },
+  "64": {
+    "score": 2.0,
+    "explanation": "2: The model answer covers the general modalities (small molecule and antibody) but omits most of the specific tractability labels present in the reference, such as \"Structure with Ligand,\" \"High-Quality Ligand,\" and others, resulting in a moderate omission of key facts."
+  },
+  "65": {
+    "score": 2.0,
+    "explanation": "2: The model answer covers some correct modalities (small molecule, PROTAC) but omits several key tractability labels from the reference (e.g., \"Approved Drug,\" \"Structure with Ligand,\" \"High-Quality Ligand,\" \"High-Quality Pocket,\" \"Druggable Family,\" and ubiquitination-related labels), and includes some extrapolation not present in the reference."
+  },
+  "66": {
+    "score": 2.0,
+    "explanation": "2: The model answer identifies NCT00289978, which is not the correct study (the reference is NCT00355134), constituting a moderate factual error; while the study details are relevant, the key fact is incorrect."
+  },
+  "67": {
+    "score": 2.0,
+    "explanation": "2: The model answer identifies NCT00005947, which is not the reference study (NCT01133704), and omits the correct trial. While the details provided are relevant and accurate for NCT00005947, the key fact—identifying the correct study—is missing, constituting a moderate omission."
+  },
+  "68": {
+    "score": 2.0,
+    "explanation": "2: The model answer identifies NCT00554405, which is not the correct study (the reference is NCT00553787), constituting a moderate factual error; while the extra details are relevant, the key identifier is incorrect."
+  },
+  "69": {
+    "score": 2.0,
+    "explanation": "2: The answer correctly identifies small molecule tractability as True but omits most of the specific key facts and tractability labels (e.g., \"Approved Drug,\" \"High-Quality Ligand,\" antibody and PROTAC-related entries) present in the reference."
+  },
+  "70": {
+    "score": 2.0,
+    "explanation": "2: The model answer incorrectly identifies NCT00321620 instead of the correct NCT00321464, which is a moderate factual error; while the search logic and explanations are relevant, the key fact (the correct NCT number) is missing."
+  },
+  "71": {
+    "score": 5.0,
+    "explanation": "5: The model answer correctly states that no PMID is currently available for a 2025 article, matching the reference answer's implication; it provides accurate, relevant context with no errors or omissions."
+  },
+  "72": {
+    "score": 2.0,
+    "explanation": "2: The model answer identifies a different study (NCT00508254) instead of the correct one (NCT00518882), which is a moderate factual error, though the rest of the content is relevant and not unsafe."
+  },
+  "73": {
+    "score": 2.0,
+    "explanation": "2: The model answer provides extensive background and mechanistic detail but omits key specifics from the reference, namely the explicit mention of the relevant biosamples (cardiovascular system and immune) and the effect direction (activation/upregulation), which are central to the OpenTargets association."
+  },
+  "74": {
+    "score": 2.0,
+    "explanation": "2: The model provides a study (NCT00364013) that matches the intervention, condition, and start date, but it does not list the correct reference study (NCT00339183) and omits it entirely, which is a moderate factual omission."
+  },
+  "75": {
+    "score": 2.0,
+    "explanation": "2: The model answer identifies NCT00324155, not the correct NCT00289640, which is a moderate factual error; while the details are relevant and accurate for the cited study, it does not match the reference answer."
+  },
+  "76": {
+    "score": 2.0,
+    "explanation": "2: The model answer provides detailed and relevant information but identifies NCT00219942 instead of the correct NCT00179660, which is a moderate factual error; otherwise, the content is accurate and relevant."
+  },
+  "77": {
+    "score": 5.0,
+    "explanation": "5: The model answer correctly identifies NCT00213135 and provides additional accurate, clinically relevant details about the study without any inaccuracies or omissions."
+  },
+  "78": {
+    "score": 5.0,
+    "explanation": "5: The model answer correctly states that no PMID is available for a 2025 article as of the June 2024 knowledge cutoff, fully aligning with the reference answer and providing accurate, relevant context."
+  },
+  "79": {
+    "score": 2.0,
+    "explanation": "2: The model answer does not provide the correct PMID and instead gives a general explanation about PMIDs for future publications, missing the key fact required."
+  },
+  "80": {
+    "score": 2.0,
+    "explanation": "2: The model correctly states it cannot provide the PMID due to a knowledge cutoff, but it does not supply the key fact (the PMID itself), covering less than 70% of the required content. However, it does not provide any unsafe or irrelevant information."
+  },
+  "81": {
+    "score": 2.0,
+    "explanation": "2: The model answer only partially addresses the specific tractability categories labeled as \"True\" in the reference, mentioning antibody tractability in general but omitting the detailed labels and modalities; it also introduces irrelevant speculation about small molecules and PROTACs."
+  },
+  "82": {
+    "score": 2.0,
+    "explanation": "2: The model answer explains its knowledge cutoff and inability to provide the PMID, but it omits the key fact (the actual PMID: 40483151) and does not directly answer the question, covering less than 40–69% of the required content."
+  },
+  "83": {
+    "score": 3.0,
+    "explanation": "3: The model correctly states it cannot provide the PMID due to its knowledge cutoff and gives appropriate advice on how to find it, but it does not supply the key fact (the PMID: 40483308), covering only about 70-89% of the reference answer."
+  },
+  "84": {
+    "score": 2.0,
+    "explanation": "2: The model answer correctly states it cannot provide the PMID and explains how to find it, but it omits the key fact (the actual PMID: 40237759) and does not acknowledge the reference answer's information."
+  },
+  "85": {
+    "score": 2.0,
+    "explanation": "2: The answer only mentions small molecule tractability with clinical precedence and omits most of the key tractability modalities and labels present in the reference, covering less than 40-69% of the required facts."
+  },
+  "86": {
+    "score": 2.0,
+    "explanation": "2: The model answer fails to provide the correct PMID (40360003), which is the key fact, and instead states it is unavailable; however, it does not contain unsafe or irrelevant content."
+  },
+  "87": {
+    "score": 2.0,
+    "explanation": "2: The model answer identifies a study that started in July 2007 and is interventional and completed, but the NCT number (NCT00515806) does not match the reference (NCT00471497); this is a moderate factual error, though the rest of the information is relevant."
+  },
+  "88": {
+    "score": 2.0,
+    "explanation": "2: The model answer does not provide the required PMID and instead explains why it cannot, covering less than 40-69% of the key facts; however, it does not contain unsafe or irrelevant content."
+  },
+  "89": {
+    "score": 3.0,
+    "explanation": "3: The model answer correctly states that a PMID cannot be provided as of June 2024, which is accurate given the publication year is 2025, but it omits the actual PMID (40207485) provided in the reference, covering about 70-89% of key facts."
+  },
+  "90": {
+    "score": 2.0,
+    "explanation": "2: The model answer covers only 3 of the 14 specific diseases from the reference (colorectal, breast, and non-small cell lung cancers), omits several key associations (e.g., dyskeratosis congenita, actinic keratosis, mesothelioma), and includes diseases (ovarian and pancreatic carcinoma) not present in the reference list; overall, it provides less than 40–69% of the required key facts."
+  },
+  "91": {
+    "score": 2.0,
+    "explanation": "2: The model answer does not provide the correct PMID and instead explains the lack of access to 2025 articles, covering less than 70% of the key facts and omitting the required information."
+  },
+  "92": {
+    "score": 2.0,
+    "explanation": "2: The model answer provides detailed and relevant information about a phase 3 rifaximin study for hepatic encephalopathy starting in December 2005, but cites NCT00256962 instead of the correct NCT00298038, which is a moderate factual error."
+  },
+  "93": {
+    "score": 2.0,
+    "explanation": "2: The answer mentions some relevant diseases (breast carcinoma, non-small cell lung carcinoma, gastric cancer) but omits many key associations from the reference (e.g., neoplasm, urinary bladder carcinoma, ovarian cancer, HER2 positive breast carcinoma) and includes diseases not present in the reference (oesophageal adenocarcinoma, uterine serous carcinoma), resulting in moderate omissions and some irrelevant content."
+  },
+  "94": {
+    "score": 3.0,
+    "explanation": "3: The model answer correctly states that it cannot find the PMID due to the knowledge cutoff, which is accurate and safe, but it does not provide the reference PMID and thus omits the key fact required."
+  },
+  "95": {
+    "score": 5.0,
+    "explanation": "5: The model answer correctly identifies NCT03207009, includes all key facts from the reference, and provides additional accurate and clinically relevant details without any inaccuracies or omissions."
+  },
+  "96": {
+    "score": 5.0,
+    "explanation": "5: The model answer correctly identifies NCT00071799 and provides additional accurate and clinically relevant details without any inaccuracies or omissions."
+  },
+  "97": {
+    "score": 2.0,
+    "explanation": "2: The model answer identifies NCT00004713 (MIRACL), which is not the reference study (NCT00327691), and omits the correct trial. While the answer is detailed and relevant, it fails to provide the key fact required by the question, constituting a moderate omission."
+  },
+  "98": {
+    "score": 2.0,
+    "explanation": "2: The answer correctly identifies small molecule tractability as True for DRD2 but omits most of the specific tractability labels and modalities (e.g., approved drug, structure with ligand, antibody-related evidence) present in the reference, covering less than 70% of key facts."
+  },
+  "99": {
+    "score": 1.0,
+    "explanation": "1: The model answer does not mention any of the diseases listed in the reference answer and instead lists unrelated cancers, covering 0% of key facts."
+  }
+}
