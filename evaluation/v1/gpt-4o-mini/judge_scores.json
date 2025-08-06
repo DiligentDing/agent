@@ -1,0 +1,402 @@
+{
+  "0": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and covers most key points, including regular imaging, clinical assessment, smoking cessation, and patient education. However, it omits specific recommendations against routine PET-CT/brain MRI and does not explicitly mention the transition to annual low-dose CT after 2–3 years, which are present in the reference answer."
+  },
+  "1": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete, covering PET-CT、肺功能测试 and强调活检，但未提及纵隔淋巴结的术中/术前病理评估和系统性淋巴结清扫，且对分子分型的强调略超出早期NSCLC的常规流程。"
+  },
+  "2": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and covers most key points, including imaging frequency and follow-up content, but it omits the specific transition at year 3 (to every 6 months for 2 years), the use of low-dose non-contrast CT after year 6, and the recommendation against routine FDG-PET/CT or brain MRI. It also adds tumor marker monitoring, which is not standard."
+  },
+  "3": {
+    "score": 3.0,
+    "explanation": "3: The model answer correctly identifies the T and N stages and recommends appropriate treatment, but it inaccurately assigns the clinical stage as IIIA instead of IB, which is a significant error. The rest of the answer is generally accurate, but this staging mistake is a notable omission."
+  },
+  "4": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and accurately describes the TNM staging and appropriate next steps, but it omits the need for病理性纵隔淋巴结评估（如EBUS-TBNA或纵隔镜）来确诊N分期, which is a key step before finalizing treatment."
+  },
+  "5": {
+    "score": 3.0,
+    "explanation": "3: The model answer covers the general approach and rationale for staging and intraoperative procedures, but incorrectly classifies the T stage as T1b instead of T1c (3.0 cm should be T1c per current TNM), and omits the specific substage (IA3). There are also minor inaccuracies in the explanation of the T stage cutoff."
+  },
+  "6": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete, accurately identifying the stage and recommending lobectomy, but it omits the specific substage (IA3), the need for systematic lymph node dissection, and the mention of preoperative bronchoscopy."
+  },
+  "7": {
+    "score": 4.0,
+    "explanation": "4: The model answer covers most key points, including recognition of local recurrence, need for imaging and biopsy, and consideration of receptor status and multidisciplinary discussion. However, it lacks specific mention of bone scan or PET/CT to rule out distant metastasis, omits the recommendation for axillary surgical reassessment, and does not specify the role of postmastectomy radiotherapy if not previously given."
+  },
+  "8": {
+    "score": 2.0,
+    "explanation": "2: The model answer incorrectly recommends adjuvant chemotherapy, which is not indicated for stage IA (T1bN0) NSCLC after complete resection with negative margins and no high-risk features. This represents a notable error and limited coverage of appropriate follow-up care."
+  },
+  "9": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and covers主要随访频率、内容、戒烟干预等要点，但未明确强调低剂量无增强胸部CT的长期随访细节，且对随访时间节点与参考答案略有出入。整体内容较为全面，仅有细微遗漏。"
+  },
+  "10": {
+    "score": 3.0,
+    "explanation": "3: The model answer correctly identifies the need for further local treatment due to R1 resection but omits再手术扩大切除 as首选方案, and does not mention随访或戒烟指导, focusing solely on放疗, which is only a secondary option."
+  },
+  "11": {
+    "score": 2.0,
+    "explanation": "2: The model answer provides limited coverage and contains notable errors. It incorrectly prioritizes radiotherapy over reoperation, omits the preferred approach of re-excision, and lacks details on follow-up and survivorship care."
+  },
+  "12": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and covers the main points of the reference answer, including the recommendation for observation, the limited role of adjuvant therapy, and appropriate follow-up. However, it introduces some unnecessary details (e.g., targeted/immune therapy not standard for this stage), and the follow-up interval is less specific than the reference, missing the annual low-dose CT after 3 years and omitting the advice against routine PET/CT or brain MRI."
+  },
+  "13": {
+    "score": 3.0,
+    "explanation": "3: The model answer covers the general principles of adjuvant therapy in early-stage NSCLC and mentions risk assessment, but it omits the need for molecular pathology testing (EGFR, ALK, etc.) and does not clearly state that routine adjuvant chemotherapy is not recommended without high-risk features, as emphasized in the reference answer."
+  },
+  "14": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a reasonable approach to staging and management, but incorrectly assigns T1b (should be T2a for 3.2 cm per current TNM), and thus mis-stages as IA instead of IB. It also omits the recommendation for brain MRI and systematic lymph node dissection, which are important details."
+  },
+  "15": {
+    "score": 4.0,
+    "explanation": "4: The model answer correctly identifies ROS1靶向抑制剂（如克唑替尼）为首选治疗，并简要说明了其作用，但未提及恩曲替尼、局部处理措施、吸烟干预及姑息治疗等辅助管理，存在轻微遗漏。"
+  },
+  "16": {
+    "score": 3.0,
+    "explanation": "3: The model answer partially covers the reference answer by mentioning chemotherapy and radiotherapy, but it inaccurately emphasizes adjuvant radiotherapy and targeted therapy without evidence of actionable mutations, and omits the focus on palliative systemic chemotherapy as the mainstay."
+  },
+  "17": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and correctly identifies the need to consider adjuvant chemotherapy for small, node-negative TNBC, but it slightly overstates the guideline strength by implying a stronger recommendation rather than \"can be considered,\" and incorrectly references 1cm as a threshold rather than 0.6–1.0cm. Minor guideline nuance is missing."
+  },
+  "18": {
+    "score": 4.0,
+    "explanation": "4: The model answer covers most key aspects of follow-up, including imaging frequency, clinical assessment, lifestyle advice, and symptom monitoring, but omits the specific recommendation against routine PET/CT or brain MRI in asymptomatic patients and does not precisely match the reference's follow-up intervals and imaging modality details."
+  },
+  "19": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and covers most key points, including follow-up frequency, imaging, and clinical assessment. However, it omits specific recommendations about the transition to annual follow-up after 2–3 years, does not mention the preference for low-dose CT, and includes tumor markers, which are not routinely recommended."
+  },
+  "20": {
+    "score": 4.0,
+    "explanation": "4: The model answer correctly identifies the clinical stage (IIIB, T3N2M0) and outlines appropriate treatment strategies, including chemoradiotherapy and consideration of immunotherapy/targeted therapy. However, it omits the specific mention of neoadjuvant chemoimmunotherapy and the process of re-evaluating resectability, which are important details in the reference answer."
+  },
+  "21": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and covers the main points of endocrine therapy, HER2-targeted therapy, and the consideration of chemotherapy, but it introduces risk assessment tools (e.g., Oncotype DX) not mentioned in the reference and is more cautious about recommending chemotherapy, which is a minor deviation from the reference answer's stronger recommendation for chemo plus trastuzumab if tolerated."
+  },
+  "22": {
+    "score": 4.0,
+    "explanation": "4: The model answer covers most key points, correctly recommending platinum-based chemotherapy and individualization based on patient status. However, it omits the option of adding anti-angiogenic agents like bevacizumab, does not mention palliative care integration, and only briefly addresses supportive measures."
+  },
+  "23": {
+    "score": 3.0,
+    "explanation": "3: The model answer recognizes the importance of HER2-targeted therapy but inaccurately recommends trastuzumab plus chemotherapy, which is not standard after progression on chemotherapy. It omits the preferred antibody-drug conjugate (fam-trastuzumab deruxtecan) and does not clearly prioritize the recommended agents, leading to partial but incomplete coverage."
+  },
+  "24": {
+    "score": 4.0,
+    "explanation": "4: The model answer covers most of the key genes (EGFR, ALK, ROS1, BRAF) and PD-L1, and explains their clinical significance, but omits several important genes/fusions (KRAS, NTRK, METex14, RET, ERBB2/HER2) that are included in the reference answer."
+  },
+  "25": {
+    "score": 3.0,
+    "explanation": "3: The model answer covers some key points such as breast MRI and lymph node biopsy, but omits crucial steps like tumor and lymph node marker placement, routine preoperative labs, and does not mention the need for core needle biopsy if not already done. It also introduces less relevant items (e.g., hormone level testing) and overemphasizes genetic testing, which is not standard for all patients."
+  },
+  "26": {
+    "score": 3.0,
+    "explanation": "3: The model answer covers many key aspects such as systemic imaging, laboratory tests, and cardiac evaluation, but omits crucial details like the need for tumor and lymph node marker placement, specific imaging for axillary nodes, and the rationale for certain imaging choices. It also introduces genetic testing, which is not essential in this context, and misses the emphasis on pre-treatment marking and local imaging."
+  },
+  "27": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete, correctly identifying the stage as IV and recommending RET抑制剂（Selpercatinib或Pralsetinib）为首选一线治疗，但未具体说明AJCC第8版的分期（IVA/M1b），也未提及吸烟戒断和缓和治疗等辅助措施。"
+  },
+  "28": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and correctly recommends adjuvant chemotherapy, citing tumor size and receptor status. However, it omits explicitly stating the \"triple-negative\" status and the guideline's \"category 1 recommendation,\" which are present in the reference answer."
+  },
+  "29": {
+    "score": 3.0,
+    "explanation": "3: The model answer covers the main point that ALK抑制剂 are first-line therapy, but it inaccurately lists克唑替尼 (Crizotinib) and阿法替尼 (Afatinib, which is not an ALK inhibitor) as first-line options, and omits the guideline-based preference for second/third-generation inhibitors over crizotinib. It also lacks mention of PD-L1 testing and palliative care assessment."
+  },
+  "30": {
+    "score": 3.0,
+    "explanation": "3: The model answer correctly identifies the stage as IIIA and outlines appropriate treatment steps, but it misclassifies the T stage as T3 instead of T4 (since chest wall invasion is T4), and omits details about management based on resection margins."
+  },
+  "31": {
+    "score": 4.0,
+    "explanation": "4: The model answer correctly identifies the stage (IIIB, T4N2M0), provides accurate rationale for staging, and outlines appropriate treatment options including chemoradiation, targeted, and immunotherapy. However, it does not explicitly state that surgery is not recommended and lacks emphasis on the need for multidisciplinary discussion and pre-treatment functional assessment, which are present in the reference answer."
+  },
+  "32": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and aligns well with the reference answer, correctly recommending observation and follow-up for T1bN0 R0-resected NSCLC without high-risk features. However, it introduces considerations for targeted and immunotherapy, which are not standard for this stage and may be misleading, representing a minor inaccuracy."
+  },
+  "33": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete, covering HER2靶向治疗、化疗、免疫治疗等主要内容，但未提及骨转移相关的处理（如双膦酸盐/地诺单抗）和姑息治疗、吸烟干预等综合管理措施。"
+  },
+  "34": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and matches the reference answer in staging and general treatment recommendations, but it omits the preference for segmentectomy or lobectomy with systematic lymph node dissection, and does not clearly state that adjuvant therapy is generally not needed if no high-risk features are present."
+  },
+  "35": {
+    "score": 3.0,
+    "explanation": "3: The model answer covers some key points such as the need for brain imaging and mentions treatment options, but omits essential steps like pathological confirmation of N3 nodes (e.g., EBUS/EUS), does not mention pulmonary function testing, and inaccurately prioritizes targeted/immune therapy over standard concurrent chemoradiotherapy for stage IIIB NSCLC."
+  },
+  "36": {
+    "score": 3.0,
+    "explanation": "3: The model answer correctly identifies the clinical stage and recommends surgery with adjuvant chemotherapy, but omits the important step of neoadjuvant (preoperative) therapy, does not mention multidisciplinary evaluation, and lacks discussion of targeted or immunotherapy options based on molecular status."
+  },
+  "37": {
+    "score": 2.0,
+    "explanation": "2: The model answer demonstrates limited coverage and contains notable errors. It incorrectly prioritizes chemotherapy over EGFR TKI therapy despite the presence of an actionable EGFR mutation, which contradicts current guidelines and the reference answer."
+  },
+  "38": {
+    "score": 3.0,
+    "explanation": "3: The model answer covers staging and general treatment principles, but omits important details such as recommending CDK4/6抑制剂联合内分泌治疗作为一线方案、对转移灶活检复查受体状态、系统性实验室和影像学评估等关键内容。"
+  },
+  "39": {
+    "score": 4.0,
+    "explanation": "4: The model answer covers the main clinical content, including correct staging (though the use of \"IIIB\" is not standard for T2N1M0, which is generally stage IIB), and recommends appropriate neoadjuvant therapy. However, it omits some important details such as the need for tumor and lymph node marker placement, comprehensive pre-treatment assessment, and specifics about surgical options."
+  },
+  "40": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and covers the key points regarding adjuvant chemotherapy and follow-up, but it omits the option of observation (i.e., not all patients must receive adjuvant chemotherapy) and does not mention smoking cessation advice or the lack of routine PET/CT or brain MRI in follow-up, which are included in the reference answer."
+  },
+  "41": {
+    "score": 4.0,
+    "explanation": "4: The model answer covers most key points, including the indication for neoadjuvant therapy and the need for comprehensive pre-treatment evaluation. However, it omits specific mention of tumor and axillary node marker placement and does not detail routine blood tests or the importance of regional lymph node assessment as in the reference answer."
+  },
+  "42": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and covers the key points, including the indication for adjuvant endocrine therapy and the rationale. However, it omits the explicit mention that chemotherapy and anti-HER2 therapy are not recommended, and does not specify that tamoxifen is preferred for premenopausal women, which are minor but relevant details."
+  },
+  "43": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and reaches the correct conclusion, with a thorough explanation of the reasoning. However, it introduces some unnecessary discussion about tumor size and risk assessment, which is not strictly required for this low-risk histological subtype, and could be more concise. No major omissions or errors."
+  },
+  "44": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete, covering活检、分子检测、影像学评估和治疗调整等关键内容，但略有遗漏如常规实验室检查、详细体格检查、遗传咨询、定期随访等细节。整体内容与参考答案高度一致，仅有少量细节未提及。"
+  },
+  "45": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and aligns well with the reference answer, but it lacks specific mention of the 0.5 cm cutoff (T1b及以上) and does not explicitly state the need for thorough patient communication before recommending treatment."
+  },
+  "46": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and correctly recommends osimertinib for rare EGFR mutations after progression, but it omits mention of supportive/palliative care and does not reference NCCN guidelines, which are minor omissions."
+  },
+  "47": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and covers the key steps in lymph node assessment, systemic workup, and treatment planning. However, it omits some minor but relevant details such as the recommendation to place a marker in biopsied lymph nodes, the importance of preoperative tumor marking, and does not specify the need for alkaline phosphatase testing or the rationale for MRI in detecting occult lesions."
+  },
+  "48": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete, covering肺功能、心脏评估、淋巴结评估等关键内容，但加入了分子生物学检测（虽有一定临床意义，但对术前决策影响有限），并未强调支气管镜的作用，且影像学补充部分略显重复。整体内容较为全面，仅有少量细节与参考答案不符。"
+  },
+  "49": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete, accurately identifying immunotherapy (specifically pembrolizumab monotherapy) as the first-line treatment and considering ECOG status and lack of driver mutations. However, it omits the option of combining immunotherapy with chemotherapy, as well as recommendations for smoking cessation and early palliative care integration."
+  },
+  "50": {
+    "score": 2.0,
+    "explanation": "2: The model answer demonstrates some understanding of the clinical context and discusses EGFR mutation and treatment options, but it contains a notable error by recommending chemotherapy over osimertinib, which is the guideline-recommended first-line therapy for EGFR L858R-mutant NSCLC regardless of histology if tissue is sufficient."
+  },
+  "51": {
+    "score": 2.0,
+    "explanation": "2: The model answer incorrectly recommends immunotherapy despite the patient's poor performance status (PS 3), which is a major contraindication; it omits the guideline-based recommendation for best supportive and palliative care, representing a notable error."
+  },
+  "52": {
+    "score": 5.0,
+    "explanation": "5: The model answer accurately covers the clinical staging (IA期/T1aN0M0), recommended surgical treatment, and the consideration of adjuvant therapy based on postoperative pathology, with no major omissions or errors."
+  },
+  "53": {
+    "score": 3.0,
+    "explanation": "3: The model answer covers the main point that platinum-based chemotherapy is recommended, but it incorrectly states the patient is not suitable for immunotherapy, omits the preferred pemetrexed regimen for adenocarcinoma, and does not mention the option of combining immunotherapy or supportive care."
+  },
+  "54": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete, accurately recommending RET抑制剂为首选，并提及免疫治疗的次要地位，但未明确提及多学科团队讨论和综合支持管理等细节。"
+  },
+  "55": {
+    "score": 4.0,
+    "explanation": "4: The model answer covers most key points, including the switch to EGFR-TKI therapy and the appropriateness of osimertinib for G719X mutations. However, it introduces first-generation TKIs as options (which are less preferred for this mutation), and incorrectly emphasizes osimertinib mainly for brain metastases, which this patient does not have. Minor omissions include lack of mention of palliative care and smoking cessation."
+  },
+  "56": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete, covering随访频率, chest CT, physical examination, and smoking cessation. However, it slightly overstates the frequency (mentions every 3–6 months and up to 5 years), and includes tumor markers, which are not routinely recommended, and omits the point about not routinely performing PET/CT or brain MRI."
+  },
+  "57": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and aligns well with the reference answer, but it omits the specific recommendation of annual low-dose non-contrast chest CT after 2–3 years and does not mention ongoing smoking cessation counseling."
+  },
+  "58": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete, correctly identifying ALK抑制剂 as first-line therapy and listing appropriate agents, but it incorrectly includes 阿法替尼 (which is an EGFR inhibitor, not an ALK inhibitor) and omits recommendations on smoking cessation and early palliative care."
+  },
+  "59": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete, correctly prioritizing BRAF/MEK抑制剂联合治疗，并提及免疫治疗作为后续选择，但未具体列举所有可选药物组合，且未强调多学科协作和姑息治疗等综合管理建议。"
+  },
+  "60": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete, covering adjuvant chemotherapy, radiotherapy, and MDT discussion, but it introduces targeted and immunotherapy, which are not standard for this scenario and may not be appropriate without specific indications, representing a minor inaccuracy."
+  },
+  "61": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete, covering systemic therapy, bone metastasis management, and supportive care, but it omits the explicit recommendation for orthopedic fixation for high-risk bone lesions and does not mention multidisciplinary consultation, which are present in the reference answer."
+  },
+  "62": {
+    "score": 3.0,
+    "explanation": "3: The model answer correctly identifies the use of ALK抑制剂为首选，但遗漏了指南出处、姑息治疗、对症处理、吸烟干预等重要内容，并且错误地将阿法替尼（EGFR-TKI）列为ALK抑制剂，存在一定不准确性。"
+  },
+  "63": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and aligns well with the reference answer, but it suggests a slightly different frequency for follow-up visits and chest CT scans, and does not specify the use of contrast or low-dose CT in later years. Minor details about the exact imaging protocol and follow-up intervals are omitted."
+  },
+  "64": {
+    "score": 3.0,
+    "explanation": "3: The model answer partially covers the management but omits优先再次手术切除以获得阴性切缘, which is首选 according to guidelines, and instead直接推荐放疗为下一步措施，未提及手术优先。"
+  },
+  "65": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete, accurately identifies the clinical stage (T1bN0M0) and recommends surgical treatment with appropriate preoperative and postoperative considerations. However, it omits the specific recommendation for anatomical resection with systematic lymph node dissection and does not mention intraoperative bronchoscopy or the need for long-term follow-up."
+  },
+  "66": {
+    "score": 3.0,
+    "explanation": "3: The model answer correctly identifies the clinical stage as IIIB and provides a reasonable rationale for staging, but it omits the key recommendation of concurrent chemoradiation as the standard of care for unresectable stage IIIB NSCLC. Instead, it emphasizes systemic therapy options, which is not the primary guideline-based approach for this scenario."
+  },
+  "67": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete, covering随访频率、影像学检查、戒烟指导和辅助治疗的讨论，但未明确提及随访后期采用低剂量无增强CT、未强调不常规进行FDG-PET/CT或脑MRI，仅在辅助治疗部分略显模糊。"
+  },
+  "68": {
+    "score": 4.0,
+    "explanation": "4: The model answer covers most of the key molecular tests and treatment strategies, but omits some less common but guideline-recommended genes (e.g., NTRK, METex14, RET, ERBB2) and does not explicitly mention the importance of broad molecular profiling. It also lacks mention of palliative care and smoking cessation advice."
+  },
+  "69": {
+    "score": 3.0,
+    "explanation": "3: The model answer correctly identifies the clinical stage as IIIB (T1-2, N3, M0) and broadly outlines chemoradiotherapy as standard, but it omits the specific recommendation for concurrent chemoradiotherapy, the use of durvalumab as maintenance, and the importance of molecular testing results in guiding targeted therapy. It also introduces less standard options (clinical trials) and lacks detail on sequencing and selection criteria."
+  },
+  "70": {
+    "score": 4.0,
+    "explanation": "4: The model answer covers the key clinical content, recommending EGFR-TKI as first-line therapy and listing appropriate agents. However, it omits mentioning达克替尼 (dacomitinib), which is specifically effective for G719X, and does not address the role of PD-L1 or the sequence of therapy after progression, as the reference answer does."
+  },
+  "71": {
+    "score": 3.0,
+    "explanation": "3: The model answer covers the general principles and main elements of follow-up but omits specific guideline-recommended intervals (e.g., 3 years of 3–6 monthly, then 2 years of 6 monthly, then annual), does not specify low-dose CT after 3 years, and includes non-standard recommendations (routine tumor markers, pulmonary function tests) not in the reference answer."
+  },
+  "72": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and aligns well with the reference answer, mentioning guideline recommendations, high-risk factors, and the importance of individualized decision-making, but it is less specific about what constitutes high-risk features and does not explicitly mention examples like血管/淋巴管侵犯 or分子高危特征."
+  },
+  "73": {
+    "score": 2.0,
+    "explanation": "2: The model answer incorrectly recommends Osimertinib, which is not the preferred agent for EGFR exon 20 insertion mutations; it omits the specific recommendation for Amivantamab or Mobocertinib and lacks discussion of subsequent therapy and supportive care. There are notable errors and limited coverage of guideline-based management."
+  },
+  "74": {
+    "score": 3.0,
+    "explanation": "3: The model answer covers the general approach of neoadjuvant chemotherapy plus HER2-targeted therapy and recommends continued trastuzumab postoperatively, but it omits dual HER2 blockade (pertuzumab), does not mention T-DM1 as the preferred adjuvant therapy for ypN1, and lacks reference to adjuvant radiotherapy, which are key elements in the reference answer."
+  },
+  "75": {
+    "score": 4.0,
+    "explanation": "4: 模型答案与参考答案内容基本一致，涵盖了风险分层和随访建议，但随访时间节点略有不同（模型答案建议3个月复查，参考答案建议6-12个月），且未提及两年内至少两次复查及后续处理细节。"
+  },
+  "76": {
+    "score": 3.0,
+    "explanation": "3: The model answer covers the general principles of follow-up frequency and main content but has some inaccuracies and omissions, such as not specifying the use of low-dose, non-contrast CT after 2–3 years, omitting smoking cessation counseling and survivorship care, and incorrectly suggesting routine tumor marker testing."
+  },
+  "77": {
+    "score": 4.0,
+    "explanation": "4: 模型答案与参考答案内容基本一致，涵盖了随访频率、影像学检查及体格检查等要点，但未提及3年后每6个月随访、5年后每年随访的具体分界，以及未明确说明不常规推荐FDG-PET/CT或脑MRI和戒烟指导等细节。"
+  },
+  "78": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and aligns well with the reference answer, covering follow-up intervals, imaging modalities, and indications for PET/CT and brain MRI. However, it omits specific recommendations on physical examination, low-dose CT after 5 years, and smoking cessation/survivorship care."
+  },
+  "79": {
+    "score": 5.0,
+    "explanation": "5: 临床内容与参考答案一致，无重大遗漏或错误，全面说明了不需辅助治疗的原因，并建议定期随访。"
+  },
+  "80": {
+    "score": 3.0,
+    "explanation": "3: The model answer covers the use of endocrine therapy and bone protection, but omits the current标准 of care—CDK4/6抑制剂联合芳香化酶抑制剂—thus missing a key component of optimal treatment. It also lacks discussion of monitoring and subsequent treatment options."
+  },
+  "81": {
+    "score": 3.0,
+    "explanation": "3: The model answer covers the main treatment modalities (surgery, chemotherapy, targeted therapy, endocrine therapy) but omits the key recommendation of neoadjuvant (preoperative) systemic therapy as the first step, which is standard for this stage and subtype. It also lacks mention of dual HER2 blockade, post-treatment evaluation, and radiotherapy, making it only partially complete."
+  },
+  "82": {
+    "score": 4.0,
+    "explanation": "4: The model answer covers most key points, including correct staging, the need for molecular and PD-L1 testing, and outlines systemic and supportive treatments. However, it omits some specific recommendations such as the use of bone-modifying agents (bisphosphonates or Denosumab), details on palliative radiotherapy, and smoking cessation advice."
+  },
+  "83": {
+    "score": 4.0,
+    "explanation": "4: The model answer covers most key points, including accurate clinical staging and essential preoperative assessments, but omits specific mention of tumor bed marker placement, detailed blood tests, and the rationale for certain imaging choices, which are present in the reference answer."
+  },
+  "84": {
+    "score": 4.0,
+    "explanation": "4: The model answer covers most key points, including indications for neoadjuvant therapy, risk features, and next steps in evaluation and management. However, it omits some specific details such as the importance of breast-conserving surgery considerations, the placement of marker clips, and the approach to axillary evaluation, which are present in the reference answer."
+  },
+  "85": {
+    "score": 5.0,
+    "explanation": "5: The model answer accurately covers all key clinical points, including the rarity of ALK rearrangement in squamous cell carcinoma, guideline recommendations, and the appropriateness of crizotinib as first-line systemic therapy, with no major omissions or errors."
+  },
+  "86": {
+    "score": 3.0,
+    "explanation": "3: The model answer correctly identifies RET抑制剂为主要治疗，但错误推荐了cabozantinib（非RET特异性抑制剂），未提及骨保护治疗和化疗的替代方案，也未强调镇痛和姑息治疗需求，内容有部分遗漏和不准确。"
+  },
+  "87": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and covers all key points, including follow-up frequency, imaging recommendations, and indications for brain MRI or PET/CT. However, it omits the recommendation for smoking cessation counseling and is slightly less specific about the duration and type of CT (e.g., low-dose CT after 2–3 years)."
+  },
+  "88": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete, accurately describes the staging and standard treatment, but incorrectly classifies the tumor as T1a instead of T1b (1.5 cm falls into T1b per current TNM), and does not specifically mention区域淋巴结清扫, which is a key detail in the reference answer."
+  },
+  "89": {
+    "score": 3.0,
+    "explanation": "3: The model answer covers the general approach of surgery and systemic therapy, but omits the recommendation for mastectomy (rather than just local excision), lacks mention of axillary staging, and incorrectly suggests routine consideration of re-irradiation, which is generally not recommended after prior radiotherapy."
+  },
+  "90": {
+    "score": 3.0,
+    "explanation": "3: The model answer covers the general approach of surgical excision and follow-up but omits key details such as the recommendation for central breast excision (not仅乳头切除), sentinel lymph node biopsy, and the option of adjuvant radiotherapy or total mastectomy based on patient preference. It also overemphasizes preoperative imaging, which has already been performed per the scenario."
+  },
+  "91": {
+    "score": 3.0,
+    "explanation": "3: The model answer correctly identifies the need to switch to ALK抑制剂治疗 and mentions crizotinib, but omits the recommendation for newer generation ALK inhibitors (alectinib, brigatinib, lorlatinib) as first-line, and does not discuss the option of completing current chemotherapy or maintenance therapy."
+  },
+  "92": {
+    "score": 3.0,
+    "explanation": "3: The model answer covers several key steps such as brain imaging, multidisciplinary discussion, and general treatment principles, but omits specific recommendations for molecular testing (including PD-L1 and rare mutations in squamous cell carcinoma), does not emphasize同步放化疗 as the standard of care, and includes some less relevant steps (e.g., bone scan after PET-CT). There are also inaccuracies regarding the role of surgery and the prioritization of treatment modalities."
+  },
+  "93": {
+    "score": 4.0,
+    "explanation": "4: The model answer covers most key points, including 6-monthly chest CT, clinical follow-up, and smoking cessation advice, but adds more frequent clinical visits and tumor marker testing, which are not standard per the reference. It omits the transition to annual CT after year 3 and the specific mention of low-dose CT."
+  },
+  "94": {
+    "score": 4.0,
+    "explanation": "4: The model answer covers most key points, including the need for further local treatment (radiotherapy), consideration of chemotherapy, and appropriate follow-up imaging. However, it omits优先考虑再次手术切除残余肿瘤 as首选, and does not specifically mention戒烟干预 or肿瘤生存管理, which are minor but relevant omissions."
+  },
+  "95": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and covers the main points, including adjuvant chemotherapy, platinum-based regimens, and consideration of targeted therapy. It adds mention of immunotherapy, which is emerging but not yet standard for this stage, and omits the explicit statement that adjuvant radiotherapy is generally not recommended unless there is positive margin or extranodal extension. Minor omissions and slight over-inclusiveness prevent a perfect score."
+  },
+  "96": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete, correctly identifies the stage (though uses T1aN0M0 instead of T1bN0M0), and lists appropriate preoperative assessments. However, it omits强调术中或术前纵隔淋巴结评估以排除隐匿转移这一关键点。"
+  },
+  "97": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and correctly identifies the clinical stage and outlines appropriate next steps, but it omits some minor but relevant details such as recommending preoperative MRI, routine labs, and specific mention of tumor localization before surgery."
+  },
+  "98": {
+    "score": 2.0,
+    "explanation": "2: The model answer omits the critical standard of care—concurrent chemoradiotherapy—and instead incorrectly emphasizes chemotherapy combined with targeted or immunotherapy, which is not the guideline-recommended first-line for unresectable stage IIIB NSCLC. It also fails to mention durvalumab consolidation and does not specify the role of radiotherapy, representing notable errors and limited coverage."
+  },
+  "99": {
+    "score": 3.0,
+    "explanation": "3: 模型答案提到了辅助化疗，但遗漏了放疗或放化疗联合的推荐，没有提及R1切缘阳性时应考虑局部放疗，内容不够全面。"
+  }
+}

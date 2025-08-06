@@ -1,0 +1,78 @@
+{
+  "0": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and covers all key points, including the need for individualized assessment, potential for dose adjustment or drug selection, multidisciplinary evaluation, and the option of supportive care. However, it is more detailed than the reference and slightly overstates severe renal dysfunction as an absolute or relative contraindication, whereas the reference emphasizes individualized decision-making without such strong wording."
+  },
+  "1": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, thoroughly covering the rationale for neoadjuvant chemoradiotherapy, surgical considerations, and the inadvisability of direct surgery, with no major omissions or errors."
+  },
+  "2": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, thoroughly addressing the risks, need for individualized assessment, and alternative management strategies without any major omissions or errors."
+  },
+  "3": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, thoroughly explaining the rationale, guidelines, and risks, with no major omissions or errors."
+  },
+  "4": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, thoroughly explaining the rationale for prioritizing FDG-PET/CT and referencing relevant guidelines, with no major omissions or errors."
+  },
+  "5": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, accurately stating that COPD并不改变首次随访时间间隔，并强调应按高危人群指南随访，无重大遗漏或错误。"
+  },
+  "6": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a reasonable discussion of the role of systemic and local therapies in patients with poor performance status, but it incorrectly states that systemic therapy is not the preferred option, whereas the reference answer clearly states systemic therapy is the first choice. The model answer also introduces best supportive care as the mainstay, which is not mentioned in the reference, leading to some inaccuracies and omissions."
+  },
+  "7": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, thoroughly explaining the necessity of pathological confirmation for N3 staging, referencing guidelines, and addressing exceptions, with no major omissions or errors."
+  },
+  "8": {
+    "score": 5.0,
+    "explanation": "5: The model answer fully covers all key clinical points from the reference answer, with no major omissions or errors, and even provides additional guideline references for support."
+  },
+  "9": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, thoroughly addressing the need for special consideration of the nipple-areola complex in Paget disease with DCIS, and clearly explaining why standard DCIS management alone is insufficient. No major omissions or errors are present."
+  },
+  "10": {
+    "score": 5.0,
+    "explanation": "5: The model answer is comprehensive, aligns fully with the reference answer, and includes all key clinical points without omissions or errors."
+  },
+  "11": {
+    "score": 5.0,
+    "explanation": "5: The model answer fully covers the clinical reasoning, indications, and exceptions, and even cites relevant guidelines, with no major omissions or errors compared to the reference answer."
+  },
+  "12": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and accurately highlights COPD as a high-risk factor, recommending a shorter follow-up interval. However, it does not explicitly state that the standard 6–12 month interval may be insufficient and that individualized management should be considered, as emphasized in the reference answer."
+  },
+  "13": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a reasonable discussion of both systemic and local treatments, but it incorrectly prioritizes local treatment for brain metastasis over systemic therapy, which contradicts the reference answer's emphasis on systemic therapy as the primary approach. There are also some minor inaccuracies regarding guideline recommendations."
+  },
+  "14": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, thoroughly explaining the need for complete staging before determining treatment, and accurately distinguishing between N3 and M1b stages with no major omissions or errors."
+  },
+  "15": {
+    "score": 5.0,
+    "explanation": "5: The model answer contains all key clinical content from the reference answer, thoroughly discusses the risk-benefit assessment, and appropriately suggests alternative non-invasive evaluations, with no major omissions or errors."
+  },
+  "16": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, thoroughly addressing both the utility and limitations of plasma cfDNA testing, and clearly explaining the differences in applicability compared to tissue testing, with no major omissions or errors."
+  },
+  "17": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and aligns closely with the reference answer, but it overstates the necessity of 12-month follow-up (“不应停止随访”) rather than emphasizing that follow-up is optional and not mandatory for all patients, as the reference answer notes."
+  },
+  "18": {
+    "score": 5.0,
+    "explanation": "5: The model answer fully covers the clinical reasoning and key points of the reference answer, including the rationale for starting treatment based on histology and PD-L1, the low priority of molecular testing in squamous cell carcinoma, and the need to adjust therapy if further molecular results become available. No major omissions or errors are present."
+  }
+}

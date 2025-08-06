@@ -1,0 +1,402 @@
+{
+  "0": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, thoroughly addressing the need for preoperative mediastinal lymph node pathological evaluation and providing clear rationale without omissions or errors."
+  },
+  "1": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, thoroughly explaining the necessity of EGFR, ALK, and PD-L1 testing for guiding targeted and immunotherapy, and clearly stating the impact on individualized treatment. No major omissions or errors are present."
+  },
+  "2": {
+    "score": 5.0,
+    "explanation": "5: The model answer fully covers the clinical content of the reference answer, correctly prioritizing endocrine therapy (including SERM with OFS) over chemotherapy, and provides additional accurate details without any major omissions or errors."
+  },
+  "3": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, thoroughly explaining the rationale for not recommending surgery and appropriately suggesting alternative treatments, with no major omissions or errors."
+  },
+  "4": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, providing all key points, including the necessity of pathological sampling, limitations of imaging, and guideline recommendations, with no major omissions or errors."
+  },
+  "5": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, providing all key points, rationale, and even guideline references, with no major omissions or errors."
+  },
+  "6": {
+    "score": 5.0,
+    "explanation": "5: The model answer fully covers the clinical reasoning, indications for local intervention, and the possibility of direct systemic therapy in asymptomatic cases, with reference to guidelines. There are no major omissions or errors."
+  },
+  "7": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, clearly prioritizing reoperation when feasible and relegating chemoradiotherapy to cases where surgery is not possible, with no major omissions or errors."
+  },
+  "8": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, covering all key points without omissions or errors, and even provides additional rationale and guideline references."
+  },
+  "9": {
+    "score": 5.0,
+    "explanation": "5: The model answer fully covers the clinical content of the reference answer, accurately explaining that systemic therapy remains the mainstay of treatment in this scenario, and provides additional guideline-based justification without any major omissions or errors."
+  },
+  "10": {
+    "score": 5.0,
+    "explanation": "5: The model answer provides all key clinical content, accurately explains the staging change to IV, references current guidelines, and clearly states that surgery is not standard in this scenario, matching the reference answer without major omissions or errors."
+  },
+  "11": {
+    "score": 5.0,
+    "explanation": "5: The model answer fully covers all key clinical points from the reference answer, including the necessity of FDG-PET/CT for staging and treatment planning, and the risks of omitting it, with no major omissions or errors."
+  },
+  "12": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically comprehensive, accurately addresses the contraindications and necessary adjustments for platinum-based chemotherapy in severe renal impairment, and appropriately discusses alternative strategies, matching the reference answer without major omissions or errors."
+  },
+  "13": {
+    "score": 5.0,
+    "explanation": "5: The model answer contains all key clinical content from the reference answer, accurately emphasizing the necessity of pathological confirmation for N3 staging and referencing relevant guidelines, with no major omissions or errors."
+  },
+  "14": {
+    "score": 5.0,
+    "explanation": "5: The model answer contains all key clinical content from the reference answer, including the recommended follow-up interval, rationale based on recurrence risk, and guideline support, with no major omissions or errors."
+  },
+  "15": {
+    "score": 2.0,
+    "explanation": "2: The model answer incorrectly prioritizes re-operation as the first choice, which contradicts the reference answer and current standard practice that favors chemoradiotherapy as the primary salvage treatment. While the answer is structured and references guidelines, this notable error in treatment priority significantly affects its accuracy."
+  },
+  "16": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, thoroughly addresses the risks of contrast in chronic kidney disease, and clearly recommends non-contrast CT for routine follow-up, with no major omissions or errors."
+  },
+  "17": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, accurately covering all key points regarding follow-up frequency, guideline recommendations, and the rationale for not extending the interval within 3 years post-treatment, with no major omissions or errors."
+  },
+  "18": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and clinically accurate, correctly affirming the use of non-contrast low-dose chest CT for follow-up in patients with impaired liver/kidney function. However, it adds extra information about alternative imaging (MRI or PET-CT), which, while not incorrect, is not present in the reference answer and slightly diverges from the focused scope."
+  },
+  "19": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically comprehensive, accurately addresses the question, and includes all key points from the reference answer without major omissions or errors."
+  },
+  "20": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, providing comprehensive reasoning, guideline support, and no major omissions or errors."
+  },
+  "21": {
+    "score": 5.0,
+    "explanation": "5: The model answer provides comprehensive and accurate clinical content, fully covering the rationale, evidence, and guideline recommendations for prioritizing osimertinib over durvalumab in EGFR-mutant NSCLC, with no major omissions or errors."
+  },
+  "22": {
+    "score": 5.0,
+    "explanation": "5: The model answer contains all the key clinical content of the reference answer, accurately explaining both the contraindication due to severe liver dysfunction and the lack of indication for pembrolizumab in this patient population, with no major omissions or errors."
+  },
+  "23": {
+    "score": 5.0,
+    "explanation": "5: The model answer contains all the key clinical content from the reference answer, with accurate details and no major omissions or errors. It even provides additional rationale and guideline references, fully supporting the indication for neoadjuvant therapy in this patient."
+  },
+  "24": {
+    "score": 5.0,
+    "explanation": "5: The model answer fully covers the clinical content of the reference answer, correctly stating that ALK-TKI应作为首选治疗，并可直接替换当前一线治疗，同时补充了指南依据和注意事项，无重大遗漏或错误。"
+  },
+  "25": {
+    "score": 5.0,
+    "explanation": "5: The model answer provides identical clinical content to the reference answer, accurately stating that brain MRI is not routinely required for early-stage, asymptomatic NSCLC patients, and cites relevant guidelines."
+  },
+  "26": {
+    "score": 5.0,
+    "explanation": "5: The model answer is comprehensive, accurately addresses all key points from the reference answer, and provides additional relevant details without any major omissions or errors."
+  },
+  "27": {
+    "score": 5.0,
+    "explanation": "5: The model answer is comprehensive, accurate, and covers all key clinical points from the reference answer, with no major omissions or errors. It provides detailed rationale and aligns fully with current guidelines and evidence."
+  },
+  "28": {
+    "score": 5.0,
+    "explanation": "5: The model answer contains all the key clinical content of the reference answer, with no major omissions or errors, and provides additional relevant detail without introducing inaccuracies."
+  },
+  "29": {
+    "score": 5.0,
+    "explanation": "5: The model answer is identical in clinical content to the reference answer, with no major omissions or errors, and even provides additional supporting evidence and rationale."
+  },
+  "30": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, with comprehensive coverage and no major omissions or errors. It even provides additional supporting rationale consistent with current guidelines."
+  },
+  "31": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, fully covering the rationale for prioritizing SVC stent placement, the urgency, and the subsequent plan for chemoradiotherapy, with no major omissions or errors."
+  },
+  "32": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, accurately reflecting current guidelines and providing appropriate justification without omissions or errors."
+  },
+  "33": {
+    "score": 5.0,
+    "explanation": "5: 模型答案与参考答案临床内容完全一致，无重大遗漏或错误，明确指出应优先选择激光/支架等局部介入措施，并解释了外照射放疗的局限。"
+  },
+  "34": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, fully covering all key points without omissions or errors, and provides appropriate justification and guideline references."
+  },
+  "35": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, thoroughly covering the necessity, rationale, and guideline support for preoperative pulmonary function testing in early-stage NSCLC, with no major omissions or errors."
+  },
+  "36": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, providing all key points and even adding guideline support and practical considerations without introducing errors or omissions."
+  },
+  "37": {
+    "score": 2.0,
+    "explanation": "2: The model answer incorrectly prioritizes SABR over surgery, which contradicts the reference answer stating surgery is preferred if there are no contraindications. While the model provides reasonable justification, it contains a notable error in treatment prioritization."
+  },
+  "38": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and covers all key points, including the use of non-contrast CT, the rationale, and alternative imaging options. However, it adds extra detail about follow-up frequency and alternative modalities, which, while accurate, slightly extends beyond the reference answer's scope. No major omissions or errors are present."
+  },
+  "39": {
+    "score": 5.0,
+    "explanation": "5: 模型答案与参考答案临床内容完全一致，无重大遗漏或错误，并补充了指南依据和随访方案，内容详实准确。"
+  },
+  "40": {
+    "score": 5.0,
+    "explanation": "5: The model answer contains all the key clinical content of the reference answer, with additional guideline-based detail and no major omissions or errors."
+  },
+  "41": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, with no major omissions or errors, and even provides additional guideline-based justification without introducing inaccuracies."
+  },
+  "42": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, with no major omissions or errors. It accurately explains why surgery is not recommended in N3 stage NSCLC, referencing guidelines and providing clear reasoning."
+  },
+  "43": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, accurately covering the indications for SLNB versus ALND in cN1 patients with negative FNA, and includes relevant guideline references without omissions or errors."
+  },
+  "44": {
+    "score": 5.0,
+    "explanation": "5: The model answer is identical in clinical content to the reference answer, with no major omissions or errors. It provides additional guideline references and supporting evidence, but the core recommendation and rationale are fully aligned."
+  },
+  "45": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, accurately covering all key points with no major omissions or errors. It even provides additional guideline references and rationale, fully supporting the recommendation."
+  },
+  "46": {
+    "score": 5.0,
+    "explanation": "5: The model answer contains all the key clinical content of the reference answer, with no major omissions or errors. It provides additional detail and evidence supporting the recommendation to prioritize Osimertinib, and accurately addresses considerations regarding liver dysfunction."
+  },
+  "47": {
+    "score": 5.0,
+    "explanation": "5: The model answer contains all the key clinical content of the reference answer, with clear explanation and no major omissions or errors. It accurately addresses the question and provides appropriate rationale and recommendations."
+  },
+  "48": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and covers the key clinical considerations, but it overemphasizes the need to wait for molecular results in most cases, whereas the reference answer clearly states that immediate initiation of systemic therapy is appropriate when clinically indicated, without waiting for molecular results. Minor differences in emphasis and recommendations account for the deduction."
+  },
+  "49": {
+    "score": 5.0,
+    "explanation": "5: The model answer covers all key clinical points from the reference answer, including the necessity of waiting for molecular testing before systemic therapy, the rationale for this approach, and appropriate exceptions for urgent cases, with no major omissions or errors."
+  },
+  "50": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, providing comprehensive detail, guideline support, and no major omissions or errors."
+  },
+  "51": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, accurately reflecting current guidelines, emphasizing the need for clear evidence before treating as multiple primaries, and correctly stating that T4 staging should guide management in most cases."
+  },
+  "52": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, with no major omissions or errors. It covers all key points, provides additional guideline references, and appropriately expands on postoperative management."
+  },
+  "53": {
+    "score": 5.0,
+    "explanation": "5: The model answer contains all the key clinical content from the reference answer, with no major omissions or errors, and provides additional relevant details supporting the recommendation."
+  },
+  "54": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, fully covering the indication for bone-targeted agents regardless of receptor status, and even adds relevant guideline support and details about benefits."
+  },
+  "55": {
+    "score": 5.0,
+    "explanation": "5: The model answer accurately covers all key points from the reference answer, including the contraindication to endocrine therapy, the ineffectiveness of ovarian suppression alone, and the need to consider chemotherapy or other systemic treatments. No major omissions or errors are present."
+  },
+  "56": {
+    "score": 5.0,
+    "explanation": "5: The model answer contains all key clinical content from the reference answer, with no major omissions or errors, and provides additional rationale consistent with guidelines."
+  },
+  "57": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, fully explaining the rationale and providing appropriate recommendations without omissions or errors."
+  },
+  "58": {
+    "score": 5.0,
+    "explanation": "5: The model answer fully covers the clinical content of the reference answer, accurately addressing the indication, lack of PS 2 restriction, and providing appropriate rationale and guideline support, with no major omissions or errors."
+  },
+  "59": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, thoroughly explaining the rationale for prioritizing postoperative radiotherapy over systemic therapy and referencing current guidelines, with no major omissions or errors."
+  },
+  "60": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, with no major omissions or errors, and even provides additional supporting evidence and guideline references."
+  },
+  "61": {
+    "score": 5.0,
+    "explanation": "5: The model answer is comprehensive, accurate, and fully aligns with the reference answer, providing detailed rationale and guideline support without any major omissions or errors."
+  },
+  "62": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, providing all key points, rationale, and appropriate recommendations without omissions or errors."
+  },
+  "63": {
+    "score": 5.0,
+    "explanation": "5: The model answer is comprehensive, accurate, and covers all key clinical points from the reference answer, with additional relevant details and no major omissions or errors."
+  },
+  "64": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, thoroughly covering the necessity of brain MRI for accurate staging and the risks of omitting it, with no major omissions or errors."
+  },
+  "65": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, providing comprehensive detail, rationale, and appropriate caveats without any major omissions or errors."
+  },
+  "66": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, with no major omissions or errors, and provides additional guideline-based justification and references."
+  },
+  "67": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, providing comprehensive reasoning, guideline support, and addressing rare exceptions, with no major omissions or errors."
+  },
+  "68": {
+    "score": 1.0,
+    "explanation": "1: The model answer contradicts the reference answer by insisting on treating the scenario as metastatic disease rather than as two primary lung cancers when both lesions are potentially curable, missing the key clinical nuance and rationale provided in the reference."
+  },
+  "69": {
+    "score": 2.0,
+    "explanation": "2: The model answer provides a detailed rationale but directly contradicts the reference answer, which states that systemic therapy can be started without waiting for biomarker results in this scenario. This is a notable error in clinical content, despite the otherwise comprehensive discussion."
+  },
+  "70": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, covering all key points including surgical preference, the impact of mild restrictive impairment, preoperative assessment, and alternative treatments, with no major omissions or errors."
+  },
+  "71": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically comprehensive, accurately addresses the scenario, and provides detailed justification consistent with the reference answer, with no major omissions or errors."
+  },
+  "72": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, accurately stating that the regimen is only recommended for non-squamous NSCLC and not for squamous cell carcinoma, with no major omissions or errors."
+  },
+  "73": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, thoroughly covering all key points, including surgical risk, alternative treatments, and the need for multidisciplinary evaluation, with no major omissions or errors."
+  },
+  "74": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, covering all key points without omissions or errors, and provides clear justification and guideline references."
+  },
+  "75": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, thoroughly covering all key points with no major omissions or errors, and even provides additional rationale and references to support the recommendation."
+  },
+  "76": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and covers the main clinical points, but it overemphasizes the requirement that patients must be ROS1 TKI-naïve, whereas the reference answer clarifies that prior use of these agents is the only restriction. The model answer also adds some extraneous detail, but overall, the clinical content is accurate with only minor omissions."
+  },
+  "77": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a reasonable rationale and references evidence (TAILORx), but it contradicts the reference answer by recommending endocrine therapy alone, omitting the guideline-based preference for chemotherapy in premenopausal women with this Recurrence Score."
+  },
+  "78": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, covering all key points with no major omissions or errors, and provides appropriate justification based on current guidelines."
+  },
+  "79": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and provides a thorough discussion, but it introduces more nuance regarding surgical risk and patient safety, which, while clinically reasonable, slightly diverges from the reference answer's clear prioritization of reoperation for local control. Minor omissions include not explicitly stating that reoperation should be prioritized if feasible."
+  },
+  "80": {
+    "score": 5.0,
+    "explanation": "5: The model answer contains all the key clinical content of the reference answer, with no major omissions or errors, and provides additional relevant details and justification."
+  },
+  "81": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, accurately explaining the evidence and guidelines, and clearly stating that axillary dissection should not be omitted if 3 sentinel lymph nodes are positive."
+  },
+  "82": {
+    "score": 5.0,
+    "explanation": "5: The model answer accurately reflects current guidelines and clinical reasoning, correctly prioritizing chemotherapy in the context of endocrine resistance within 1 year, and provides appropriate references. There are no major omissions or errors."
+  },
+  "83": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, covering all key points without omissions or errors, and even provides guideline references for support."
+  },
+  "84": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, accurately stating that there is no difference in follow-up protocols between T1aN0 and T1bN0 after R0 resection, and correctly outlining the recommended surveillance schedule."
+  },
+  "85": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, thoroughly addressing the limitations of Alectinib in patients unable to take oral medications and appropriately discussing alternative management strategies, with no major omissions or errors."
+  },
+  "86": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a partial and nuanced discussion, referencing guidelines and the possibility of individualized decision-making, but it omits the clear recommendation for routine postmastectomy radiotherapy due to initial node positivity, as emphasized in the reference answer. This leads to some inaccuracy regarding current standard practice."
+  },
+  "87": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, fully covering the rationale, guideline recommendations, and the limited role of immunotherapy in this context, with no major omissions or errors."
+  },
+  "88": {
+    "score": 5.0,
+    "explanation": "5: The model answer covers all key clinical points from the reference answer, including the rationale for stent placement and radiotherapy, their respective roles in acute and long-term control, and appropriate patient selection, with no major omissions or errors."
+  },
+  "89": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, thoroughly explaining the rationale and guidelines, with no major omissions or errors."
+  },
+  "90": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, with no major omissions or errors. It provides additional relevant details and rationale, fully supporting the correct recommendation."
+  },
+  "91": {
+    "score": 5.0,
+    "explanation": "5: The model answer is comprehensive, accurate, and covers all key clinical points from the reference answer, with additional relevant details and no major omissions or errors."
+  },
+  "92": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, providing comprehensive reasoning, guideline references, and a clear conclusion without omissions or errors."
+  },
+  "93": {
+    "score": 5.0,
+    "explanation": "5: 模型答案与参考答案临床内容完全一致，详细说明了奥希替尼的适应证、相关研究和指南依据，无明显遗漏或错误。"
+  },
+  "94": {
+    "score": 2.0,
+    "explanation": "2: The model answer provides a detailed discussion but contains notable errors, as it incorrectly states that sampling and marking only the most suspicious node does not meet the requirements, which contradicts the reference answer and current standard practice. It overstates the limitations and misrepresents guideline recommendations, leading to a significant deviation from the reference."
+  },
+  "95": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, accurately stating that routine follow-up does not include brain MRI or FDG-PET/CT and providing appropriate justification without omissions or errors."
+  },
+  "96": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, with no major omissions or errors. It provides clear rationale and guideline support for the choice of low-dose non-contrast chest CT as the preferred follow-up modality."
+  },
+  "97": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, providing comprehensive coverage, citing key studies and guidelines, and clearly stating the preferential recommendation for immunotherapy plus chemotherapy over chemotherapy alone. No major omissions or errors are present."
+  },
+  "98": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, providing comprehensive justification, relevant study evidence, and guideline support, with no major omissions or errors."
+  },
+  "99": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, thoroughly addressing the rationale for prioritizing radiotherapy over surgery, and clearly explaining the key clinical considerations without omissions or errors."
+  }
+}

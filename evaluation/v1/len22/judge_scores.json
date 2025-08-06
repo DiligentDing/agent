@@ -1,0 +1,70 @@
+{
+  "0": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, with comprehensive coverage, accurate rationale, and no major omissions or errors. It even adds relevant guideline references and details about CDK4/6 inhibitors, which are appropriate and up-to-date."
+  },
+  "1": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, accurately stating the indication for axillary lymph node dissection and referencing the relevant study and criteria, with no major omissions or errors."
+  },
+  "2": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, thoroughly explaining the rationale, guidelines, and providing supporting references, with no major omissions or errors."
+  },
+  "3": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, covering all key points, including guideline recommendations, rationale, and appropriate sequencing of therapy, with no major omissions or errors."
+  },
+  "4": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, with no major omissions or errors. It provides comprehensive justification, referencing key studies and guidelines, and clearly states the correct management."
+  },
+  "5": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and provides a detailed, guideline-based rationale, but it diverges from the reference answer by stating that ALND is not always required if technical criteria are met, whereas the reference answer recommends routine ALND regardless. This represents a minor but important difference in clinical recommendation."
+  },
+  "6": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, providing comprehensive rationale, guideline citations, and current evidence, with no major omissions or errors."
+  },
+  "7": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, accurately covering all key points with no major omissions or errors."
+  },
+  "8": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, accurately explaining the rationale and referencing the Z0011 criteria, with no major omissions or errors."
+  },
+  "9": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, thoroughly explaining the evidence, guidelines, and rationale for not omitting ALND in this scenario, with no major omissions or errors."
+  },
+  "10": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, providing comprehensive reasoning, referencing key studies and guidelines, and correctly concluding that axillary dissection cannot be omitted in this scenario."
+  },
+  "11": {
+    "score": 5.0,
+    "explanation": "5: The model answer contains all key clinical content, accurately references the ACOSOG Z0011 study, and provides appropriate justification without omissions or errors."
+  },
+  "12": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and covers the key points, including the feasibility of non-anthracycline regimens for HER2-positive patients with liver dysfunction. However, it introduces extra background and guideline discussion, and the conclusion is incomplete, missing a direct, concise statement that preoperative systemic therapy is still possible with non-anthracycline regimens."
+  },
+  "13": {
+    "score": 2.0,
+    "explanation": "2: The model answer contains notable errors, as it contradicts the reference answer and current guidelines by stating that all suspicious nodes should be biopsied and marked, whereas the reference answer correctly states that only the most suspicious node needs to be biopsied and marked."
+  },
+  "14": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, with no major omissions or errors, and provides additional guideline-based clarification and definitions."
+  },
+  "15": {
+    "score": 5.0,
+    "explanation": "5: The model answer accurately covers all key clinical points from the reference answer, with no major omissions or errors, and provides appropriate guideline references and rationale."
+  },
+  "16": {
+    "score": 5.0,
+    "explanation": "5: The model answer is identical in clinical content to the reference answer, with no major omissions or errors, and even provides additional guideline and evidence-based justification."
+  }
+}

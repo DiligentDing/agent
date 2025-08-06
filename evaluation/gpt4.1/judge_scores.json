@@ -1,0 +1,678 @@
+{
+  "0": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and aligns closely with the reference answer, but it does not emphasize that patients who received radiotherapy may require a slightly higher follow-up frequency (every 3–6 months for the first 3 years) as stated in the reference. Otherwise, the clinical content is accurate and well-supported."
+  },
+  "1": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a reasonable rationale for using head MRI and FDG-PET/CT in the context of new suspicious lesions, but incorrectly recommends their routine use, which contradicts the reference answer stating these are not for routine surveillance but for specific indications. There is partial overlap, but a notable error in the recommendation."
+  },
+  "2": {
+    "score": 2.0,
+    "explanation": "2: The model answer provides a well-structured rationale but directly contradicts the reference answer, which clearly states that the follow-up frequency should be more intensive after radiotherapy than after surgery±chemotherapy. This is a notable error in clinical content."
+  },
+  "3": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a reasonable discussion but overstates the indication for FDG-PET/CT, recommending it routinely for any new nodule, whereas the reference answer specifies that such advanced imaging is only recommended when there is high suspicion of recurrence or symptoms. The model answer correctly advises against routine brain MRI but does not fully align with the conservative approach outlined in the reference answer regarding PET/CT."
+  },
+  "4": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, providing comprehensive reasoning, guideline support, and no major omissions or errors."
+  },
+  "5": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and covers the key clinical content, emphasizing that resection is not standard and should only be considered for palliation in select cases. However, it introduces the possibility of palliative surgery more explicitly than the reference, which is more conservative, and thus slightly diverges from the strict recommendation against surgery except for clear indications."
+  },
+  "6": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, covering all key points without omissions or errors, and provides appropriate justification and guideline references."
+  },
+  "7": {
+    "score": 2.0,
+    "explanation": "2: The model answer recommends immediate FDG-PET/CT as the first choice, which contradicts the reference answer and current guidelines that prioritize regular enhanced chest CT follow-up in this scenario. While the model answer provides rationale, it contains a notable error in management approach and does not align with standard practice for asymptomatic, isolated imaging findings post-R0 resection in stage IA NSCLC."
+  },
+  "8": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a reasonable clinical rationale and references guidelines, but it omits the key point from the reference answer that pathological confirmation of metastases is necessary to avoid misdiagnosis and to clarify molecular features; it overstates the acceptability of omitting metastatic biopsy, which is a notable inaccuracy."
+  },
+  "9": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a detailed rationale and cites relevant studies and guidelines, but its recommendation contradicts the reference answer and current consensus, which do not recommend chemotherapy for a score of 25. This is a significant inaccuracy."
+  },
+  "10": {
+    "score": 4.0,
+    "explanation": "4: The model answer provides a comprehensive and nuanced discussion, correctly highlighting the risks of re-irradiation and the need for careful patient selection, but it goes beyond the reference answer by suggesting that re-irradiation can be considered in select cases, whereas the reference answer more strongly discourages it in routine practice. This constitutes a minor deviation rather than a major omission or error."
+  },
+  "11": {
+    "score": 5.0,
+    "explanation": "5: The model answer fully covers all key clinical points from the reference answer, including the priority of systemic therapy, the limitations of local therapy alone, and the recommendation for combined or sequential systemic treatment. There are no major omissions or errors."
+  },
+  "12": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a detailed and accurate discussion but contradicts the reference answer by stating that T-DXd should not be directly prioritized in HER2-mutant squamous cell carcinoma, whereas the reference answer affirms its use regardless of histological subtype. This represents a significant omission and inaccuracy regarding current recommendations."
+  },
+  "13": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a detailed discussion and references guidelines, but it over-recommends routine FDG-PET/CT for all imaging abnormalities, which contradicts the reference answer's emphasis on selective use to avoid unnecessary testing. There is also some ambiguity regarding the threshold for advanced imaging, leading to partial but not complete alignment."
+  },
+  "14": {
+    "score": 2.0,
+    "explanation": "2: The model answer contains notable errors, as it incorrectly states that PD-L1 testing has higher priority than comprehensive molecular testing, contrary to guidelines which recommend both should be performed in parallel and are equally important for initial treatment decisions. It omits the recommendation that comprehensive molecular testing should not be deprioritized and misrepresents the guideline stance."
+  },
+  "15": {
+    "score": 5.0,
+    "explanation": "5: The model answer provides a comprehensive and guideline-based explanation, correctly stating that KRAS G12C inhibitors are not approved for first-line use and that PD-L1 testing status does not affect this. It covers all relevant clinical content with no major omissions or errors."
+  },
+  "16": {
+    "score": 3.0,
+    "explanation": "3: The model answer correctly identifies that the T stage should be upgraded to T4 due to the same-side, different-lobe nodule, but it inaccurately states that T4N1M0 is IIIB stage, whereas according to the reference answer and current TNM staging, T4N1M0 is IIIA. This is a significant inaccuracy."
+  },
+  "17": {
+    "score": 2.0,
+    "explanation": "2: The model answer incorrectly states that system therapy should be delayed until molecular testing is complete, which contradicts the reference answer. It also overemphasizes the necessity of molecular testing as a prerequisite, representing a notable error in clinical decision-making."
+  },
+  "18": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a detailed and guideline-based explanation but incorrectly states that broad molecular testing is not routinely recommended for all squamous NSCLC patients, whereas the reference answer affirms that current recommendations are for broad testing in all NSCLC subtypes, including squamous. This is a significant omission and inaccuracy."
+  },
+  "19": {
+    "score": 3.0,
+    "explanation": "3: The model answer recommends转为每年一次CT随访从术后第2年起，而参考答案要求术后第3年才可改为每年一次，术后第2年仍应每6个月复查，存在关键随访时间点的错误。其余内容较为完整，但此处为主要遗漏。"
+  },
+  "20": {
+    "score": 4.0,
+    "explanation": "4: The model answer provides a comprehensive and guideline-based discussion, correctly noting larotrectinib as a recommended therapy but adds nuance regarding untreated brain metastases, referencing guideline cautions and clinical trial limitations. However, it is more conservative than the reference answer, which explicitly states larotrectinib can be used without excluding untreated brain metastases, leading to a minor omission in alignment with the reference."
+  },
+  "21": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a detailed discussion of guidelines and evidence, but incorrectly concludes that Selpercatinib or Pralsetinib are not recommended as first-line therapy for RET重排的鳞状NSCLC, whereas the reference answer states they can be used regardless of histology if RET rearrangement is present. This represents a significant omission and inaccuracy."
+  },
+  "22": {
+    "score": 4.0,
+    "explanation": "4: 模型答案内容几乎完整，强调了局部治疗的重要性，并补充了联合全身治疗的合理性，但与参考答案相比，未明确突出“优先局部治疗”而非“联合”，且对全身治疗的适应证描述略有扩展，存在轻微偏差。"
+  },
+  "23": {
+    "score": 2.0,
+    "explanation": "2: The model answer provides a detailed discussion but directly contradicts the reference answer by recommending immediate initiation of osimertinib before completing the current first-line regimen, which is a notable error. While it cites guidelines and offers rationale, it fails to align with the specific clinical recommendation in the reference answer."
+  },
+  "24": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a thorough discussion of current guidelines, research, and individualized decision-making, but it ultimately gives a different clinical recommendation than the reference answer, suggesting ALND is usually still recommended after NACT with micrometastases, whereas the reference answer states ALND can be omitted. This represents a significant difference in clinical content."
+  },
+  "25": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a generally accurate overview but incorrectly states that there is no significant difference in follow-up frequency or CT protocol, whereas the reference answer specifies a more intensive early follow-up for radiotherapy patients. This represents a notable omission regarding the key difference in surveillance schedules."
+  },
+  "26": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and provides a thorough, guideline-based discussion, but it introduces the concept of individualized treatment and suggests that not all patients require routine simultaneous orthopedic surgery and radiotherapy, which slightly diverges from the reference answer’s clear recommendation for parallel intervention in the presence of fracture risk."
+  },
+  "27": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, covering all key points without omissions or errors, and appropriately referencing guidelines and rationale."
+  },
+  "28": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a reasonable discussion of the options and rationale but incorrectly prioritizes concurrent chemoradiotherapy over re-resection, which is contrary to the reference answer and current guidelines. It also underemphasizes the role of reoperation as the first choice, constituting a significant omission."
+  },
+  "29": {
+    "score": 2.0,
+    "explanation": "2: The model answer contains notable errors, as it incorrectly states that low-dose non-contrast CT is guideline-recommended for the first 2–3 years, whereas the reference answer specifies that standard (not low-dose) CT is required during this period. This represents a significant deviation from the correct surveillance protocol."
+  },
+  "30": {
+    "score": 2.0,
+    "explanation": "2: The model answer recommends immediately switching to BRAF/MEK inhibitors, which contradicts the reference answer that advises completing the current systemic therapy unless there is unacceptable toxicity or progression. This is a notable error in clinical management, despite some correct background information."
+  },
+  "31": {
+    "score": 2.0,
+    "explanation": "2: The model answer incorrectly states that follow-up can proceed as originally planned despite new radiological abnormalities, which contradicts the reference answer's emphasis on increasing imaging frequency in such cases. While the model provides some rationale and guideline references, it overlooks the key point that new or residual radiological findings warrant closer monitoring, resulting in a notable clinical error."
+  },
+  "32": {
+    "score": 2.0,
+    "explanation": "2: The model answer provides a rationale but directly contradicts the reference answer and current recommendations for central-type T2aN0M0 NSCLC, omitting the higher risk of brain metastasis in central tumors and the guideline-based suggestion for brain MRI in this subgroup."
+  },
+  "33": {
+    "score": 2.0,
+    "explanation": "2: The model answer incorrectly states that radiotherapy in this context exceeds the standard indication boundaries, whereas the reference answer clarifies it is a guideline-supported (NCCN 2B) alternative for patients unfit for surgery. This represents a notable error in clinical content, despite some accurate background discussion."
+  },
+  "34": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a detailed discussion of both SVC支架植入 and化学放疗, but it incorrectly prioritizes支架植入为首选 for all symptomatic patients, rather than recommending同步化学放疗联合支架植入 as the first-line approach as in the reference. This represents a significant deviation from the reference answer’s clinical recommendation."
+  },
+  "35": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and provides a thorough explanation, referencing guidelines and including nuanced discussion of individualization, but it omits the specific point that, although T1c technically includes tumors ≥1 cm, clinical practice often uses a ≥1.5 cm cutoff for neoadjuvant therapy in TNBC, which is highlighted in the reference answer."
+  },
+  "36": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides relevant guideline references and rationale but contradicts the reference answer by recommending annual CT after 2 years, whereas the reference answer states that 6-monthly CT should continue for 2–3 years. This is a significant omission and introduces a clinical inaccuracy."
+  },
+  "37": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a reasonable discussion of neoadjuvant therapy indications and acknowledges that HER2阳性或三阴性亚型是主要适应证，但忽略了题干中特定的cT1c、cN0、M0分期下的适应证限制，未明确指出在该分期下术前系统治疗仅适用于HER2阳性或三阴性，存在一定内容偏差。"
+  },
+  "38": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a thorough discussion but deviates from the reference answer by recommending systemic therapy as the initial priority, whereas the reference answer clearly states that local management should be prioritized first in the absence of acute respiratory distress. This represents a significant difference in clinical approach."
+  },
+  "39": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a detailed discussion but incorrectly states that the follow-up frequency should be higher than standard recommendations, which contradicts the reference answer. It also introduces guideline interpretations not present in the reference, leading to partial accuracy and some notable omissions."
+  },
+  "40": {
+    "score": 1.0,
+    "explanation": "1: The model answer directly contradicts the reference answer by recommending no increase in imaging frequency despite repeated radiological abnormalities, which is a major clinical error and omission of the key recommendation."
+  },
+  "41": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides partial coverage and some accurate reasoning but ultimately recommends chemotherapy as the first choice, which contradicts the reference answer that prioritizes continued endocrine therapy unless progression or intolerance occurs. The model also introduces the concept of endocrine resistance and targeted therapy, but the main recommendation is not aligned with standard guidelines for this scenario."
+  },
+  "42": {
+    "score": 2.0,
+    "explanation": "2: The model answer incorrectly prioritizes surgery as the first-line treatment, contrary to guideline recommendations for stage IIIA NSCLC, which favor concurrent chemoradiotherapy. While the answer is structured and references guidelines, it contains a notable error in clinical decision-making."
+  },
+  "43": {
+    "score": 1.0,
+    "explanation": "1: The model answer directly contradicts the reference answer by recommending routine follow-up intervals rather than increased imaging frequency in the presence of new or residual radiological abnormalities, which is a major clinical error."
+  },
+  "44": {
+    "score": 2.0,
+    "explanation": "2: The model answer contradicts the reference answer by recommending routine repeat pathological mediastinal lymph node assessment, whereas the reference states it is not routinely required if already performed at diagnosis. This represents a notable error in clinical content despite the answer being otherwise comprehensive."
+  },
+  "45": {
+    "score": 2.0,
+    "explanation": "2: The model answer recommends low-dose non-contrast CT every 6 months as the preferred follow-up, which contradicts the reference answer that specifies routine (± contrast) chest CT every 3–6 months for the first 3 years. This is a notable error and represents limited coverage of the correct follow-up protocol."
+  },
+  "46": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and covers all key clinical points, including the necessity of lung function assessment before chemoradiotherapy and alternative evaluation methods if PFTs cannot be performed. However, it introduces a conditional pathway for proceeding with treatment based on clinical judgment, which is a minor deviation from the reference answer's more conservative stance."
+  },
+  "47": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a reasonable discussion but contains a key inaccuracy by recommending to wait for other driver gene results before considering NTRK-targeted therapy, whereas the reference answer states NTRK-targeted therapy can be prioritized if NTRK fusion is confirmed and no other actionable mutations are known. The model also overemphasizes the need to exclude other mutations before starting NTRK therapy, which is not required per the reference."
+  },
+  "48": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and covers all key points, including guideline recommendations, the importance of pathological type, and the need for comprehensive decision-making. However, it is slightly verbose and could be more concise in directly stating that 21-gene testing is not applicable without clear pathological type, as emphasized in the reference answer."
+  },
+  "49": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a reasonable rationale for initial SVC stenting to rapidly relieve acute symptoms, but it omits the importance of combining stenting with concurrent chemoradiotherapy for optimal tumor and symptom control, as emphasized in the reference answer. It also overemphasizes stenting as the first and primary intervention, which is not the preferred overall strategy unless in cases of severe or life-threatening symptoms."
+  },
+  "50": {
+    "score": 5.0,
+    "explanation": "5: The model answer provides a comprehensive and guideline-based rationale that is clinically accurate, though it takes the opposite stance to the reference answer; however, it reflects current major guideline recommendations and includes all relevant clinical considerations without omissions or errors."
+  },
+  "51": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a comprehensive and structured approach, but it prioritizes re-operation as the first choice if feasible, which contradicts the reference answer that clearly states systemic therapy and chemoradiotherapy are preferred over re-operation. This represents a significant clinical divergence, though the rest of the content is relevant and detailed."
+  },
+  "52": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a thorough rationale and references guidelines, but its core recommendation (\"一般不需要因此调整常规胸部CT随访频率\") directly contradicts the reference answer, which advocates for increased imaging frequency in the presence of persistent abnormal findings, even if non-tumor-specific. This represents a significant clinical divergence."
+  },
+  "53": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides detailed guideline-based reasoning and evidence, but it contradicts the reference answer by recommending adjuvant chemotherapy plus trastuzumab for tumors ≤0.5 cm with pN1mi, whereas the reference answer states this is generally not recommended due to insufficient evidence. This represents a significant clinical inaccuracy."
+  },
+  "54": {
+    "score": 2.0,
+    "explanation": "2: The model answer contains notable errors, as it incorrectly states that surgery can proceed without PET/CT, contrary to standard guidelines that require PET/CT for accurate staging before surgery. While it provides some rationale and context, it omits the key risk of missing occult metastases and does not align with the reference answer’s emphasis on the necessity of PET/CT prior to surgery."
+  },
+  "55": {
+    "score": 2.0,
+    "explanation": "2: The model answer provides a detailed rationale but directly contradicts the reference answer, incorrectly stating that neoadjuvant therapy is not routinely considered for cT1cN0M0 triple-negative breast cancer, whereas the reference answer affirms it is an accepted indication. This represents a notable error in clinical content."
+  },
+  "56": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, providing all key points and even elaborating on rationale and guidelines without introducing errors or omissions."
+  },
+  "57": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and provides a thorough rationale for prioritizing olaparib, referencing key studies and guidelines. However, it omits the possibility of combining or individualizing therapy based on patient tolerance, as mentioned in the reference answer, and presents olaparib as the clear first choice rather than acknowledging the lack of a definitive priority."
+  },
+  "58": {
+    "score": 2.0,
+    "explanation": "2: The model answer incorrectly recommends more frequent (every 3–6 months) chest CT follow-up for I–II stage NSCLC patients treated with surgery alone, which contradicts the reference answer and current guidelines; it also misattributes recommendations for higher-risk groups to this population."
+  },
+  "59": {
+    "score": 2.0,
+    "explanation": "2: The model answer incorrectly recommends prioritizing RET inhibitors over standard chemotherapy, which contradicts current evidence and guidelines for squamous NSCLC with RET rearrangement. While it provides some relevant information, this is a notable error in clinical decision-making."
+  },
+  "60": {
+    "score": 5.0,
+    "explanation": "5: The model answer contains all key clinical content from the reference answer, accurately cites guidelines, and provides appropriate rationale without major omissions or errors."
+  },
+  "61": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a thorough discussion of guidelines and risk stratification but ultimately recommends a stricter follow-up regimen (similar to stage III) than the reference answer, which supports the less intensive I–II protocol if all disease is resected. This represents a significant difference in clinical recommendation."
+  },
+  "62": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and accurately reflects the reference answer, with detailed explanation and appropriate guideline references. However, it adds some extra discussion about individualization and multidisciplinary discussion, which, while reasonable, is not strictly present in the reference answer and could be seen as minor elaboration rather than omission."
+  },
+  "63": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a reasonable discussion of management options but contradicts the reference answer by prioritizing reoperation for R0 resection, whereas the reference answer clearly states chemoradiotherapy is preferred over reoperation in this context. This represents a significant clinical inaccuracy."
+  },
+  "64": {
+    "score": 2.0,
+    "explanation": "2: The model answer provides a detailed rationale but directly contradicts the reference answer, stating that increased imaging frequency is not recommended for stable post-radiation changes, whereas the reference answer clearly recommends increasing follow-up imaging frequency in such cases. This represents a notable error in clinical guidance."
+  },
+  "65": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and provides a thorough, guideline-based rationale, but it does not explicitly state that KRAS G12C靶向药物应优先于PD-1/PD-L1抑制剂（as in the reference answer），而是推荐免疫治疗优先，略有偏差。"
+  },
+  "66": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and provides a thorough rationale, referencing guidelines and special populations, but it does not emphasize enough that in广泛脑转移的鳞癌患者分子检测的临床价值有限，且姑息治疗为主，这一点是参考答案的核心。"
+  },
+  "67": {
+    "score": 2.0,
+    "explanation": "2: The model answer incorrectly states that the follow-up frequency after surgery is the same as after radiotherapy, missing the key distinction that surgical patients are typically followed every 6 months (not every 3–6 months) in the first 2–3 years. This is a notable error in clinical content."
+  },
+  "68": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides partial coverage and references relevant studies and guidelines, but it inaccurately extends the omission of ALND to patients with 3 positive SLNs, which is beyond the established criteria (1–2 positive SLNs). This is a significant clinical inaccuracy."
+  },
+  "69": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, covering all key points including surgical indication, the role of adjuvant therapy, and the distinction from concurrent chemoradiotherapy, with no major omissions or errors."
+  },
+  "70": {
+    "score": 2.0,
+    "explanation": "2: The model answer incorrectly states that patients can directly proceed to neoadjuvant therapy without emphasizing the necessity of a complete axillary evaluation prior to treatment, which is a key requirement in the reference answer. This represents a notable error in clinical protocol."
+  },
+  "71": {
+    "score": 1.0,
+    "explanation": "1: The model answer contradicts the reference answer by advising against prioritizing osimertinib, provides rationale inconsistent with current guidelines, and omits the key recommendation to interrupt current therapy for osimertinib, which is the main point of the reference answer."
+  },
+  "72": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a detailed and guideline-based discussion but directly contradicts the reference answer by stating that neoadjuvant therapy is optional rather than required, which is a significant inaccuracy for this scenario."
+  },
+  "73": {
+    "score": 2.0,
+    "explanation": "2: The model answer recommends immediately switching to an ALK inhibitor, which contradicts the reference answer's guidance to complete the current systemic therapy before switching. While the model answer provides rationale and cites guidelines, it contains a notable error in clinical management."
+  },
+  "74": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a detailed discussion of both local and systemic treatment options, but it incorrectly prioritizes local therapy for most patients, whereas the reference answer clearly states systemic therapy should be prioritized if molecular findings support it. This represents a significant deviation from current recommendations, despite otherwise comprehensive content."
+  },
+  "75": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and provides a nuanced, guideline-based approach, incorporating molecular status and symptomatology, which are relevant in current clinical practice. However, it introduces additional stratification not explicitly mentioned in the reference answer, making it slightly more complex but not incorrect; minor omissions include less emphasis on the general principle of initial local control for brain metastases."
+  },
+  "76": {
+    "score": 2.0,
+    "explanation": "2: The model answer provides a general approach to lung nodule management but overlooks the critical impact of a prior colorectal cancer history, which necessitates a higher suspicion for metastasis and more aggressive diagnostic workup rather than routine follow-up. This is a notable error and omission compared to the reference answer."
+  },
+  "77": {
+    "score": 5.0,
+    "explanation": "5: The model answer provides comprehensive and accurate clinical reasoning, correctly prioritizing rapid symptom relief with external beam radiotherapy (with or without SVC stenting) in acute SVCS, and deferring concurrent chemoradiotherapy until stabilization, fully matching the reference answer with no major omissions or errors."
+  },
+  "78": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a reasonable approach but directly contradicts the reference answer by prioritizing手术再次切除 (repeat surgery) over同期放化疗 (concurrent chemoradiotherapy), which is the opposite of the reference answer’s recommendation. It also cites guidelines to support its stance, but this represents a significant clinical inaccuracy relative to the reference."
+  },
+  "79": {
+    "score": 5.0,
+    "explanation": "5: The model answer provides a comprehensive and guideline-based rationale, correctly stating that routine preoperative pathological mediastinal lymph node evaluation is not required in this scenario, and includes appropriate references to international guidelines and intraoperative lymph node assessment, matching current clinical consensus."
+  },
+  "80": {
+    "score": 2.0,
+    "explanation": "2: The model answer incorrectly states that the imaging follow-up frequency should be the same regardless of whether adjuvant radiotherapy or chemotherapy is used, which contradicts the reference answer. It omits the key point that radiotherapy as the main modality requires more frequent imaging, representing a notable error in clinical content."
+  },
+  "81": {
+    "score": 5.0,
+    "explanation": "5: 模型答案与参考答案临床内容完全一致，明确指出因严重COPD无法耐受化疗时应优先选择单纯放疗，并详细阐述了原因，无明显遗漏或错误。"
+  },
+  "82": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a reasonable rationale for using FDG-PET/CT and brain MRI in this scenario, but it overstates the recommendation for routine use in asymptomatic patients with only suspicious imaging, which contradicts the reference answer. The reference emphasizes that these advanced imaging modalities are not routinely recommended without clear evidence of recurrence or symptoms, representing a significant omission and inaccuracy in the model answer."
+  },
+  "83": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a reasonable discussion of SRS and its advantages, but it incorrectly states SRS is generally preferred, whereas the reference answer prioritizes surgery if feasible. The model omits the importance of pathological diagnosis and symptom relief as indications for surgery, leading to some inaccuracies and omissions."
+  },
+  "84": {
+    "score": 2.0,
+    "explanation": "2: The model answer incorrectly prioritizes FDG-PET/CT over chest contrast-enhanced CT, which is inconsistent with standard practice and the reference answer. While the explanation is detailed, this represents a notable error in clinical decision-making."
+  },
+  "85": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a detailed discussion and references guidelines and clinical trials, but it inaccurately states that capmatinib and tepotinib are suitable for all NSCLC subtypes with METex14 skipping mutations, including squamous cell carcinoma, whereas the reference answer correctly notes that evidence and recommendations are primarily for adenocarcinoma, undifferentiated, or large cell types, not squamous cell carcinoma."
+  },
+  "86": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a partial but not fully aligned response; it emphasizes individualized and dynamic observation rather than clearly recommending increased imaging frequency as in the reference answer, and introduces additional steps not present in the reference, leading to some omissions and deviations from the expected clinical approach."
+  },
+  "87": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a reasonable approach and covers the importance of surgery, but it incorrectly states that observation is not recommended and overemphasizes the need for adjuvant systemic therapy, which is not the standard per the reference answer. There are some inaccuracies and omissions regarding the role of observation and the recommendation strength for systemic therapy."
+  },
+  "88": {
+    "score": 5.0,
+    "explanation": "5: The model answer covers all key clinical points from the reference answer, including the indication for endocrine therapy, the need for drug selection and monitoring based on liver function, and alternative options in severe hepatic impairment. No major omissions or errors are present."
+  },
+  "89": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a reasonable discussion of both systemic and local therapies, but it incorrectly prioritizes systemic therapy as the initial approach, whereas the reference answer and guidelines recommend prioritizing local treatment for all oligometastatic sites when feasible. There are some omissions and a key inaccuracy regarding the sequence of therapy."
+  },
+  "90": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a detailed discussion of the lack of evidence and guideline support for Sotorasib/Adagrasib in squamous NSCLC, but it omits that, in practice, these agents can be considered standard options after prior therapy in KRAS G12C-mutant cases with ECOG 0–2, as per the reference answer. The model answer is accurate regarding current evidence but does not fully align with the reference answer's clinical recommendation."
+  },
+  "91": {
+    "score": 1.0,
+    "explanation": "1: The model answer directly contradicts the reference answer by stating that prior radiotherapy does not affect follow-up frequency, whereas the reference answer clearly states it does. This is a major clinical error."
+  },
+  "92": {
+    "score": 2.0,
+    "explanation": "2: The model answer incorrectly recommends routine FDG-PET/CT for all such patients, which contradicts the reference answer stating it is not routinely recommended unless imaging highly suggests recurrence or symptoms develop. While the brain MRI recommendation is mostly accurate, the overall answer contains notable errors regarding standard practice."
+  },
+  "93": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a well-argued rationale for switching to ALK抑制剂 upon detection of ALK重排, citing guidelines and studies, but it directly contradicts the reference answer, which emphasizes completing the initiated systemic therapy before switching. The model omits the recommendation to finish or appropriately interrupt the original regimen, representing a significant clinical inaccuracy."
+  },
+  "94": {
+    "score": 2.0,
+    "explanation": "2: The model answer incorrectly classifies the scenario as single lung metastasis (M1a) and recommends systemic therapy, whereas the reference answer correctly identifies it as two primary lung cancers and advocates for individualized treatment based on resectability. This represents a notable error in clinical reasoning and guidance."
+  },
+  "95": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a reasonable discussion but omits the current guideline recommendation that all advanced NSCLC, including squamous cell carcinoma, should undergo broad molecular testing regardless of typical clinical features. It incorrectly suggests that routine testing is not needed for most squamous cases, which is a significant omission."
+  },
+  "96": {
+    "score": 5.0,
+    "explanation": "5: The model answer contains all key clinical content from the reference answer, accurately addresses the necessity of imaging restaging or brain MRI, and provides additional relevant context without introducing errors or omissions."
+  },
+  "97": {
+    "score": 1.0,
+    "explanation": "1: The model answer directly contradicts the reference answer, stating selpercatinib should not be used before progression, whereas the reference answer affirms it can be used without waiting for progression. The model answer is largely incorrect in this context."
+  },
+  "98": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a well-structured rationale for prioritizing targeted therapy, but it contradicts the reference answer, which recommends whole-brain radiotherapy as the initial treatment to rapidly control CNS symptoms. The model omits the importance of immediate symptom control in patients with extensive brain metastases and does not align with the reference's treatment sequence."
+  },
+  "99": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a detailed discussion but incorrectly states that ceritinib is not an approved or equivalent-priority ROS1 inhibitor, which contradicts the reference answer. It omits that ceritinib is an approved ROS1-targeted therapy and can be considered with equal priority when other agents are contraindicated, leading to a significant clinical inaccuracy."
+  },
+  "100": {
+    "score": 2.0,
+    "explanation": "2: The model answer recommends immediate advanced imaging (FDG-PET/CT and brain MRI) for any new or residual lesion, which contradicts the reference answer that advises increased imaging follow-up unless there are clear signs of recurrence or symptoms. The model answer overstates the need for immediate advanced imaging, missing the guideline-based stepwise approach."
+  },
+  "101": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a thorough discussion of standard treatment and guidelines, but it incorrectly asserts that surveillance cannot be considered an equivalent option, whereas the reference answer allows for surveillance as an acceptable alternative in selected patients. This represents a significant omission and a key difference in clinical content."
+  },
+  "102": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and provides a detailed, guideline-based rationale, but it introduces additional stratification (如多原发与同源性结节) and scenarios not explicitly mentioned in the reference answer, which could cause minor confusion. The core clinical content aligns well, but the answer is less direct and slightly more complex than required."
+  },
+  "103": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a thorough rationale and guideline references but recommends a higher follow-up frequency (“每3–6个月一次”) than the reference answer, which specifically prioritizes “每6个月一次” for this patient group. This represents a significant deviation from the reference standard, despite otherwise comprehensive content."
+  },
+  "104": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a thorough rationale for preferring neoadjuvant therapy and accurately cites guidelines, but it incorrectly states that adjuvant chemotherapy plus trastuzumab cannot be directly recommended, which contradicts the reference answer and current standard recommendations for patients who have already undergone surgery. This represents a significant omission and inaccuracy regarding the acceptability of adjuvant therapy in this scenario."
+  },
+  "105": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, covering all key points, rationale, and guideline recommendations without omissions or errors."
+  },
+  "106": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a detailed rationale but incorrectly prioritizes EGFR-TKI over MET抑制剂, which contradicts the reference answer and current recommendations for squamous NSCLC with METex14 and EGFR mutations. While the answer is thorough, this key error lowers the score."
+  },
+  "107": {
+    "score": 2.0,
+    "explanation": "2: The model answer incorrectly recommends amivantamab-vmjw monotherapy as a reasonable initial treatment, which contradicts current evidence and guidelines that do not support its use as monotherapy in the first-line setting. While the answer provides some relevant background, it contains a notable clinical error and omits the need for multidisciplinary evaluation and consideration of alternative therapies."
+  },
+  "108": {
+    "score": 2.0,
+    "explanation": "2: The model answer incorrectly recommends RET抑制剂为首选一线治疗，忽略了目前证据主要支持非鳞状NSCLC，鳞癌证据有限，指南并未将RET抑制剂作为鳞癌一线标准，存在明显错误。"
+  },
+  "109": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a comprehensive discussion but prioritizes systemic therapy over local therapy, which contradicts the reference answer's clear recommendation to prioritize local therapy in oligometastatic (single liver metastasis) NSCLC. This represents a significant clinical inaccuracy, despite otherwise thorough coverage."
+  },
+  "110": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a thorough discussion of the need to differentiate between T4 disease and synchronous double primary lung cancers, but it incorrectly states that both possibilities must always be considered and does not emphasize that, by principle, such cases are generally managed as T4 unless there is a contralateral lesion. This represents a significant deviation from the reference answer’s core clinical guidance."
+  },
+  "111": {
+    "score": 4.0,
+    "explanation": "4: The model answer is comprehensive and accurate, providing detailed rationale and referencing guidelines, but it overemphasizes the preference for sequential chemoradiotherapy and underplays that both approaches are acceptable depending on patient status, as stated in the reference answer. Minor omission in not explicitly stating that synchronous chemoradiotherapy is preferred if the patient is fit."
+  },
+  "112": {
+    "score": 5.0,
+    "explanation": "5: 模型答案与参考答案临床内容一致，详细阐述了不建议常规行 FDG-PET/CT 的理由，并补充了指南依据和具体操作建议，无明显遗漏或错误。"
+  },
+  "113": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a reasonable rationale and references guidelines, but it inaccurately states that low-dose non-contrast CT alone is sufficient for early follow-up, which contradicts the reference answer recommending contrast CT (with or without contrast) in the first 2–3 years. This is a significant omission."
+  },
+  "114": {
+    "score": 2.0,
+    "explanation": "2: The model answer recommends immediate surgical excision, which contradicts the reference answer's emphasis on initial clinical follow-up and possible repeat biopsy before surgery. This represents a notable error in management approach, despite some accurate background reasoning."
+  },
+  "115": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a detailed and reasoned argument but contradicts the reference answer by stating that KRAS G12C抑制剂 is not the preferred option, citing limited evidence in squamous cell carcinoma. This represents a significant deviation from the reference answer, which clearly recommends prioritizing KRAS G12C inhibitors regardless of PD-L1 status, resulting in partial but not complete clinical alignment."
+  },
+  "116": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a reasonable discussion of the evaluation process and acknowledges the role of PET/CT, but it overemphasizes immediate PET/CT use and does not clearly state that high-resolution CT dynamic observation is preferred initially, as in the reference answer. There are some omissions regarding the stepwise approach and the non-routine use of PET/CT."
+  },
+  "117": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a detailed rationale and guideline references, but it incorrectly states that PET/CT should be routinely performed, whereas the reference answer specifies that PET/CT and brain MRI are not routine and chest CT is preferred first. This is a significant deviation from the reference answer, despite otherwise comprehensive coverage."
+  },
+  "118": {
+    "score": 1.0,
+    "explanation": "1: The model answer incorrectly states that the follow-up CT frequency is the same for both groups, whereas the reference answer clearly states that patients who received radiotherapy require more frequent CT scans (every 3–6 months) compared to those treated with surgery alone (every 6 months). This is a significant clinical error."
+  },
+  "119": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, fully explaining that ERBB2-targeted therapy can be initiated regardless of PD-L1 status, and provides additional guideline-based rationale without introducing errors or omissions."
+  },
+  "120": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a partial and guideline-based discussion but omits the key point from the reference answer—that a close but negative margin (<1 mm) still warrants consideration of chest wall radiotherapy due to increased local recurrence risk, rather than routinely omitting it. The model answer leans toward not recommending radiotherapy, which is inconsistent with the reference answer’s emphasis on not omitting it."
+  },
+  "121": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a detailed discussion but incorrectly states that osimertinib should not be prioritized and that afatinib is preferred, which contradicts the reference answer. There are some accurate background details, but the key clinical recommendation is not aligned with current evidence as reflected in the reference."
+  },
+  "122": {
+    "score": 2.0,
+    "explanation": "2: The model answer provides a detailed rationale but directly contradicts the reference answer by stating that postoperative PET/CT is unnecessary, whereas the reference answer clearly states it is required to complete staging and guide follow-up. This represents a notable error in clinical content."
+  },
+  "123": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a reasonable discussion but prioritizes systemic therapy over local therapy, which is contrary to the reference answer's recommendation to first assess for local treatment. It covers relevant concepts but contains a key inaccuracy regarding treatment sequencing."
+  },
+  "124": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a more nuanced and guideline-based discussion, mentioning MDT评估和局部治疗的可能性，但与参考答案相比，未明确强调系统治疗应为优先选择，且对局部治疗的适应证描述较宽泛，未突出其仅适用于极少数严格筛选病例，导致部分内容与参考答案不符。"
+  },
+  "125": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a partial but not fully accurate response. It overstates the recommendation for routine FDG-PET/CT in the presence of new imaging abnormalities without symptoms, whereas the reference answer emphasizes individualized assessment and does not recommend PET/CT or brain MRI as routine unless recurrence or metastasis is suspected. The model answer is more aggressive than current guidelines suggest, leading to some inaccuracies."
+  },
+  "126": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a thorough discussion and references guidelines, but it introduces conditional recommendations (e.g., continuing immunotherapy if effective) that are not supported by the reference answer, which clearly states that NTRK inhibitors should be prioritized regardless of current immunotherapy response. This represents a significant deviation from the reference standard."
+  },
+  "127": {
+    "score": 1.0,
+    "explanation": "1: The model answer directly contradicts the reference answer, recommending against the use of EGFR-TKIs as first-line therapy, whereas the reference answer supports their use based on molecular findings. This represents a major clinical error and a fundamental misunderstanding of current recommendations."
+  },
+  "128": {
+    "score": 2.0,
+    "explanation": "2: The model answer incorrectly recommends more frequent (every 3–6 months) CT scans than guidelines suggest for this patient group, and misinterprets the surveillance interval, which should be every 6 months for the first 2–3 years. This is a notable error, though some relevant information is included."
+  },
+  "129": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and provides a detailed, guideline-based rationale, but it omits the reference answer’s emphasis on the importance of bronchoscopy as an initial diagnostic step and the sequence of investigations. It also allows for omission of bronchoscopy in some cases, which is a minor deviation from the reference answer’s more prescriptive approach."
+  },
+  "130": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and provides detailed reasoning, but it introduces conditional recommendations for molecular testing (e.g., based on age, smoking history) that are not present in the reference answer, which simply recommends comprehensive testing for all IIIB squamous cell carcinoma patients. This constitutes a minor omission relative to the reference."
+  },
+  "131": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a reasonable discussion of the diagnostic process and acknowledges the importance of PET/CT and PFTs, but it incorrectly suggests that pathological confirmation of N3 can proceed before completing these essential staging and functional assessments, which contradicts the reference answer and standard guidelines."
+  },
+  "132": {
+    "score": 1.0,
+    "explanation": "1: The model answer directly contradicts the reference answer by stating that routine pathological mediastinal lymph node evaluation is not needed, whereas the reference answer affirms its necessity. This is a major error in clinical content."
+  },
+  "133": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides partial coverage and includes relevant clinical considerations, but it introduces additional discussion about drug availability, treatment nuances, and the rare possibility of co-mutations, which complicates the clear guidance given in the reference answer. It also suggests ideally waiting for all results, which contradicts the reference answer’s direct recommendation to proceed based on the known EGFR exon 20 insertion."
+  },
+  "134": {
+    "score": 3.0,
+    "explanation": "3: The model answer recommends routine FDG-PET/CT for new imaging abnormalities even without symptoms, which contradicts the reference answer that advises against routine use unless recurrence is highly suspected or symptoms are present. The brain MRI recommendations are consistent, but the PET/CT guidance is inaccurate, resulting in partial but not complete coverage."
+  },
+  "135": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a partial response, correctly noting that TRK抑制剂是首选 and that化疗 is an option if TRK inhibitors are contraindicated, but it introduces immunotherapy and clinical trials as alternatives without emphasizing that, in the absence of TRK inhibitors, systemic chemotherapy is the standard and preferred first-line treatment per guidelines. This leads to some inaccuracy and omission regarding the clear prioritization of chemotherapy in this scenario."
+  },
+  "136": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, thoroughly explaining the rationale and guidelines, with no major omissions or errors."
+  },
+  "137": {
+    "score": 1.0,
+    "explanation": "1: The model answer directly contradicts the reference answer by recommending no increase in imaging frequency, which is a major clinical error and misinterpretation of guidelines. While it provides rationale and references, the core clinical recommendation is incorrect."
+  },
+  "138": {
+    "score": 2.0,
+    "explanation": "2: The model answer incorrectly asserts that脑MRI is a mandatory part of staging for asymptomatic, peripheral T2aN0 NSCLC, which contradicts guidelines stating it is optional in this context; this represents a notable error in clinical content."
+  },
+  "139": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a thorough discussion of the evidence and guidelines but introduces unnecessary caution regarding tumor size (2–3 cm), whereas the reference answer clearly states that omission of radiotherapy is reasonable for tumors ≤3 cm. The model answer's hesitancy and emphasis on individualization for 2.8 cm tumors is more conservative than current guideline consensus, leading to partial inaccuracy."
+  },
+  "140": {
+    "score": 2.0,
+    "explanation": "2: The model answer incorrectly recommends routine FDG-PET/CT for new asymptomatic focal shadows, which contradicts the reference answer stating it should not be done routinely. While it provides some relevant reasoning, this is a notable error in clinical recommendation."
+  },
+  "141": {
+    "score": 2.0,
+    "explanation": "2: The model answer provides a rationale for recommending adjuvant therapy based on high-risk features, but this contradicts current guidelines, which do not recommend adjuvant therapy for T1aN0 triple-negative breast cancer regardless of micropapillary subtype. This represents a notable error in clinical content."
+  },
+  "142": {
+    "score": 4.0,
+    "explanation": "4: The model answer correctly states that brain MRI should be performed when new neurological symptoms appear, aligning with guidelines. However, it misuses the term \"常规\" (routine), which could be misleading, as routine MRI is not recommended for asymptomatic patients; MRI is indicated only when symptoms are present. Otherwise, the clinical reasoning and references are accurate."
+  },
+  "143": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a reasonable follow-up plan and rationale but recommends a shorter interval (every 3–6 months, favoring 3 months) than the reference answer, which explicitly states there is no evidence to support shorter intervals even with positive margins. This represents a significant deviation from guideline-based recommendations."
+  },
+  "144": {
+    "score": 5.0,
+    "explanation": "5: The model answer covers all key clinical points from the reference answer, provides additional guideline-based context, and contains no major omissions or errors."
+  },
+  "145": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a thorough rationale for prioritizing systemic therapy in stage IV (M1b) NSCLC, but it omits that, in select cases with limited metastases and good performance status, thoracic definitive chemoradiotherapy may be considered first after intracranial control. This is a key point in the reference answer, making the model answer partially accurate but with notable omissions."
+  },
+  "146": {
+    "score": 2.0,
+    "explanation": "2: The model answer contains notable errors, as it incorrectly advises delaying systemic therapy until molecular results are available, which contradicts the reference answer and current guidelines that recommend not delaying treatment for metastatic disease. While it provides some relevant background, the core clinical recommendation is incorrect."
+  },
+  "147": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and well-argued, referencing current guidelines and providing a rationale for not recommending chemotherapy without 21-gene testing in this low-risk group. However, it slightly diverges from the reference answer, which emphasizes the need to consider 21-gene testing for tumors >0.5 cm, whereas the model answer suggests it is not routinely needed for tumors ≤1 cm, potentially omitting the nuance that 21-gene testing should still be considered in some cases."
+  },
+  "148": {
+    "score": 2.0,
+    "explanation": "2: The model answer incorrectly recommends routine FDG-PET/CT and brain MRI for any imaging abnormality during follow-up, which contradicts guidelines that reserve these tests for cases with clear evidence or suspicion of recurrence. While the answer provides rationale and references, it contains a notable error in clinical recommendation."
+  },
+  "149": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a detailed and guideline-based rationale that contradicts the reference answer, stating that switching to EGFR-TKI can occur before completing current therapy, which is a significant deviation. While the answer is clinically reasoned and references guidelines, it omits the specific protocol described in the reference and introduces notable inaccuracies regarding timing and drug selection."
+  },
+  "150": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and covers all key points, including the rationale for both whole-brain radiotherapy and systemic therapy, but it does not clearly prioritize palliative whole-brain radiotherapy as the initial step for symptom control, as emphasized in the reference answer."
+  },
+  "151": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a well-reasoned argument for switching to RET-targeted therapy but omits the reference answer’s nuance that both completing current therapy or switching are acceptable, depending on disease progression and tolerance. It presents switching as the only preferred option, which is not fully aligned with the reference answer’s balanced approach."
+  },
+  "152": {
+    "score": 5.0,
+    "explanation": "5: The model answer provides a comprehensive and accurate explanation, correctly stating that fam-trastuzumab deruxtecan-nxki is not recommended for squamous NSCLC due to lack of evidence and implicit restriction to non-squamous (adenocarcinoma) histology, matching the reference answer in clinical content with no major omissions or errors."
+  },
+  "153": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a detailed and guideline-based rationale but contradicts the reference answer's clear recommendation to increase imaging frequency upon new radiological abnormalities, regardless of symptoms. It omits the emphasis on early detection of recurrence and the risk of delayed diagnosis, leading to partial but not complete alignment."
+  },
+  "154": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a reasonable approach but omits the reference answer’s emphasis on routine, ongoing cessation interventions for all patients regardless of current smoking status, which is a key point. It instead recommends only assessment and encouragement, reserving interventions for those at risk, which is a significant deviation from the reference standard."
+  },
+  "155": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a thorough discussion of oligometastatic disease and current guidelines but incorrectly reclassifies the patient as stage IV based on a solitary, controlled brain metastasis, and prioritizes systemic therapy over local control, which contradicts the reference answer's emphasis on local treatment first in this specific scenario."
+  },
+  "156": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides partial coverage and references relevant guidelines, but it introduces unnecessary hesitation regarding the indication for neoadjuvant therapy in T1c TNBC, which contradicts the clear guideline-based recommendation in the reference answer. It overemphasizes the minimal size difference and underplays the established indication, leading to some inaccuracy."
+  },
+  "157": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides guideline-based recommendations but contradicts the reference answer regarding CT follow-up frequency, recommending more frequent imaging than the reference. It covers relevant content but contains a significant inaccuracy in guideline interpretation."
+  },
+  "158": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a reasonable rationale for starting systemic therapy without waiting for molecular results, but this contradicts the reference answer, which emphasizes the importance of obtaining molecular testing before initiating treatment. The model omits the recommendation to prioritize obtaining sufficient tissue or plasma for molecular analysis and may mislead regarding guideline recommendations."
+  },
+  "159": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and well-referenced, but it differs from the reference answer regarding the timing and frequency of imaging; it suggests annual low-dose CT after 2 years is within guidelines, whereas the reference answer states this is premature and may risk missing early recurrence. Minor guideline interpretation differences account for the deduction."
+  },
+  "160": {
+    "score": 2.0,
+    "explanation": "2: The model answer incorrectly recommends more intensive imaging follow-up (6–12 months) for 5 mm solid nodules in high-risk individuals with COPD, contrary to the reference answer, which states that even with COPD, a 12-month (optional) follow-up is sufficient. This represents a notable error in guideline interpretation."
+  },
+  "161": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides partial coverage, referencing relevant guidelines and acknowledging that more intensive follow-up may be appropriate for high-risk patients, but it does not clearly state that the described follow-up is insufficient for stage III patients or that it exceeds the recommended boundaries, as emphasized in the reference answer."
+  },
+  "162": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a thorough discussion of指南 and肺功能评估的重要性, but与参考答案相比，过于强调术前肺功能检查为“必须”，忽略了在临床评估可耐受手术时理论上可以手术的观点，未体现“缺失肺功能检查不影响切除适应证但有安全隐患”的核心内容。"
+  },
+  "163": {
+    "score": 2.0,
+    "explanation": "2: The model answer incorrectly states that the follow-up frequency for the radiotherapy group is the same as the surgery group, missing the key point that radiotherapy patients require more frequent imaging (every 3–6 months). This is a notable error in clinical content."
+  },
+  "164": {
+    "score": 2.0,
+    "explanation": "2: The model answer incorrectly prioritizes systemic therapy over local treatment for a single, resectable brain metastasis, which contradicts current guidelines and the reference answer. While it provides some rationale, it omits the key point that local control of the brain lesion should be prioritized, resulting in a notable clinical error."
+  },
+  "165": {
+    "score": 4.0,
+    "explanation": "4: The model answer is nearly complete and aligns well with the reference answer, but it provides more detail than necessary and suggests that PET/CT can be considered based on imaging findings, which is a slight deviation from the reference's emphasis on not routinely recommending these tests unless recurrence or metastasis is suspected. Minor over-elaboration is present, but no major errors."
+  },
+  "166": {
+    "score": 2.0,
+    "explanation": "2: The model answer provides a rationale but directly contradicts the reference answer, incorrectly stating that erlotinib, gefitinib, or dacomitinib should not be prioritized, and instead recommends afatinib or osimertinib, which is not aligned with the reference. This represents a notable error in clinical content."
+  },
+  "167": {
+    "score": 5.0,
+    "explanation": "5: The model answer is clinically identical to the reference answer, thoroughly explaining the rationale, supporting evidence, and exceptions for recommending concurrent chemoradiotherapy, with no major omissions or errors."
+  },
+  "168": {
+    "score": 3.0,
+    "explanation": "3: The model answer provides a comprehensive discussion but deviates from the reference answer by suggesting that, in cases of mild symptoms, systemic therapy may be prioritized over local palliative treatment, whereas the reference answer clearly states local palliative therapy should be prioritized regardless of symptom severity if there is radiological progression. This represents a significant omission of the recommended treatment sequence."
+  }
+}
