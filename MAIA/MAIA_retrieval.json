@@ -1,0 +1,3421 @@
+{
+  "dataset": [
+    {
+      "id": "ret_7cf1c006af64",
+      "question": "Which diseases are associated with the target DRD2 (Ensembl ID ENSG00000149295) that have a minimum relevance score of 0.5 in OpenTargets?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.search",
+          "params": {
+            "target_id": "ENSG00000149295",
+            "min_score": 0.5
+          }
+        }
+      ],
+      "answer": [
+        {
+          "disease_id": "MONDO_0002009",
+          "disease_name": "major depressive disorder",
+          "score": 0.7314144788855288
+        },
+        {
+          "disease_id": "MONDO_0005090",
+          "disease_name": "schizophrenia",
+          "score": 0.7046993350565542
+        },
+        {
+          "disease_id": "MONDO_0004985",
+          "disease_name": "bipolar disorder",
+          "score": 0.685296601041403
+        },
+        {
+          "disease_id": "EFO_0000677",
+          "disease_name": "mental or behavioural disorder",
+          "score": 0.6410536194915879
+        },
+        {
+          "disease_id": "MONDO_0005180",
+          "disease_name": "Parkinson disease",
+          "score": 0.6369867716515744
+        },
+        {
+          "disease_id": "EFO_0004895",
+          "disease_name": "Tourette syndrome",
+          "score": 0.629013726590614
+        },
+        {
+          "disease_id": "EFO_0003758",
+          "disease_name": "autism",
+          "score": 0.6156619914790857
+        },
+        {
+          "disease_id": "EFO_0005407",
+          "disease_name": "psychosis",
+          "score": 0.6146936513782291
+        },
+        {
+          "disease_id": "EFO_0005411",
+          "disease_name": "schizoaffective disorder",
+          "score": 0.60599516988228
+        },
+        {
+          "disease_id": "EFO_0009963",
+          "disease_name": "bipolar I disorder",
+          "score": 0.6034566131877506
+        },
+        {
+          "disease_id": "HP_0000713",
+          "disease_name": "Agitation",
+          "score": 0.6000567860297616
+        },
+        {
+          "disease_id": "EFO_0003015",
+          "disease_name": "aggressive behavior",
+          "score": 0.5990712880211188
+        },
+        {
+          "disease_id": "EFO_0004270",
+          "disease_name": "restless legs syndrome",
+          "score": 0.5930139820840447
+        },
+        {
+          "disease_id": "MONDO_0002050",
+          "disease_name": "depressive disorder",
+          "score": 0.5898202991042036
+        },
+        {
+          "disease_id": "HP_0002017",
+          "disease_name": "Nausea and vomiting",
+          "score": 0.575034507961785
+        },
+        {
+          "disease_id": "EFO_0004888",
+          "disease_name": "post operative nausea and vomiting",
+          "score": 0.5690802573996253
+        },
+        {
+          "disease_id": "MONDO_0005148",
+          "disease_name": "type 2 diabetes mellitus",
+          "score": 0.5474933312990086
+        },
+        {
+          "disease_id": "EFO_0010282",
+          "disease_name": "gastrointestinal disease",
+          "score": 0.5376668258167191
+        },
+        {
+          "disease_id": "MONDO_0002146",
+          "disease_name": "hypogonadism",
+          "score": 0.5261379875719714
+        },
+        {
+          "disease_id": "EFO_0004216",
+          "disease_name": "conduct disorder",
+          "score": 0.5197318623889552
+        },
+        {
+          "disease_id": "EFO_0007319",
+          "disease_name": "hyperprolactinemia",
+          "score": 0.5160025486503461
+        },
+        {
+          "disease_id": "EFO_0000545",
+          "disease_name": "infertility",
+          "score": 0.5130459773908275
+        },
+        {
+          "disease_id": "EFO_1001485",
+          "disease_name": "acromegaly",
+          "score": 0.5037649577632791
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_919801a7f240",
+      "question": "In the OpenTargets database, what information is available about the event 'increased cardiac output' for the target symbol GABRA5?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "GABRA5",
+            "event": "increased cardiac output"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "central nervous system",
+            "tissueId": "UBERON_0001017"
+          },
+          {
+            "tissueLabel": "cardiovascular",
+            "tissueId": "UBERON_0004535"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": "acute",
+            "direction": "Activation/Increase/Upregulation"
+          }
+        ]
+      },
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_693e88983b13",
+      "question": "In ClinicalTrials.gov, which interventional studies for Heart Failure, Congestive or Dilated Cardiomyopathy started in March 2007 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Heart Failure, Congestive,Dilated Cardiomyopathy;startDateFrom=2007-03-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00454818"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_8b33291b3cef",
+      "question": "What is the unique PMID for the article titled \"The State of Immunology in Allergy and Immunology Fellowship,\" authored by Tran HN and published in Immunology and Allergy Clinics of North America in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"The State of Immunology in Allergy and Immunology Fellowship.\"[ti] AND Tran HN[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40287165"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_f03c2ec6a19e",
+      "question": "What is the PMID of the 2025 article titled \"HeartConnect: Integrating primary care and specialist cardiology for rapid access and better patient and healthcare practitioner experiences,\" with first author Zurynski Y, published in the Australian Journal of General Practice?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"HeartConnect\"[ti] AND Zurynski Y[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40320805"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_eec158176b55",
+      "question": "What is the PMID of the article titled “[Transition in gastroenterology and hepatology],” authored by Siegmund B and published in Innere Medizin (Heidelberg, Germany) in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"[Transition in gastroenterology and hepatology].\"[ti] AND Siegmund B[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40358755"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_16a04d7adba0",
+      "question": "Which diseases are associated with the target ANGPT1 (Ensembl ID ENSG00000154188) in OpenTargets with a minimum relevance score of 0.5?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.search",
+          "params": {
+            "target_id": "ENSG00000154188",
+            "min_score": 0.5
+          }
+        }
+      ],
+      "answer": [
+        {
+          "disease_id": "EFO_0004190",
+          "disease_name": "open-angle glaucoma",
+          "score": 0.5479575008534797
+        },
+        {
+          "disease_id": "EFO_0004695",
+          "disease_name": "intraocular pressure measurement",
+          "score": 0.5126001852068207
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_66c55daa66f2",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 3 studies for relapsing-remitting multiple sclerosis involving Fingolimod 1.25 mg, Fingolimod 0.5 mg, or Placebo started in January 2006 in Australia?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;conditions=Relapsing-remitting Multiple Sclerosis;interventions.name=Fingolimod 1.25 mg,Fingolimod 0.5 mg,Placebo;startDateFrom=2006-01-01;locations.country=Australia",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00289978"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_4afe92a42dc6",
+      "question": "In ClinicalTrials.gov, which completed interventional studies for gout with the main interventions pegloticase or placebo started in May 2006 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Gout;interventions.name=pegloticase,placebo;startDateFrom=2006-05-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00325195"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_8b35d8bcf123",
+      "question": "What is the unique PMID for the article titled “[Comments of the German Society for Orthopaedic Rheumatology on the article \"Rheumatological care in Germany\" : Memorandum of the German Society for Rheumatology and Clinical Immunology 2024],” authored by Carl HD and published in Zeitschrift fur Rheumatologie in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"[Comments of the German Society for Orthopaedic Rheumatology on the article \"Rheumatological care in Germany\" \"[ti] AND Carl HD[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40167622"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_149ae23e6028",
+      "question": "What diseases are associated with the target ENSG00000082175 (PGR) in OpenTargets with a minimum relevance score of 0.5?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.search",
+          "params": {
+            "target_id": "ENSG00000082175",
+            "min_score": 0.5
+          }
+        }
+      ],
+      "answer": [
+        {
+          "disease_id": "EFO_0001065",
+          "disease_name": "endometriosis",
+          "score": 0.6566512362652481
+        },
+        {
+          "disease_id": "EFO_0000731",
+          "disease_name": "uterine fibroid",
+          "score": 0.6511812563339188
+        },
+        {
+          "disease_id": "EFO_0003894",
+          "disease_name": "acne",
+          "score": 0.597566968669269
+        },
+        {
+          "disease_id": "MP_0001914",
+          "disease_name": "hemorrhage",
+          "score": 0.5756685311929337
+        },
+        {
+          "disease_id": "HP_0000132",
+          "disease_name": "Menorrhagia",
+          "score": 0.5599706832186602
+        },
+        {
+          "disease_id": "EFO_0003917",
+          "disease_name": "premature birth",
+          "score": 0.5521983150374191
+        },
+        {
+          "disease_id": "HP_0002039",
+          "disease_name": "Anorexia",
+          "score": 0.5454401037889884
+        },
+        {
+          "disease_id": "EFO_0010269",
+          "disease_name": "amenorrhea",
+          "score": 0.5381963603479111
+        },
+        {
+          "disease_id": "MONDO_0001572",
+          "disease_name": "leiomyoma",
+          "score": 0.5296392317173237
+        },
+        {
+          "disease_id": "HP_0004326",
+          "disease_name": "Cachexia",
+          "score": 0.5259320368933119
+        },
+        {
+          "disease_id": "EFO_0000616",
+          "disease_name": "neoplasm",
+          "score": 0.5247245552352772
+        },
+        {
+          "disease_id": "EFO_0003099",
+          "disease_name": "Cushing syndrome",
+          "score": 0.5109723808960552
+        },
+        {
+          "disease_id": "MONDO_0003778",
+          "disease_name": "inborn error of immunity",
+          "score": 0.5039631962908891
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_fcbe11ad4078",
+      "question": "What is the PMID for the 2025 article titled \"The challenges of indexing and impact factor in Latin American cardiology journals,\" authored by Piskorz DL and published in Archivos de cardiologia de Mexico?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"The challenges of indexing and impact factor in Latin American cardiology journals.\"[ti] AND Piskorz DL[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40445929"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_237de4f3a388",
+      "question": "In ClinicalTrials.gov, which interventional studies for Hepatitis C involving Pegylated Interferon Alfa 2a were started in March 2008 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Hepatitis C;interventions.name=Pegylated Interferon Alfa 2a;startDateFrom=2008-03-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00627926"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_95946b601511",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000140443 and approved symbol IGF1R, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000140443",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_866efa00f370",
+      "question": "What is the PMID of the article titled “Monoclonal antibody administration in an academic institution and private neurological practice: a tale of two clinics,” authored by Rosenbloom M and published in the Journal of Neurology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Monoclonal antibody administration in an academic institution and private neurological practice\"[ti] AND Rosenbloom M[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40355750"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_0e0176dd95ed",
+      "question": "What is the PMID of the 2025 PLoS Medicine article titled “The cardiology community begins to embrace obesity as an important target for cardiovascular health,” authored by Sattar N?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"The cardiology community begins to embrace obesity as an important target for cardiovascular health.\"[ti] AND Sattar N[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40273224"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_a35b222e8df0",
+      "question": "In ClinicalTrials.gov, which completed interventional studies for metastatic breast cancer with Eribulin Mesylate as a main intervention have been conducted in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Metastatic Breast Cancer;interventions.name=Eribulin Mesylate;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00337103"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_df9afc43307b",
+      "question": "In the OpenTargets database, what information is available regarding heart disease for the target JAK2?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "JAK2",
+            "event": "heart disease"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "cardiovascular system",
+            "tissueId": "UBERON_0004535"
+          }
+        ],
+        "effects": "absence"
+      },
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_4eae2f37ea2f",
+      "question": "What is the unique PMID for the 2025 BMC Gastroenterology article titled “Challenges and needs in the management of non-alcoholic fatty liver disease from the perspective of gastroenterology and hepatology specialists: a qualitative study,” authored by Salmanizadeh F?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Challenges and needs in the management of non-alcoholic fatty liver disease from the perspective of gastroenterology and hepatology specialists\"[ti] AND Salmanizadeh F[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40405078"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_74b58b1e42f5",
+      "question": "Which diseases are associated with the target RAF1 (Ensembl ID ENSG00000132155) with a minimum relevance score of 0.5 in OpenTargets?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.search",
+          "params": {
+            "target_id": "ENSG00000132155",
+            "min_score": 0.5
+          }
+        }
+      ],
+      "answer": [
+        {
+          "disease_id": "MONDO_0018997",
+          "disease_name": "Noonan syndrome",
+          "score": 0.8743368084331032
+        },
+        {
+          "disease_id": "MONDO_0007893",
+          "disease_name": "Noonan syndrome with multiple lentigines",
+          "score": 0.8055526401002233
+        },
+        {
+          "disease_id": "EFO_0000407",
+          "disease_name": "dilated cardiomyopathy",
+          "score": 0.7532212410305463
+        },
+        {
+          "disease_id": "EFO_1001502",
+          "disease_name": "rasopathy",
+          "score": 0.6750036782937922
+        },
+        {
+          "disease_id": "MONDO_0004992",
+          "disease_name": "cancer",
+          "score": 0.63228885118352
+        },
+        {
+          "disease_id": "EFO_0000538",
+          "disease_name": "hypertrophic cardiomyopathy",
+          "score": 0.5688937395310645
+        },
+        {
+          "disease_id": "MONDO_0009026",
+          "disease_name": "Costello syndrome",
+          "score": 0.5612499326656918
+        },
+        {
+          "disease_id": "EFO_0000681",
+          "disease_name": "renal cell carcinoma",
+          "score": 0.5283197189339974
+        },
+        {
+          "disease_id": "HP_0001626",
+          "disease_name": "Abnormality of the cardiovascular system",
+          "score": 0.5281170330281758
+        },
+        {
+          "disease_id": "EFO_0000616",
+          "disease_name": "neoplasm",
+          "score": 0.5216825458299084
+        },
+        {
+          "disease_id": "MONDO_0020297",
+          "disease_name": "Noonan syndrome and Noonan-related syndrome",
+          "score": 0.5146735424695826
+        },
+        {
+          "disease_id": "EFO_0000182",
+          "disease_name": "hepatocellular carcinoma",
+          "score": 0.5089592119094807
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_29cb6c8db71e",
+      "question": "What diseases are associated with the target MTOR (Ensembl ID ENSG00000198793) in OpenTargets with a minimum relevance score of 0.5?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.search",
+          "params": {
+            "target_id": "ENSG00000198793",
+            "min_score": 0.5
+          }
+        }
+      ],
+      "answer": [
+        {
+          "disease_id": "EFO_0009050",
+          "disease_name": "Macrocephaly-intellectual disability-neurodevelopmental disorder-small thorax syndrome",
+          "score": 0.8290637055715058
+        },
+        {
+          "disease_id": "MONDO_0011818",
+          "disease_name": "isolated focal cortical dysplasia type II",
+          "score": 0.8171797250275835
+        },
+        {
+          "disease_id": "MONDO_0100283",
+          "disease_name": "overgrowth syndrome and/or cerebral malformations due to abnormalities in MTOR pathway genes",
+          "score": 0.6531008507541695
+        },
+        {
+          "disease_id": "EFO_0005772",
+          "disease_name": "neurodegenerative disease",
+          "score": 0.5602790851398625
+        },
+        {
+          "disease_id": "EFO_0000349",
+          "disease_name": "clear cell renal carcinoma",
+          "score": 0.5435334415095743
+        },
+        {
+          "disease_id": "MONDO_0032908",
+          "disease_name": "CEBALID syndrome",
+          "score": 0.5241279996927086
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_6d7d605c28b0",
+      "question": "In ClinicalTrials.gov, which completed interventional studies for Multiple Sclerosis involving Laquinimod started in November 2007 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Multiple Sclerosis;interventions.name=Laquinimod;startDateFrom=2007-11-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00509145"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_7e0d7e23c528",
+      "question": "What is the unique PMID of the article titled “Next-generation sequencing and immuno-informatics for designing a multi-epitope vaccine against HSV-1-induced uveitis,” authored by Cao H and published in Frontiers in Immunology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Next-generation sequencing and immuno-informatics for designing a multi-epitope vaccine against HSV-1-induced uveitis.\"[ti] AND Cao H[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "39958333"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_8ae9770631af",
+      "question": "What is the unique PMID of the article titled “Complexity of neuro-oncological in-hospital consultations: a multicentre study” by first author Jauregui Larrañaga C, published in Neurologia in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Complexity of neuro-oncological in-hospital consultations\"[ti] AND Jauregui Larrañaga C[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40306462"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_beb8bb44cab2",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 3 studies for leukemia started in July 2001 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;conditions=Leukemia;startDateFrom=2001-07-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00024440"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_7e5e2be061ee",
+      "question": "What is the PMID of the article titled “[Exploring screening practices for sexual disorders in breast cancer patients],” authored by Jacquet C and published in Soins; la revue de reference infirmiere in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"[Exploring screening practices for sexual disorders in breast cancer patients].\"[ti] AND Jacquet C[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40483090"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_fb7b1a1fdb41",
+      "question": "In ClinicalTrials.gov, which interventional studies for Breast Cancer started in January 2007 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Breast Cancer;startDateFrom=2007-01-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00524277"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_82bc1dc629ee",
+      "question": "What is the unique PMID for the 2025 Neurogastroenterology and Motility article titled \"Trainees' Exposure to the Field of Neurogastroenterology and Motility in Internal Medicine and General Surgery Residency Programs,\" authored by Cohen DL?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Trainees' Exposure to the Field of Neurogastroenterology and Motility in Internal Medicine and General Surgery Residency Programs.\"[ti] AND Cohen DL[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40145420"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_d33bb5fa5be1",
+      "question": "What diseases are associated with the target IL13, which has the Ensembl ID ENSG00000169194, with a minimum relevance score of 0.5 in OpenTargets?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.search",
+          "params": {
+            "target_id": "ENSG00000169194",
+            "min_score": 0.5
+          }
+        }
+      ],
+      "answer": [
+        {
+          "disease_id": "EFO_0000274",
+          "disease_name": "atopic eczema",
+          "score": 0.6993140228020157
+        },
+        {
+          "disease_id": "MONDO_0004979",
+          "disease_name": "asthma",
+          "score": 0.6780711161785388
+        },
+        {
+          "disease_id": "HP_0000964",
+          "disease_name": "Eczematoid dermatitis",
+          "score": 0.6148607200185839
+        },
+        {
+          "disease_id": "EFO_0005854",
+          "disease_name": "allergic rhinitis",
+          "score": 0.5666922121972621
+        },
+        {
+          "disease_id": "EFO_0000676",
+          "disease_name": "psoriasis",
+          "score": 0.5492499302524128
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_f6b9885550b4",
+      "question": "What diseases are associated with the target NR3C1, which has the Ensembl ID ENSG00000113580, and have a minimum relevance score of 0.5 in OpenTargets?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.search",
+          "params": {
+            "target_id": "ENSG00000113580",
+            "min_score": 0.5
+          }
+        }
+      ],
+      "answer": [
+        {
+          "disease_id": "MONDO_0014421",
+          "disease_name": "glucocorticoid resistance",
+          "score": 0.7915382113548423
+        },
+        {
+          "disease_id": "EFO_0000341",
+          "disease_name": "chronic obstructive pulmonary disease",
+          "score": 0.7045546959776285
+        },
+        {
+          "disease_id": "MONDO_0005301",
+          "disease_name": "multiple sclerosis",
+          "score": 0.6841166085552951
+        },
+        {
+          "disease_id": "EFO_1000941",
+          "disease_name": "frozen shoulder",
+          "score": 0.6436439828322041
+        },
+        {
+          "disease_id": "EFO_0000685",
+          "disease_name": "rheumatoid arthritis",
+          "score": 0.6318120426084437
+        },
+        {
+          "disease_id": "EFO_0000729",
+          "disease_name": "ulcerative colitis",
+          "score": 0.6182720106116167
+        },
+        {
+          "disease_id": "EFO_0007160",
+          "disease_name": "autoimmune thrombocytopenic purpura",
+          "score": 0.6174774224880838
+        },
+        {
+          "disease_id": "EFO_0000544",
+          "disease_name": "infection",
+          "score": 0.6143127801552344
+        },
+        {
+          "disease_id": "MONDO_0019338",
+          "disease_name": "sarcoidosis",
+          "score": 0.6122412480921858
+        },
+        {
+          "disease_id": "EFO_0004255",
+          "disease_name": "nephrotic syndrome",
+          "score": 0.6103523986733679
+        },
+        {
+          "disease_id": "EFO_0000384",
+          "disease_name": "Crohn's disease",
+          "score": 0.6096175194680566
+        },
+        {
+          "disease_id": "MONDO_0004979",
+          "disease_name": "asthma",
+          "score": 0.6093000298135062
+        },
+        {
+          "disease_id": "MONDO_0004992",
+          "disease_name": "cancer",
+          "score": 0.6087147865226739
+        },
+        {
+          "disease_id": "EFO_0000574",
+          "disease_name": "lymphoma",
+          "score": 0.6085338062641863
+        },
+        {
+          "disease_id": "MONDO_0005178",
+          "disease_name": "osteoarthritis",
+          "score": 0.6082930297131999
+        },
+        {
+          "disease_id": "EFO_0000274",
+          "disease_name": "atopic eczema",
+          "score": 0.607514053015777
+        },
+        {
+          "disease_id": "EFO_0000565",
+          "disease_name": "leukemia",
+          "score": 0.6072230111709825
+        },
+        {
+          "disease_id": "MP_0001845",
+          "disease_name": "inflammation",
+          "score": 0.6070319539806248
+        },
+        {
+          "disease_id": "EFO_0005854",
+          "disease_name": "allergic rhinitis",
+          "score": 0.6070273813562097
+        },
+        {
+          "disease_id": "EFO_0000676",
+          "disease_name": "psoriasis",
+          "score": 0.6060952673715753
+        },
+        {
+          "disease_id": "EFO_0003106",
+          "disease_name": "pneumonia",
+          "score": 0.6049059903156613
+        },
+        {
+          "disease_id": "EFO_0000701",
+          "disease_name": "skin disease",
+          "score": 0.6041967898956461
+        },
+        {
+          "disease_id": "EFO_0002609",
+          "disease_name": "juvenile idiopathic arthritis",
+          "score": 0.6036867766632718
+        },
+        {
+          "disease_id": "EFO_0003956",
+          "disease_name": "seasonal allergic rhinitis",
+          "score": 0.6011694655297128
+        },
+        {
+          "disease_id": "EFO_1001494",
+          "disease_name": "psoriasis vulgaris",
+          "score": 0.6004211328376824
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_597380310eb1",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 3 studies for Type 2 Diabetes Mellitus involving Exenatide Once Weekly were conducted in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;conditions=Type 2 Diabetes Mellitus;interventions.name=Exenatide Once Weekly;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00641056"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_002686e52253",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000188389 and approved symbol PDCD1, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000188389",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Advanced Clinical"
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_a3d485a53a5d",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000169083 and approved symbol AR, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000169083",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "PR",
+          "label": "Advanced Clinical"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_6611df276563",
+      "question": "In the OpenTargets platform, does the tractability information indicate that the target with Ensembl ID ENSG00000185499 and approved symbol MUC1 has value set to True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000185499",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Med-Quality Pocket"
+        },
+        {
+          "modality": "AB",
+          "label": "Advanced Clinical"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "OC",
+          "label": "Advanced Clinical"
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_c1716fe50f87",
+      "question": "What diseases are associated with the target GABRA2 (Ensembl ID ENSG00000151834) that have a minimum relevance score of 0.5 in OpenTargets?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.search",
+          "params": {
+            "target_id": "ENSG00000151834",
+            "min_score": 0.5
+          }
+        }
+      ],
+      "answer": [
+        {
+          "disease_id": "MONDO_0007079",
+          "disease_name": "alcohol dependence",
+          "score": 0.6822312544230996
+        },
+        {
+          "disease_id": "EFO_0000474",
+          "disease_name": "epilepsy",
+          "score": 0.6094869099517665
+        },
+        {
+          "disease_id": "MONDO_0002009",
+          "disease_name": "major depressive disorder",
+          "score": 0.6092447483627642
+        },
+        {
+          "disease_id": "EFO_0004698",
+          "disease_name": "insomnia",
+          "score": 0.605489364142408
+        },
+        {
+          "disease_id": "EFO_0004262",
+          "disease_name": "panic disorder",
+          "score": 0.6030885772056018
+        },
+        {
+          "disease_id": "HP_0000713",
+          "disease_name": "Agitation",
+          "score": 0.6027471988105273
+        },
+        {
+          "disease_id": "EFO_0006788",
+          "disease_name": "anxiety disorder",
+          "score": 0.6018767594987441
+        },
+        {
+          "disease_id": "EFO_0005230",
+          "disease_name": "anxiety",
+          "score": 0.6002551308485161
+        },
+        {
+          "disease_id": "MONDO_0005277",
+          "disease_name": "migraine disorder",
+          "score": 0.5951950676466844
+        },
+        {
+          "disease_id": "HP_0001250",
+          "disease_name": "Seizure",
+          "score": 0.5893008788199434
+        },
+        {
+          "disease_id": "EFO_0003843",
+          "disease_name": "pain",
+          "score": 0.5779874672066261
+        },
+        {
+          "disease_id": "MONDO_0002050",
+          "disease_name": "depressive disorder",
+          "score": 0.5657344809584639
+        },
+        {
+          "disease_id": "EFO_1001892",
+          "disease_name": "generalized anxiety disorder",
+          "score": 0.5555024176430615
+        },
+        {
+          "disease_id": "EFO_0007453",
+          "disease_name": "postpartum depression",
+          "score": 0.5554546488183064
+        },
+        {
+          "disease_id": "MONDO_0016532",
+          "disease_name": "Lennox-Gastaut syndrome",
+          "score": 0.5533871689213433
+        },
+        {
+          "disease_id": "EFO_0008526",
+          "disease_name": "status epilepticus",
+          "score": 0.5481340929891784
+        },
+        {
+          "disease_id": "MONDO_0100062",
+          "disease_name": "developmental and epileptic encephalopathy",
+          "score": 0.5360687652530066
+        },
+        {
+          "disease_id": "EFO_0007498",
+          "disease_name": "Stiff-Person syndrome",
+          "score": 0.5261379875719714
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_28a0a03278d3",
+      "question": "Which diseases are associated with the target ADRB1 (Ensembl ID ENSG00000043591) with a minimum relevance score of 0.5 according to OpenTargets?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.search",
+          "params": {
+            "target_id": "ENSG00000043591",
+            "min_score": 0.5
+          }
+        }
+      ],
+      "answer": [
+        {
+          "disease_id": "EFO_0000537",
+          "disease_name": "hypertension",
+          "score": 0.7380868313944822
+        },
+        {
+          "disease_id": "EFO_0000319",
+          "disease_name": "cardiovascular disease",
+          "score": 0.7226449889389978
+        },
+        {
+          "disease_id": "EFO_0000612",
+          "disease_name": "myocardial infarction",
+          "score": 0.621455472135067
+        },
+        {
+          "disease_id": "EFO_0004190",
+          "disease_name": "open-angle glaucoma",
+          "score": 0.6054383766600698
+        },
+        {
+          "disease_id": "MONDO_0005041",
+          "disease_name": "glaucoma",
+          "score": 0.6052929074382162
+        },
+        {
+          "disease_id": "EFO_0003144",
+          "disease_name": "heart failure",
+          "score": 0.605211246931498
+        },
+        {
+          "disease_id": "EFO_0003913",
+          "disease_name": "angina pectoris",
+          "score": 0.6042628258043483
+        },
+        {
+          "disease_id": "EFO_1001069",
+          "disease_name": "ocular hypertension",
+          "score": 0.6023499440422849
+        },
+        {
+          "disease_id": "MONDO_0005277",
+          "disease_name": "migraine disorder",
+          "score": 0.6017771202951928
+        },
+        {
+          "disease_id": "EFO_0000373",
+          "disease_name": "congestive heart failure",
+          "score": 0.5969404304978806
+        },
+        {
+          "disease_id": "MONDO_0004979",
+          "disease_name": "asthma",
+          "score": 0.5956618584578418
+        },
+        {
+          "disease_id": "EFO_0004278",
+          "disease_name": "sudden cardiac arrest",
+          "score": 0.589990668915091
+        },
+        {
+          "disease_id": "HP_0004308",
+          "disease_name": "Ventricular arrhythmia",
+          "score": 0.5828331327750093
+        },
+        {
+          "disease_id": "HP_0100806",
+          "disease_name": "Sepsis",
+          "score": 0.5821904690958367
+        },
+        {
+          "disease_id": "EFO_0003843",
+          "disease_name": "pain",
+          "score": 0.5810776283404744
+        },
+        {
+          "disease_id": "EFO_0007486",
+          "disease_name": "sinusitis",
+          "score": 0.5808925299048607
+        },
+        {
+          "disease_id": "EFO_0005251",
+          "disease_name": "hypotension",
+          "score": 0.5766132028285715
+        },
+        {
+          "disease_id": "EFO_0000712",
+          "disease_name": "stroke",
+          "score": 0.575737308541932
+        },
+        {
+          "disease_id": "EFO_0004612",
+          "disease_name": "high density lipoprotein cholesterol measurement",
+          "score": 0.5731118915460562
+        },
+        {
+          "disease_id": "EFO_0006834",
+          "disease_name": "septic shock",
+          "score": 0.5659732343116494
+        },
+        {
+          "disease_id": "EFO_0006335",
+          "disease_name": "systolic blood pressure",
+          "score": 0.5614462803678716
+        },
+        {
+          "disease_id": "EFO_0004530",
+          "disease_name": "triglyceride measurement",
+          "score": 0.5599462207306656
+        },
+        {
+          "disease_id": "EFO_0000275",
+          "disease_name": "atrial fibrillation",
+          "score": 0.5598458035051157
+        },
+        {
+          "disease_id": "MONDO_0005271",
+          "disease_name": "allergic disease",
+          "score": 0.5587297348479079
+        },
+        {
+          "disease_id": "EFO_0006336",
+          "disease_name": "diastolic blood pressure",
+          "score": 0.552003070367453
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_eff804ca8b3c",
+      "question": "What is the PMID of the article titled “Vogt Koyanagi Harada disease with bilateral disc edema diagnosed as Arnold Chiari malformation with papilledema: The blurred margin between ophthalmology and neurology,” authored by Agrawal A and published in the Indian Journal of Ophthalmology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Vogt Koyanagi Harada disease with bilateral disc edema diagnosed as Arnold Chiari malformation with papilledema\"[ti] AND Agrawal A[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40434450"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_748b5b18d4ab",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000117601 and approved symbol SERPINC1, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000117601",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_c99d2e095252",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 2 studies for multiple myeloma involving carfilzomib started in August 2007 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE2;conditions=Multiple Myeloma;interventions.name=carfilzomib;startDateFrom=2007-08-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00511238"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_4f02ede01ee9",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 3 studies that started in December 2006 investigated atrial fibrillation, stroke, or embolism with Rivaroxaban as an intervention in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;startDateFrom=2006-12-01;conditions=Atrial Fibrillation,Stroke,Embolism;interventions.name=Rivaroxaban;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00403767"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_7c38f90f0150",
+      "question": "What is the PMID of the article titled “A rare case of rectal malignant melanoma with long-term survival: case report and literature review,” authored by Huang H and published in the World Journal of Surgical Oncology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"A rare case of rectal malignant melanoma with long-term survival\"[ti] AND Huang H[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40483466"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_81fc915b429b",
+      "question": "What is the PMID of the article titled “[Allergology: what's new in 2024],” authored by Pérez-Codesido S and published in Revue medicale suisse in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"[Allergology \"[ti] AND Pérez-Codesido S[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "39812277"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_a43193b61de1",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 3 studies for Migraine Disorders started in July 2008 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;conditions=Migraine Disorders;startDateFrom=2008-07-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00623636"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_f4cded8f4c89",
+      "question": "In the OpenTargets database, what information is available regarding the target MTOR and the event heart disease?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "MTOR",
+            "event": "heart disease"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "cardiovascular system",
+            "tissueId": "UBERON_0004535"
+          }
+        ],
+        "effects": "absence"
+      },
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_1f9d603e4ad6",
+      "question": "What is the PMID of the article titled \"Revolutionizing pediatric neurology care: telemedicine advancements and regulatory impact in the Northeast of Brazil,\" authored by Rodrigues DLG and published in Arquivos de Neuro-Psiquiatria in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Revolutionizing pediatric neurology care\"[ti] AND Rodrigues DLG[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40262814"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_6ec6d573547d",
+      "question": "What diseases are associated with the target SSTR5 (Ensembl ID ENSG00000162009) with a minimum relevance score of 0.5 according to OpenTargets?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.search",
+          "params": {
+            "target_id": "ENSG00000162009",
+            "min_score": 0.5
+          }
+        }
+      ],
+      "answer": [
+        {
+          "disease_id": "EFO_0004627",
+          "disease_name": "IGF-1 measurement",
+          "score": 0.6476252709982938
+        },
+        {
+          "disease_id": "EFO_1001485",
+          "disease_name": "acromegaly",
+          "score": 0.6067395600201799
+        },
+        {
+          "disease_id": "EFO_0000616",
+          "disease_name": "neoplasm",
+          "score": 0.5824586874970201
+        },
+        {
+          "disease_id": "EFO_1001901",
+          "disease_name": "neuroendocrine neoplasm",
+          "score": 0.5489261783160067
+        },
+        {
+          "disease_id": "EFO_0004243",
+          "disease_name": "carcinoid tumor",
+          "score": 0.5254176332829494
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_e170505a9210",
+      "question": "In ClinicalTrials.gov, which recruiting interventional studies that started in June 2022 are investigating Bexmarilimab in Finland?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=RECRUITING;startDateFrom=2022-06-01;interventions.name=Bexmarilimab",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT05428969"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_12405bba9a6b",
+      "question": "In ClinicalTrials.gov, what interventional studies for Type 2 Diabetes Mellitus involving exenatide or long acting release exenatide started in April 2006 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Type 2 Diabetes Mellitus;interventions.name=exenatide,long acting release,exenatide;startDateFrom=2006-04-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00308139"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_c71cd61de7ab",
+      "question": "In ClinicalTrials.gov, which interventional studies for Relapsing-Remitting Multiple Sclerosis with BG00012 as a main intervention started in January 2007 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Relapsing-Remitting Multiple Sclerosis;interventions.name=BG00012;startDateFrom=2007-01-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00420212"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_cacfe0e74802",
+      "question": "What is the PMID of the article titled “[Practical guideline for short bowel syndrome]” by first author Dabsch S, published in Zeitschrift fur Gastroenterologie in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"[Practical guideline for short bowel syndrome].\"[ti] AND Dabsch S[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40360142"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_e0179231fe74",
+      "question": "In ClinicalTrials.gov, which interventional studies for Clostridium Infections or Diarrhea involving PAR-101/OPT-80 or Vancomycin started in October 2006 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Clostridium Infections,Diarrhea;interventions.name=PAR-101/OPT-80,Vancomycin;startDateFrom=2006-10-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00468728"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_2bae911c03c7",
+      "question": "In the OpenTargets platform, can you provide the tractability information for the target with Ensembl ID ENSG00000163599 and approved symbol CTLA4, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000163599",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_b04f8b1eaa3a",
+      "question": "What is the PMID of the article titled “[Evidence-based guidelines in gastroenterological medical care: a survey among members of the German Society for Gastroenterology, Digestive and Metabolic Diseases (DGVS) on acceptance, application and optimization],” authored by Bachmann J and published in Zeitschrift fur Gastroenterologie in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"[Evidence-based guidelines in gastroenterological medical care\"[ti] AND Bachmann J[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40306647"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_44d08721dd1a",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000239732 and approved symbol TLR9, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000239732",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Advanced Clinical"
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_5e1f21262a7e",
+      "question": "In ClinicalTrials.gov, which interventional studies for malignant melanoma started in December 2005 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Malignant Melanoma;startDateFrom=2005-12-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00135408"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_bd23bde0a20b",
+      "question": "What diseases are associated with the target VEGFA (Ensembl ID: ENSG00000112715) that have a minimum relevance score of 0.5 in OpenTargets?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.search",
+          "params": {
+            "target_id": "ENSG00000112715",
+            "min_score": 0.5
+          }
+        }
+      ],
+      "answer": [
+        {
+          "disease_id": "EFO_0003770",
+          "disease_name": "diabetic retinopathy",
+          "score": 0.6932347881851066
+        },
+        {
+          "disease_id": "EFO_0001365",
+          "disease_name": "age-related macular degeneration",
+          "score": 0.6665555315949537
+        },
+        {
+          "disease_id": "EFO_0004683",
+          "disease_name": "wet macular degeneration",
+          "score": 0.6476087898752155
+        },
+        {
+          "disease_id": "MONDO_0003005",
+          "disease_name": "macular retinal edema",
+          "score": 0.6097517588270926
+        },
+        {
+          "disease_id": "EFO_0003060",
+          "disease_name": "non-small cell lung carcinoma",
+          "score": 0.6087877695991972
+        },
+        {
+          "disease_id": "MONDO_0007254",
+          "disease_name": "breast cancer",
+          "score": 0.6059865671870243
+        },
+        {
+          "disease_id": "EFO_0000519",
+          "disease_name": "glioblastoma multiforme",
+          "score": 0.5982316317852503
+        },
+        {
+          "disease_id": "EFO_0000616",
+          "disease_name": "neoplasm",
+          "score": 0.5862326674018541
+        },
+        {
+          "disease_id": "MONDO_0008170",
+          "disease_name": "ovarian cancer",
+          "score": 0.5800076417695079
+        },
+        {
+          "disease_id": "EFO_0000681",
+          "disease_name": "renal cell carcinoma",
+          "score": 0.5694020403701061
+        },
+        {
+          "disease_id": "EFO_0009606",
+          "disease_name": "macular degeneration",
+          "score": 0.555548018962268
+        },
+        {
+          "disease_id": "EFO_0005753",
+          "disease_name": "ocular vascular disease",
+          "score": 0.5534659283285505
+        },
+        {
+          "disease_id": "EFO_0004348",
+          "disease_name": "hematocrit",
+          "score": 0.55285111012504
+        },
+        {
+          "disease_id": "EFO_0004142",
+          "disease_name": "colorectal neoplasm",
+          "score": 0.5478684635098685
+        },
+        {
+          "disease_id": "EFO_0004509",
+          "disease_name": "hemoglobin measurement",
+          "score": 0.5449002982232724
+        },
+        {
+          "disease_id": "EFO_0000365",
+          "disease_name": "colorectal adenocarcinoma",
+          "score": 0.5374340766437499
+        },
+        {
+          "disease_id": "EFO_0004305",
+          "disease_name": "erythrocyte count",
+          "score": 0.5349187677828824
+        },
+        {
+          "disease_id": "MONDO_0002974",
+          "disease_name": "cervical cancer",
+          "score": 0.5260745672808066
+        },
+        {
+          "disease_id": "EFO_0004833",
+          "disease_name": "neutrophil count",
+          "score": 0.5169023635797916
+        },
+        {
+          "disease_id": "EFO_0004309",
+          "disease_name": "platelet count",
+          "score": 0.516222059164415
+        },
+        {
+          "disease_id": "EFO_0004308",
+          "disease_name": "leukocyte count",
+          "score": 0.5155786031905498
+        },
+        {
+          "disease_id": "EFO_0004541",
+          "disease_name": "HbA1c measurement",
+          "score": 0.5079954977179357
+        },
+        {
+          "disease_id": "EFO_0001075",
+          "disease_name": "ovarian carcinoma",
+          "score": 0.5049013414897878
+        },
+        {
+          "disease_id": "EFO_0010977",
+          "disease_name": "macrovascular complications of diabetes",
+          "score": 0.5030392466541774
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_3b1ff5aea7dd",
+      "question": "Which diseases are associated with the target HMGCR (Ensembl ID ENSG00000113161) in OpenTargets with a minimum relevance score of 0.5?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.search",
+          "params": {
+            "target_id": "ENSG00000113161",
+            "min_score": 0.5
+          }
+        }
+      ],
+      "answer": [
+        {
+          "disease_id": "EFO_0001645",
+          "disease_name": "coronary artery disease",
+          "score": 0.7354210413763757
+        },
+        {
+          "disease_id": "HP_0003124",
+          "disease_name": "Hypercholesterolemia",
+          "score": 0.7134804415331388
+        },
+        {
+          "disease_id": "EFO_0004911",
+          "disease_name": "familial hypercholesterolemia",
+          "score": 0.7062842345494592
+        },
+        {
+          "disease_id": "EFO_0000712",
+          "disease_name": "stroke",
+          "score": 0.6886397436109586
+        },
+        {
+          "disease_id": "EFO_0000319",
+          "disease_name": "cardiovascular disease",
+          "score": 0.6678091738874605
+        },
+        {
+          "disease_id": "MONDO_0005148",
+          "disease_name": "type 2 diabetes mellitus",
+          "score": 0.6616871782418438
+        },
+        {
+          "disease_id": "MONDO_0021187",
+          "disease_name": "hyperlipidemia",
+          "score": 0.6350788050804366
+        },
+        {
+          "disease_id": "EFO_0004611",
+          "disease_name": "low density lipoprotein cholesterol measurement",
+          "score": 0.6184965686087083
+        },
+        {
+          "disease_id": "EFO_0000612",
+          "disease_name": "myocardial infarction",
+          "score": 0.6131184301992288
+        },
+        {
+          "disease_id": "EFO_0003913",
+          "disease_name": "angina pectoris",
+          "score": 0.6064609536402142
+        },
+        {
+          "disease_id": "EFO_0000373",
+          "disease_name": "congestive heart failure",
+          "score": 0.6022659200947904
+        },
+        {
+          "disease_id": "HP_0003119",
+          "disease_name": "Abnormal circulating lipid concentration",
+          "score": 0.6007584109825959
+        },
+        {
+          "disease_id": "MONDO_0004975",
+          "disease_name": "Alzheimer disease",
+          "score": 0.5867829879498245
+        },
+        {
+          "disease_id": "EFO_0003914",
+          "disease_name": "atherosclerosis",
+          "score": 0.5861026124539934
+        },
+        {
+          "disease_id": "EFO_0000400",
+          "disease_name": "diabetes mellitus",
+          "score": 0.5860025650062239
+        },
+        {
+          "disease_id": "EFO_0004615",
+          "disease_name": "apolipoprotein B measurement",
+          "score": 0.5839853322431114
+        },
+        {
+          "disease_id": "EFO_0004574",
+          "disease_name": "total cholesterol measurement",
+          "score": 0.5800503216654831
+        },
+        {
+          "disease_id": "EFO_0000537",
+          "disease_name": "hypertension",
+          "score": 0.5791448751092161
+        },
+        {
+          "disease_id": "EFO_0008317",
+          "disease_name": "very low density lipoprotein cholesterol measurement",
+          "score": 0.5767911452542042
+        },
+        {
+          "disease_id": "EFO_0005772",
+          "disease_name": "neurodegenerative disease",
+          "score": 0.5698901125414565
+        },
+        {
+          "disease_id": "EFO_0010351",
+          "disease_name": "cholesteryl ester measurement",
+          "score": 0.5679137164152953
+        },
+        {
+          "disease_id": "EFO_0004529",
+          "disease_name": "lipid measurement",
+          "score": 0.5656225892517532
+        },
+        {
+          "disease_id": "EFO_0020946",
+          "disease_name": "phospholipids:total lipids ratio",
+          "score": 0.5644333913345423
+        },
+        {
+          "disease_id": "EFO_0020943",
+          "disease_name": "cholesterol:total lipids ratio",
+          "score": 0.5638526943162178
+        },
+        {
+          "disease_id": "MONDO_0005301",
+          "disease_name": "multiple sclerosis",
+          "score": 0.5634667674564039
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_2a338c4e73e8",
+      "question": "What is the PMID of the 2025 Arquivos de Neuro-Psiquiatria article titled \"How great was the influence of his origins and descendants on Charcot's behaviors?\" by first author Teive HAG?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"How great was the influence of his origins and descendants on Charcot's behaviors?\"[ti] AND Teive HAG[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40345673"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_a96d43fbfdd4",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000196230 and approved symbol TUBB, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000196230",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_d215a4d9b32f",
+      "question": "In ClinicalTrials.gov, which interventional studies for Multiple Myeloma using bortezomib started in December 2004 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Multiple Myeloma;interventions.name=bortezomib;startDateFrom=2004-12-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00111319"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_0894226e37b9",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000142208 and approved symbol AKT1, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000142208",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Advanced Clinical"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "PR",
+          "label": "Literature"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_0071eea530f3",
+      "question": "What is the PMID of the 2025 BMC Pulmonary Medicine article titled “Impact of irae characteristics on efficacy of consolidative immunotherapy following chemoradiotherapy in locally advanced NSCLC,” with Wang X as the first author?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Impact of irae characteristics on efficacy of consolidative immunotherapy following chemoradiotherapy in locally advanced NSCLC.\"[ti] AND Wang X[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40483449"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_4cd1539c2e04",
+      "question": "What is the unique PMID for the 2025 BMJ Open Quality article titled “Clinical impact of Choosing Wisely Canada hepatology recommendations: an interrupted time-series analysis using data from GEMINI,” authored by Shin S?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Clinical impact of Choosing Wisely Canada hepatology recommendations\"[ti] AND Shin S[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40122575"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_e2cc7645bcfd",
+      "question": "In ClinicalTrials.gov, which completed interventional studies for Multiple Sclerosis involving Fingolimod 1.25 mg as an intervention started in May 2006 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Multiple Sclerosis;interventions.name=Fingolimod 1.25 mg;startDateFrom=2006-05-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00340834"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_17d65011996c",
+      "question": "In the OpenTargets platform, can you provide the tractability information for the target with Ensembl ID ENSG00000134853 and approved symbol PDGFRA, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000134853",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_8b6f7dc4491b",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000176890 and approved symbol TYMS, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000176890",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "PR",
+          "label": "UniProt Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_a85598c15b2d",
+      "question": "In ClinicalTrials.gov, which completed interventional studies for Multiple Sclerosis involving Fingolimod started in June 2006 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Multiple Sclerosis;interventions.name=Fingolimod;startDateFrom=2006-06-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00355134"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_1ca92538e034",
+      "question": "In ClinicalTrials.gov, what interventional studies for hormone-refractory prostate cancer that started in May 2000 used sipuleucel-T as a main intervention?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Hormone-Refractory Prostate Cancer;interventions.name=sipuleucel-T;startDateFrom=2000-05-01",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT01133704"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_7128f9f7d2c1",
+      "question": "In ClinicalTrials.gov, which interventional studies for Obesity or Type 2 Diabetes involving VI-0521 started in November 2007 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Obesity,Type 2 Diabetes;interventions.name=VI-0521;startDateFrom=2007-11-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00553787"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_8c99b7b6c1aa",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000151834 and approved symbol GABRA2 where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000151834",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_8e8b20b05707",
+      "question": "In ClinicalTrials.gov, what interventional studies for bone metastases that started in April 2006 used Denosumab or Zoledronic Acid as interventions?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Bone Metastases;interventions.name=Denosumab,Zoledronic Acid;startDateFrom=2006-04-01",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00321464"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_e1876760d8cb",
+      "question": "What is the PMID of the article titled \"Diversity is essential in cardiovascular medicine and subspecialties: A comprehensive report of gender, racial, and ethnic representation among cardiovascular fellows from 2005 to 2022,\" authored by Obeidat O and published in Current Problems in Cardiology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Diversity is essential in cardiovascular medicine and subspecialties\"[ti] AND Obeidat O[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40311855"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_a950108c9dc4",
+      "question": "In ClinicalTrials.gov, which completed interventional studies for Diabetes Mellitus, Type 2 started in August 2007 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Diabetes Mellitus, Type 2;startDateFrom=2007-08-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00518882"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_d1acda9781fb",
+      "question": "In the OpenTargets database, what are the associations between the target symbol HRH1 and the event allergic responses of flare, flush and wheal?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.safety",
+          "params": {
+            "symbol": "HRH1",
+            "event": "allergic responses of flare, flush and wheal"
+          }
+        }
+      ],
+      "answer": {
+        "biosamples": [
+          {
+            "tissueLabel": "cardiovascular system",
+            "tissueId": "UBERON_0004535"
+          },
+          {
+            "tissueLabel": "immune",
+            "tissueId": "UBERON_0002405"
+          }
+        ],
+        "effects": [
+          {
+            "dosing": "general",
+            "direction": "Activation/Increase/Upregulation"
+          }
+        ]
+      },
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_fd429df346ae",
+      "question": "In ClinicalTrials.gov, what interventional studies for metastatic colorectal cancer with panitumumab and FOLFIRI started in June 2006?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Metastatic Colorectal Cancer;interventions.name=Panitumumab;interventions.name=FOLFIRI;startDateFrom=2006-06-01",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00339183"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_ad4f99c4b28f",
+      "question": "In ClinicalTrials.gov, which interventional studies for Melanoma with ipilimumab as the main intervention started in April 2006 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Melanoma;interventions.name=ipilimumab;startDateFrom=2006-04-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00289640"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_ad3a5b59d65b",
+      "question": "In ClinicalTrials.gov, which completed interventional studies for Non-Hodgkins Lymphoma involving Lenalidomide started in August 2005 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Non-Hodgkins Lymphoma;interventions.name=Lenalidomide;startDateFrom=2005-08-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00179660"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_cd6222b08f96",
+      "question": "In ClinicalTrials.gov, what interventional studies for relapsing-remitting multiple sclerosis involving Cladribine 5.25 mg/kg were started in April 2005?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "conditions=Relapsing-Remitting;interventions.name=Cladribine 5.25 mg/kg;startDateFrom=2005-04-01",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00213135"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_62452ef68f61",
+      "question": "What is the PMID for the article titled “Trends in self-citation rates in high-impact neurology, neuroscience, and psychiatry journals,” authored by Rosenblatt M and published in eLife in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Trends in self-citation rates in high-impact neurology, neuroscience, and psychiatry journals.\"[ti] AND Rosenblatt M[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40366360"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_89c4491b366b",
+      "question": "What is the unique PMID for the article titled “On tending sprouts: empowering emerging immunologists in Latin America,” authored by Brunck MEG and published in Trends in Immunology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"On tending sprouts\"[ti] AND Brunck MEG[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40050163"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_46a3a90cb3b7",
+      "question": "What is the PMID of the article titled “Causal association between gut microbiota and endometrial cancer in European and East Asian populations: a two-sample Mendelian randomization study,” authored by Chen J and published in BMC Women's Health in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Causal association between gut microbiota and endometrial cancer in European and East Asian populations\"[ti] AND Chen J[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40483441"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_9456786656de",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000091879 and approved symbol ANGPT2 where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000091879",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "AB",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "OC",
+          "label": "Advanced Clinical"
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_71ba08785ecb",
+      "question": "What is the unique PMID for the 2025 Journal of Bodywork and Movement Therapies article titled \"Home-based remote dance program with biopsychosocial model improves quality of life in breast cancer patients: A randomized controlled trial,\" authored by Yang YH?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Home-based remote dance program with biopsychosocial model improves quality of life in breast cancer patients\"[ti] AND Yang YH[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40483151"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_5ebd9d22bbc3",
+      "question": "What is the PMID of the article titled “Assessment of plasma derived microbiome profiles in lung cancer using targeted and whole exome sequencing,” authored by Behel V and published in NPJ Systems Biology and Applications in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Assessment of plasma derived microbiome profiles in lung cancer using targeted and whole exome sequencing.\"[ti] AND Behel V[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40483308"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_4e6c91ae7ab3",
+      "question": "What is the unique PubMed ID (PMID) for the article titled “[Evolution of enterology as a science]” by Sabelnikova EA, published in Terapevticheskii arkhiv in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"[Evolution of enterology as a science].\"[ti] AND Sabelnikova EA[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40237759"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_ffbbcb4faf51",
+      "question": "In the OpenTargets platform, can you provide the tractability information for the target with Ensembl ID ENSG00000171105 and approved symbol INSR, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000171105",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Advanced Clinical"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Pocket"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc med conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "AB",
+          "label": "Human Protein Atlas loc"
+        },
+        {
+          "modality": "PR",
+          "label": "Database Ubiquitination"
+        },
+        {
+          "modality": "PR",
+          "label": "Half-life Data"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_691ecf3b3a59",
+      "question": "What is the unique PMID for the 2025 Arquivos de Neuro-Psiquiatria article titled “A decade of whole-exome sequencing in Brazilian Neurology: from past insights to future perspectives,” authored by Quaio CRDC?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"A decade of whole-exome sequencing in Brazilian Neurology\"[ti] AND Quaio CRDC[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40360003"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_96fe102e8cd6",
+      "question": "In ClinicalTrials.gov, which completed interventional studies for chronic myelogenous leukemia started in July 2007 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Myelogenous Leukemia, Chronic;startDateFrom=2007-07-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00471497"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_52a4d30b99f6",
+      "question": "What is the unique PubMed ID (PMID) for the article titled \"Assessing the prevalence, quality and compliance of data-sharing statements in gastroenterology publications: a cross-sectional analysis,\" authored by Moore J and published in BMJ Open in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Assessing the prevalence, quality and compliance of data-sharing statements in gastroenterology publications\"[ti] AND Moore J[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40132820"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_92ced583112b",
+      "question": "What is the PMID of the article titled “Mapping training programs for endoscopy nurses in gastroenterology: a scoping review,” authored by Parrella A and published in the European Journal of Gastroenterology & Hepatology in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Mapping training programs for endoscopy nurses in gastroenterology\"[ti] AND Parrella A[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40207485"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_252f0888c599",
+      "question": "What diseases are associated with the target TYMS (Ensembl ID ENSG00000176890) in OpenTargets with a minimum relevance score of 0.5?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.search",
+          "params": {
+            "target_id": "ENSG00000176890",
+            "min_score": 0.5
+          }
+        }
+      ],
+      "answer": [
+        {
+          "disease_id": "MONDO_0031057",
+          "disease_name": "dyskeratosis congenita, digenic",
+          "score": 0.6624847221561712
+        },
+        {
+          "disease_id": "MONDO_0007254",
+          "disease_name": "breast cancer",
+          "score": 0.6158301524677086
+        },
+        {
+          "disease_id": "EFO_0000616",
+          "disease_name": "neoplasm",
+          "score": 0.6126631639515382
+        },
+        {
+          "disease_id": "MONDO_0015780",
+          "disease_name": "dyskeratosis congenita",
+          "score": 0.5978970703637825
+        },
+        {
+          "disease_id": "EFO_0003060",
+          "disease_name": "non-small cell lung carcinoma",
+          "score": 0.5936403377930133
+        },
+        {
+          "disease_id": "EFO_0000305",
+          "disease_name": "breast carcinoma",
+          "score": 0.5803040573304219
+        },
+        {
+          "disease_id": "EFO_0004288",
+          "disease_name": "colonic neoplasm",
+          "score": 0.5761632237196096
+        },
+        {
+          "disease_id": "EFO_0002496",
+          "disease_name": "actinic keratosis",
+          "score": 0.571121497445355
+        },
+        {
+          "disease_id": "EFO_0004142",
+          "disease_name": "colorectal neoplasm",
+          "score": 0.5540211569980305
+        },
+        {
+          "disease_id": "EFO_0003869",
+          "disease_name": "breast neoplasm",
+          "score": 0.5529090239497866
+        },
+        {
+          "disease_id": "EFO_0000588",
+          "disease_name": "mesothelioma",
+          "score": 0.5473683845950184
+        },
+        {
+          "disease_id": "EFO_0003897",
+          "disease_name": "stomach neoplasm",
+          "score": 0.5281388268081618
+        },
+        {
+          "disease_id": "EFO_0000503",
+          "disease_name": "gastric adenocarcinoma",
+          "score": 0.5239588050333832
+        },
+        {
+          "disease_id": "EFO_0000228",
+          "disease_name": "adenocarcinoma",
+          "score": 0.5091787603853702
+        },
+        {
+          "disease_id": "EFO_0801066",
+          "disease_name": "arabonate measurement",
+          "score": 0.5010888651207076
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_37c17d6b0cd3",
+      "question": "What is the PMID of the article titled “Impact of the COVID-19 pandemic on the diagnosis, tumor characteristics, and survival outcomes of colorectal cancer: a retrospective cohort study,” authored by Yarikkaya E and published in Annals of Saudi Medicine in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Impact of the COVID-19 pandemic on the diagnosis, tumor characteristics, and survival outcomes of colorectal cancer\"[ti] AND Yarikkaya E[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40482190"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_cd7f2682ca88",
+      "question": "In ClinicalTrials.gov, which interventional studies for hepatic encephalopathy with rifaximin or placebo started in December 2005 and are in phase 3?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "phases=PHASE3;conditions=Hepatic Encephalopathy;interventions.name=Rifaximin,Placebo;startDateFrom=2005-12-01",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00298038"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_5e583c5d6121",
+      "question": "Which diseases are associated with the target ERBB2 (Ensembl ID ENSG00000141736) in OpenTargets with a minimum relevance score of 0.5?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.search",
+          "params": {
+            "target_id": "ENSG00000141736",
+            "min_score": 0.5
+          }
+        }
+      ],
+      "answer": [
+        {
+          "disease_id": "EFO_0003060",
+          "disease_name": "non-small cell lung carcinoma",
+          "score": 0.7568236425360201
+        },
+        {
+          "disease_id": "MONDO_0004992",
+          "disease_name": "cancer",
+          "score": 0.731730988769789
+        },
+        {
+          "disease_id": "EFO_0000305",
+          "disease_name": "breast carcinoma",
+          "score": 0.6987266920956966
+        },
+        {
+          "disease_id": "EFO_0000616",
+          "disease_name": "neoplasm",
+          "score": 0.6754639215719295
+        },
+        {
+          "disease_id": "MONDO_0001056",
+          "disease_name": "gastric cancer",
+          "score": 0.665616672410976
+        },
+        {
+          "disease_id": "EFO_0000304",
+          "disease_name": "breast adenocarcinoma",
+          "score": 0.635676781867804
+        },
+        {
+          "disease_id": "MONDO_0007254",
+          "disease_name": "breast cancer",
+          "score": 0.633744733345256
+        },
+        {
+          "disease_id": "EFO_0000571",
+          "disease_name": "lung adenocarcinoma",
+          "score": 0.624937726916147
+        },
+        {
+          "disease_id": "MONDO_0004986",
+          "disease_name": "urinary bladder carcinoma",
+          "score": 0.6107553898692176
+        },
+        {
+          "disease_id": "EFO_0003869",
+          "disease_name": "breast neoplasm",
+          "score": 0.6106814456287735
+        },
+        {
+          "disease_id": "MONDO_0008903",
+          "disease_name": "lung cancer",
+          "score": 0.6000233791803498
+        },
+        {
+          "disease_id": "EFO_1000294",
+          "disease_name": "HER2 Positive Breast Carcinoma",
+          "score": 0.5833744232129816
+        },
+        {
+          "disease_id": "EFO_0000503",
+          "disease_name": "gastric adenocarcinoma",
+          "score": 0.5646081597999976
+        },
+        {
+          "disease_id": "EFO_0005208",
+          "disease_name": "glomerular filtration rate",
+          "score": 0.5565147382111423
+        },
+        {
+          "disease_id": "MONDO_0001187",
+          "disease_name": "urinary bladder cancer",
+          "score": 0.5399840248584121
+        },
+        {
+          "disease_id": "MONDO_0008170",
+          "disease_name": "ovarian cancer",
+          "score": 0.5317537382127806
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_8e88bb29b781",
+      "question": "What is the PMID of the article titled “Hepatology in the Digital Era: A Review of Telehealth Care for Liver Disease,” authored by Bloomberg L and published in Current Gastroenterology Reports in 2025?",
+      "tool_calls": [
+        {
+          "tool": "pubmed.search",
+          "params": {
+            "term": "\"Hepatology in the Digital Era\"[ti] AND Bloomberg L[au] AND 2025[dp]",
+            "retmax": 1
+          }
+        }
+      ],
+      "answer": [
+        "40153166"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_3c98c188fa77",
+      "question": "In ClinicalTrials.gov, which completed interventional studies for Beta-Thalassemia using LentiGlobin BB305 Drug Product started in June 2017 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;conditions=Beta-Thalassemia;interventions.name=LentiGlobin BB305 Drug Product;startDateFrom=2017-06-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT03207009"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_c7a67aa6e0e8",
+      "question": "In ClinicalTrials.gov, which completed interventional phase 3 studies for Myelodysplastic Syndromes involving Azacitidine started in November 2003 in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;phases=PHASE3;conditions=Myelodysplastic Syndromes;interventions.name=Azacitidine;startDateFrom=2003-11-01;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00071799"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_32f0a70c2da6",
+      "question": "In ClinicalTrials.gov, which completed interventional studies that started in April 1998 investigated Atorvastatin for Cardiovascular Disease, Cerebrovascular Accident, or Coronary Heart Disease in the United States?",
+      "tool_calls": [
+        {
+          "tool": "ctgov_search",
+          "params": {
+            "filter_expr": "overallStatus=COMPLETED;startDateFrom=1998-04-01;conditions=Cardiovascular Disease,Cerebrovascular Accident,Coronary Heart Disease;interventions.name=Atorvastatin;locations.country=United States",
+            "page_size": 100
+          }
+        }
+      ],
+      "answer": [
+        "NCT00327691"
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_126f78e0200c",
+      "question": "In the OpenTargets platform, what tractability information is available for the target with Ensembl ID ENSG00000149295 and approved symbol DRD2, where the value is True?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.tractability",
+          "params": {
+            "target_id": "ENSG00000149295",
+            "value": true
+          }
+        }
+      ],
+      "answer": [
+        {
+          "modality": "SM",
+          "label": "Approved Drug"
+        },
+        {
+          "modality": "SM",
+          "label": "Structure with Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "High-Quality Ligand"
+        },
+        {
+          "modality": "SM",
+          "label": "Druggable Family"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt loc high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "GO CC high conf"
+        },
+        {
+          "modality": "AB",
+          "label": "UniProt SigP or TMHMM"
+        },
+        {
+          "modality": "PR",
+          "label": "Small Molecule Binder"
+        },
+        {
+          "modality": "OC",
+          "label": "Approved Drug"
+        }
+      ],
+      "type": "retrieval"
+    },
+    {
+      "id": "ret_abba18e9ac6b",
+      "question": "What diseases are associated with the target ENSG00000015413, also known as DPEP1, with a minimum relevance score of 0.5 in OpenTargets?",
+      "tool_calls": [
+        {
+          "tool": "opentargets.search",
+          "params": {
+            "target_id": "ENSG00000015413",
+            "min_score": 0.5
+          }
+        }
+      ],
+      "answer": [
+        {
+          "disease_id": "EFO_0000544",
+          "disease_name": "infection",
+          "score": 0.5789958838284464
+        },
+        {
+          "disease_id": "EFO_0003103",
+          "disease_name": "urinary tract infection",
+          "score": 0.5718469327945962
+        },
+        {
+          "disease_id": "EFO_0004339",
+          "disease_name": "body height",
+          "score": 0.5694777363303315
+        },
+        {
+          "disease_id": "HP_0100806",
+          "disease_name": "Sepsis",
+          "score": 0.5663742317859913
+        },
+        {
+          "disease_id": "EFO_0003106",
+          "disease_name": "pneumonia",
+          "score": 0.5645044200773564
+        },
+        {
+          "disease_id": "EFO_0006336",
+          "disease_name": "diastolic blood pressure",
+          "score": 0.5628826953113624
+        },
+        {
+          "disease_id": "EFO_0000465",
+          "disease_name": "endocarditis",
+          "score": 0.5587297348479079
+        },
+        {
+          "disease_id": "EFO_0800133",
+          "disease_name": "cysteinylglycine measurement",
+          "score": 0.5569275888622791
+        },
+        {
+          "disease_id": "EFO_0800122",
+          "disease_name": "cys-gly, oxidized measurement",
+          "score": 0.5530844182262401
+        },
+        {
+          "disease_id": "EFO_0800049",
+          "disease_name": "cysteinylglycine disulfide measurement",
+          "score": 0.5449055245140587
+        },
+        {
+          "disease_id": "MONDO_0005178",
+          "disease_name": "osteoarthritis",
+          "score": 0.5221747115743878
+        }
+      ],
+      "type": "retrieval"
+    }
+  ]
+}
